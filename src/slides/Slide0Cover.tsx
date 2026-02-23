@@ -57,14 +57,13 @@ export default function Slide0Cover({ onSettings }: Props) {
             <KeyRound className="w-4 h-4" />
             Settings
           </button>
-          <a
-            href="/print"
-            target="_blank"
+          <button
+            onClick={() => window.open(window.location.origin + window.location.pathname + '#/print', '_blank')}
             className="flex items-center gap-2 px-6 py-3 rounded-xl bg-bg-surface border border-border hover:border-border-hover text-text-muted hover:text-text-secondary font-medium text-sm transition-all"
           >
             <Printer className="w-4 h-4" />
             Print Notes
-          </a>
+          </button>
         </div>
 
         {/* Nav hints */}
