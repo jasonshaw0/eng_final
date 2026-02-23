@@ -36,10 +36,13 @@ export default function Slide8References(_props: Props) {
             </p>
           </div>
           <div className="mt-6 text-center">
-            <a href="/print" target="_blank" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-bg-surface border border-border hover:border-border-hover text-text-secondary hover:text-text-primary text-sm font-medium shadow-sm transition-all">
+            <button
+              onClick={() => window.open(window.location.origin + window.location.pathname + '#/print', '_blank')}
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-bg-surface border border-border hover:border-border-hover text-text-secondary hover:text-text-primary text-sm font-medium shadow-sm transition-all"
+            >
               <Printer className="w-4 h-4" />
               Print-Friendly Notes View
-            </a>
+            </button>
           </div>
         </div>
       </div>
