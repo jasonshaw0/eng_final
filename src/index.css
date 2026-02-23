@@ -45,6 +45,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background: #f8fafc; /* Safety fallback if app doesn't render */
 }
 
 /* Scrollbar styling */
