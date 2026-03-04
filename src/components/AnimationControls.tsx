@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react'
+import { useCallback } from 'react'
 import { Play, Pause } from 'lucide-react'
 
 interface Props {
@@ -14,17 +14,16 @@ interface Props {
 const speeds = [0.5, 1, 1.5, 2, 3]
 
 export default function AnimationControls({ cycleDuration, elapsed, onPauseChange, onSpeedChange, paused, speed, visible = true }: Props) {
-  if (!visible) return null
-
-  const pct = cycleDuration > 0 ? Math.min((elapsed / cycleDuration) * 100, 100) : 0
-
   const cycleNext = useCallback(() => {
     const idx = speeds.indexOf(speed)
     onSpeedChange(speeds[(idx + 1) % speeds.length])
   }, [speed, onSpeedChange])
+  const pct = cycleDuration > 0 ? Math.min((elapsed / cycleDuration) * 100, 100) : 0
+
+  if (!visible) return null
 
   return (
-    <div className="flex items-center gap-3 px-5 py-2.5 rounded-xl bg-white border border-border shadow-sm text-xs select-none">
+    <div className="flex items-center gap-3 px-5 py-2.5 rounded-xl bg-bg-card border border-border shadow-sm text-xs select-none">
       {/* Play/Pause */}
       <button
         onClick={() => onPauseChange(!paused)}
@@ -59,36 +58,4 @@ export default function AnimationControls({ cycleDuration, elapsed, onPauseChang
       </button>
     </div>
   )
-}
-
-/** Hook to manage animation state with play/pause + speed */
-export function useAnimationTimer(cycleDuration: number) {
-  const [paused, setPaused] = useState(false)
-  const [speed, setSpeed] = useState(1)
-  const [elapsed, setElapsed] = useState(0)
-  const rafRef = useRef<number>(0)
-  const lastRef = useRef<number>(0)
-
-  useEffect(() => {
-    if (paused) return
-
-    lastRef.current = performance.now()
-
-    const tick = (now: number) => {
-      const dt = ((now - lastRef.current) / 1000) * speed
-      lastRef.current = now
-      setElapsed((prev) => {
-        const next = prev + dt
-        return cycleDuration > 0 ? next % cycleDuration : next
-      })
-      rafRef.current = requestAnimationFrame(tick)
-    }
-
-    rafRef.current = requestAnimationFrame(tick)
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current)
-    }
-  }, [paused, speed, cycleDuration])
-
-  return { elapsed, paused, setPaused, speed, setSpeed }
 }

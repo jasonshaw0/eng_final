@@ -1,14 +1,47 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Printer, FileText, BookOpen } from 'lucide-react'
-import { slides, references } from '../content/slides'
-import { narrations } from '../narration/narrationScripts'
+import { slides, references, visualCredits } from '../content/slides'
+import type { NarrationManifest } from '../narration/manifestTypes'
+
+function getAssetPath(asset: string) {
+  const base = import.meta.env.BASE_URL || '/'
+  return `${base.replace(/\/+$/, '/')}${asset.replace(/^\/+/, '')}`
+}
 
 export default function PrintView() {
-  // Auto-trigger print dialog after render
+  const [manifest, setManifest] = useState<NarrationManifest | null>(null)
+  const [manifestState, setManifestState] = useState<'loading' | 'ready' | 'error'>('loading')
+
   useEffect(() => {
+    let cancelled = false
+
+    fetch(getAssetPath('narration/manifest.json'))
+      .then(async (resp) => {
+        if (!resp.ok) throw new Error(`manifest ${resp.status}`)
+        const data = (await resp.json()) as NarrationManifest
+        if (!cancelled) {
+          setManifest(data)
+          setManifestState('ready')
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setManifest(null)
+          setManifestState('error')
+        }
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  // Auto-trigger print only after narration source-of-truth is loaded (or definitively failed).
+  useEffect(() => {
+    if (manifestState === 'loading') return
     const timeout = setTimeout(() => window.print(), 600)
     return () => clearTimeout(timeout)
-  }, [])
+  }, [manifestState])
 
   return (
     <>
@@ -69,7 +102,7 @@ export default function PrintView() {
             Why Renewable Energy Is Harder<br />Than "Just Add Solar"
           </h1>
           <p style={{ fontSize: '12pt', color: '#64748b', fontWeight: 500, marginBottom: '6pt' }}>
-            A Systems-Level, Engineering-First Guide for Non-Experts
+            A clear visual guide to balancing, reliability, storage, and transmission
           </p>
           <div style={{ width: '60pt', height: '2pt', background: '#3b82f6', margin: '18pt auto', borderRadius: '1pt' }} />
           <p style={{ fontSize: '10pt', color: '#94a3b8', marginBottom: '4pt' }}>Presenter Notes & Narration Script</p>
@@ -78,7 +111,7 @@ export default function PrintView() {
 
         {/* ── Slides ── */}
         {slides.slice(1).map((slide, idx) => {
-          const narration = narrations[slide.id]
+          const narrationText = manifest?.slides?.find((track) => track.slideIndex === slide.id)?.scriptText || null
           return (
             <div key={slide.id} className={idx > 0 ? 'print-page-break' : ''} style={{ marginBottom: '36pt' }}>
               {/* Slide header */}
@@ -128,11 +161,20 @@ export default function PrintView() {
               )}
 
               {/* Narration Script */}
-              {narration && (
+              {narrationText && (
                 <div className="print-avoid-break" style={{ background: '#f0fdf4', border: '1px solid #bbf7d0', borderRadius: '6pt', padding: '10pt 14pt' }}>
                   <p style={{ fontSize: '8pt', fontWeight: 800, color: '#166534', textTransform: 'uppercase', letterSpacing: '1pt', marginBottom: '4pt' }}>Narration Script</p>
                   <p style={{ fontSize: '10pt', color: '#14532d', lineHeight: 1.55, fontStyle: 'italic' }}>
-                    {narration.segments.map((s) => s.text).join(' ')}
+                    {narrationText}
+                  </p>
+                </div>
+              )}
+
+              {!narrationText && manifestState !== 'loading' && (
+                <div className="print-avoid-break" style={{ background: '#fff7ed', border: '1px solid #fdba74', borderRadius: '6pt', padding: '10pt 14pt' }}>
+                  <p style={{ fontSize: '8pt', fontWeight: 800, color: '#c2410c', textTransform: 'uppercase', letterSpacing: '1pt', marginBottom: '4pt' }}>Narration Script</p>
+                  <p style={{ fontSize: '10pt', color: '#9a3412', lineHeight: 1.55 }}>
+                    Narration text not available from manifest for this slide.
                   </p>
                 </div>
               )}
@@ -161,9 +203,11 @@ export default function PrintView() {
 
         {/* Footer */}
         <div style={{ marginTop: '36pt', borderTop: '1pt solid #e2e8f0', paddingTop: '10pt', textAlign: 'center' }}>
-          <p style={{ fontSize: '8pt', color: '#94a3b8', margin: 0 }}>
-            All visualizations are original SVG graphics created programmatically for this presentation.
-          </p>
+          {visualCredits.map((credit) => (
+            <p key={credit.id} style={{ fontSize: '8pt', color: '#94a3b8', margin: '0 0 4pt 0' }}>
+              {credit.asset} Source: {credit.source}. {credit.method} Author: {credit.author}.
+            </p>
+          ))}
         </div>
       </div>
     </>

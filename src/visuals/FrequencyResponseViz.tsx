@@ -1,10 +1,11 @@
-import AnimationControls, { useAnimationTimer } from '../components/AnimationControls'
+import { useAnimationTimer } from '../components/useAnimationTimer'
+import type { VisualFocusProps } from './types'
 
-interface Props { showControls?: boolean }
+type Props = VisualFocusProps
 
-export default function FrequencyResponseViz({ showControls = true }: Props) {
+export default function FrequencyResponseViz({ focusTargetId, focusEffect }: Props) {
   const CYCLE = 15
-  const { elapsed, paused, setPaused, speed, setSpeed } = useAnimationTimer(CYCLE)
+  const { elapsed } = useAnimationTimer(CYCLE)
   const cycleTime = elapsed * 1000
   let freq = 60.0
   let phase: 'normal' | 'spike' | 'dip' | 'recovery' = 'normal'
@@ -46,6 +47,7 @@ export default function FrequencyResponseViz({ showControls = true }: Props) {
   const statusText = phase === 'normal' ? 'Stable' : phase === 'spike' ? 'Demand Spike!' : phase === 'dip' ? 'Frequency Nadir' : 'Recovering...'
   const polarToCart = (a: number, r2: number) => ({ x: cx + r2 * Math.cos((a * Math.PI) / 180), y: cy + r2 * Math.sin((a * Math.PI) / 180) })
   const arcPath = (sA: number, eA: number, radius: number) => { const s = polarToCart(sA, radius), e = polarToCart(eA, radius); return `M ${s.x} ${s.y} A ${radius} ${radius} 0 ${eA - sA > 180 ? 1 : 0} 1 ${e.x} ${e.y}` }
+  const focusOpacity = focusEffect === 'glow' ? 0.25 : 0.5
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-center gap-3">
@@ -53,12 +55,21 @@ export default function FrequencyResponseViz({ showControls = true }: Props) {
         Grid frequency must stay at <strong className="text-text-secondary">exactly 60 Hz</strong>. Watch what happens when a power plant trips offline — frequency dips, then recovers.
       </p>
       <svg viewBox={`0 0 ${w} ${h}`} className="w-full max-w-sm">
+        {focusTargetId === 'frequency-dial' && (
+          <circle cx={cx} cy={cy} r={r + 20} fill="#2563eb" opacity={focusOpacity} />
+        )}
+        {focusTargetId === 'turbine-mass' && (
+          <rect x={34} y={44} width="128" height="40" rx="12" fill="#0f766e" opacity={focusOpacity} />
+        )}
+        {focusTargetId === 'inverter-rack' && (
+          <rect x={w - 164} y={44} width="128" height="40" rx="12" fill="#7c3aed" opacity={focusOpacity} />
+        )}
         <path d={arcPath(startAngle, endAngle, r)} fill="none" stroke="#e2e8f0" strokeWidth="14" strokeLinecap="round" />
-        <path d={arcPath(startAngle, startAngle + 60, r)} fill="none" stroke="#e11d48" strokeWidth="14" strokeLinecap="round" opacity="0.12" />
-        <path d={arcPath(startAngle + 60, startAngle + 90, r)} fill="none" stroke="#d97706" strokeWidth="14" strokeLinecap="round" opacity="0.12" />
-        <path d={arcPath(startAngle + 90, endAngle - 90, r)} fill="none" stroke="#059669" strokeWidth="14" strokeLinecap="round" opacity="0.15" />
-        <path d={arcPath(endAngle - 90, endAngle - 60, r)} fill="none" stroke="#d97706" strokeWidth="14" strokeLinecap="round" opacity="0.12" />
-        <path d={arcPath(endAngle - 60, endAngle, r)} fill="none" stroke="#e11d48" strokeWidth="14" strokeLinecap="round" opacity="0.12" />
+        <path d={arcPath(startAngle, startAngle + 60, r)} fill="none" stroke="#e11d48" strokeWidth="14" strokeLinecap="round" opacity="1" />
+        <path d={arcPath(startAngle + 60, startAngle + 90, r)} fill="none" stroke="#d97706" strokeWidth="14" strokeLinecap="round" opacity="1" />
+        <path d={arcPath(startAngle + 90, endAngle - 90, r)} fill="none" stroke="#059669" strokeWidth="14" strokeLinecap="round" opacity="1" />
+        <path d={arcPath(endAngle - 90, endAngle - 60, r)} fill="none" stroke="#d97706" strokeWidth="14" strokeLinecap="round" opacity="1" />
+        <path d={arcPath(endAngle - 60, endAngle, r)} fill="none" stroke="#e11d48" strokeWidth="14" strokeLinecap="round" opacity="1" />
         {Array.from({ length: 11 }, (_, i) => {
           const f = freqMin + (i / 10) * (freqMax - freqMin), a = freqToAngle(f)
           const inner = polarToCart(a, r - 22), outer = polarToCart(a, r - 8)
@@ -72,10 +83,19 @@ export default function FrequencyResponseViz({ showControls = true }: Props) {
         <line x1={cx} y1={cy} x2={cx + needleLen * Math.cos(rad)} y2={cy + needleLen * Math.sin(rad)} stroke={needleColor} strokeWidth="3.5" strokeLinecap="round" />
         <circle cx={cx} cy={cy} r="9" fill="white" stroke="#e2e8f0" strokeWidth="2.5" />
         <circle cx={cx} cy={cy} r="4.5" fill={needleColor} />
+        <g>
+          <rect x={34} y={44} width="128" height="40" rx="10" fill="#f8fafc" stroke="#cbd5e1" />
+          <text x={98} y={68} textAnchor="middle" fill="#0f766e" fontSize="11" fontWeight="700">
+            Turbine Inertia
+          </text>
+          <rect x={w - 164} y={44} width="128" height="40" rx="10" fill="#f8fafc" stroke="#cbd5e1" />
+          <text x={w - 100} y={68} textAnchor="middle" fill="#6d28d9" fontSize="11" fontWeight="700">
+            Inverter Control
+          </text>
+        </g>
         <text x={cx} y={cy + 45} textAnchor="middle" fill={needleColor} fontSize="26" fontWeight="800" fontFamily="var(--font-mono)">{freq.toFixed(3)} Hz</text>
         <text x={cx} y={cy + 68} textAnchor="middle" fill={needleColor} fontSize="14" fontWeight="700">{statusText}</text>
       </svg>
-      <AnimationControls cycleDuration={CYCLE} elapsed={elapsed} onPauseChange={setPaused} onSpeedChange={setSpeed} paused={paused} speed={speed} visible={showControls} />
     </div>
   )
 }

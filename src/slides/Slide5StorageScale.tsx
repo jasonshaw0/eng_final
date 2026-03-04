@@ -2,13 +2,19 @@ import { BatteryCharging } from 'lucide-react'
 import { slides } from '../content/slides'
 import StorageScaleViz from '../visuals/StorageScaleViz'
 const slide = slides[5]
-interface Props { showAnimControls?: boolean }
-export default function Slide5StorageScale({ showAnimControls = true }: Props) {
+interface Props {
+  activeFocusTarget?: string | null
+  focusEffect?: 'pulse' | 'glow' | null
+}
+export default function Slide5StorageScale({
+  activeFocusTarget,
+  focusEffect,
+}: Props) {
   return (
     <div className="w-full h-full flex items-center justify-center px-12 lg:px-20 py-8">
       <div className="w-full max-w-7xl flex flex-col lg:flex-row items-stretch gap-8">
         <div className="flex-1 flex flex-col justify-center">
-          <div className="bg-white rounded-2xl border border-border p-8 card-shadow h-full flex flex-col justify-center">
+          <div className="bg-bg-card rounded-2xl border border-border p-8 card-shadow h-full flex flex-col justify-center">
             <div className="flex items-center gap-3 mb-5">
               <span className="w-10 h-10 rounded-xl bg-accent-purple/10 flex items-center justify-center text-accent-purple text-sm font-bold font-mono border border-accent-purple/20">05</span>
               <div><span className="text-xs text-text-muted uppercase tracking-widest font-semibold">Storage</span><div className="w-12 h-0.5 bg-accent-purple/30 rounded-full mt-1" /></div>
@@ -21,9 +27,14 @@ export default function Slide5StorageScale({ showAnimControls = true }: Props) {
           </div>
         </div>
         <div className="flex-1 flex flex-col">
-          <div className="bg-white rounded-2xl border border-border p-6 card-shadow flex-1 flex flex-col min-h-80">
+          <div className="bg-bg-card rounded-2xl border border-border p-6 card-shadow flex-1 flex flex-col min-h-80">
             <div className="flex items-center gap-2 mb-3 pb-3 border-b border-border"><BatteryCharging className="w-4 h-4 text-accent-purple" /><span className="text-xs font-bold text-text-muted uppercase tracking-widest">Duration Stack</span></div>
-            <div className="flex-1 flex items-center justify-center"><StorageScaleViz showControls={showAnimControls} /></div>
+            <div className="flex-1 flex items-center justify-center">
+              <StorageScaleViz
+                focusTargetId={activeFocusTarget}
+                focusEffect={focusEffect}
+              />
+            </div>
           </div>
         </div>
       </div>

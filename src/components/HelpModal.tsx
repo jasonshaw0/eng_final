@@ -8,6 +8,8 @@ export default function HelpModal({ onClose }: Props) {
   const shortcuts = [
     { key: '→  or  Space', action: 'Next slide' },
     { key: '←', action: 'Previous slide' },
+    { key: 'Cover button', action: 'Start AI autoplay' },
+    { key: 'P', action: 'Toggle presentation mode' },
     { key: 'N', action: 'Toggle presenter notes' },
     { key: '?  or  H', action: 'Toggle this help' },
     { key: 'Esc', action: 'Close panels' },
@@ -15,14 +17,14 @@ export default function HelpModal({ onClose }: Props) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/20 backdrop-blur-sm"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/45 backdrop-blur-sm"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
       aria-label="Keyboard shortcuts"
     >
       <div
-        className="bg-white border border-border rounded-2xl p-7 max-w-sm w-full mx-4 card-shadow-lg"
+        className="bg-bg-secondary border border-border rounded-2xl p-7 max-w-sm w-full mx-4 card-shadow-lg"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between mb-5">
@@ -38,7 +40,7 @@ export default function HelpModal({ onClose }: Props) {
         <div className="space-y-2">
           {shortcuts.map((s) => (
             <div key={s.key} className="flex items-center justify-between py-2 px-3 rounded-lg bg-bg-surface border border-border">
-              <kbd className="px-2.5 py-1 bg-white text-accent-blue text-xs font-mono rounded-md border border-border shadow-sm">
+              <kbd className="px-2.5 py-1 bg-bg-card text-accent-cyan text-xs font-mono rounded-md border border-border shadow-sm">
                 {s.key}
               </kbd>
               <span className="text-sm text-text-secondary font-medium">{s.action}</span>

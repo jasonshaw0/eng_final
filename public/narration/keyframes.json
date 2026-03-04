@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "slides": {
+    "1": [
+      {
+        "slideIndex": 1,
+        "keyframeId": "s1-kf-1",
+        "startMs": 300,
+        "endMs": 5800,
+        "target": "balance",
+        "property": "dayProgress",
+        "from": 0,
+        "to": 0.43,
+        "easing": "easeInOut"
+      },
+      {
+        "slideIndex": 1,
+        "keyframeId": "s1-kf-2",
+        "startMs": 5800,
+        "endMs": 12500,
+        "target": "balance",
+        "property": "dayProgress",
+        "from": 0.43,
+        "to": 0.79,
+        "easing": "easeInOut"
+      },
+      {
+        "slideIndex": 1,
+        "keyframeId": "s1-kf-3",
+        "startMs": 12500,
+        "endMs": 18600,
+        "target": "balance",
+        "property": "dayProgress",
+        "from": 0.79,
+        "to": 1,
+        "easing": "easeOut"
+      }
+    ],
+    "2": [
+      {
+        "slideIndex": 2,
+        "keyframeId": "s2-weather-1",
+        "startMs": 250,
+        "endMs": 6200,
+        "target": "capacity",
+        "property": "weatherProgress",
+        "from": 0,
+        "to": 0.35,
+        "easing": "easeInOut"
+      },
+      {
+        "slideIndex": 2,
+        "keyframeId": "s2-weather-2",
+        "startMs": 6200,
+        "endMs": 12300,
+        "target": "capacity",
+        "property": "weatherProgress",
+        "from": 0.35,
+        "to": 0.8,
+        "easing": "easeInOut"
+      },
+      {
+        "slideIndex": 2,
+        "keyframeId": "s2-weather-3",
+        "startMs": 12300,
+        "endMs": 17900,
+        "target": "capacity",
+        "property": "weatherProgress",
+        "from": 0.8,
+        "to": 1,
+        "easing": "easeOut"
+      },
+      {
+        "slideIndex": 2,
+        "keyframeId": "s2-cloud-1",
+        "startMs": 600,
+        "endMs": 9000,
+        "target": "capacity",
+        "property": "cloudDensity",
+        "from": 0.15,
+        "to": 0.9,
+        "easing": "easeInOut"
+      },
+      {
+        "slideIndex": 2,
+        "keyframeId": "s2-cloud-2",
+        "startMs": 9000,
+        "endMs": 17800,
+        "target": "capacity",
+        "property": "cloudDensity",
+        "from": 0.9,
+        "to": 0.45,
+        "easing": "easeOut"
+      }
+    ],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": []
+  }
+}

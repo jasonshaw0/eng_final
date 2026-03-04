@@ -1,0 +1,3803 @@
+{
+  "version": 8,
+  "generatedAt": "2026-03-04T16:38:32.676Z",
+  "voice": "Alnilam",
+  "slides": [
+    {
+      "slideIndex": 0,
+      "audioSrc": "narration/slide-00-cf9e2b9df5.wav",
+      "durationMs": 30291,
+      "scriptText": "People often frame the solution as simply adding more solar and wind. That is necessary, but reliability depends on more than installed capacity. In this walkthrough we follow one chain: real-time balance, real output, daily ramps, disturbance stability, storage duration, and transmission delivery. Together these show why good system design is about timing, stability, and delivery, not capacity alone.",
+      "segments": [
+        {
+          "id": "s-1",
+          "text": "People often frame the solution as simply adding more solar and wind.",
+          "startMs": 150,
+          "endMs": 6097
+        },
+        {
+          "id": "s-2",
+          "text": "That is necessary, but reliability depends on more than installed capacity.",
+          "startMs": 6148,
+          "endMs": 11595
+        },
+        {
+          "id": "s-3",
+          "text": "In this walkthrough we follow one chain: real-time balance, real output, daily ramps, disturbance stability, storage duration, and transmission delivery.",
+          "startMs": 11646,
+          "endMs": 22091
+        },
+        {
+          "id": "s-4",
+          "text": "Together these show why good system design is about timing, stability, and delivery, not capacity alone.",
+          "startMs": 22142,
+          "endMs": 30089
+        }
+      ],
+      "words": [
+        {
+          "word": "People",
+          "startMs": 150,
+          "endMs": 599,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "often",
+          "startMs": 649,
+          "endMs": 1098,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "frame",
+          "startMs": 1149,
+          "endMs": 1598,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 1649,
+          "endMs": 2098,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "solution",
+          "startMs": 2149,
+          "endMs": 2598,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "as",
+          "startMs": 2649,
+          "endMs": 3098,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "simply",
+          "startMs": 3149,
+          "endMs": 3598,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "adding",
+          "startMs": 3648,
+          "endMs": 4097,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "more",
+          "startMs": 4148,
+          "endMs": 4597,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "solar",
+          "startMs": 4648,
+          "endMs": 5097,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 5148,
+          "endMs": 5597,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "wind",
+          "startMs": 5648,
+          "endMs": 6097,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "That",
+          "startMs": 6148,
+          "endMs": 6597,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 6647,
+          "endMs": 7096,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "necessary",
+          "startMs": 7147,
+          "endMs": 7596,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "but",
+          "startMs": 7647,
+          "endMs": 8096,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "reliability",
+          "startMs": 8147,
+          "endMs": 8596,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "depends",
+          "startMs": 8647,
+          "endMs": 9096,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "on",
+          "startMs": 9147,
+          "endMs": 9596,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "more",
+          "startMs": 9646,
+          "endMs": 10095,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "than",
+          "startMs": 10146,
+          "endMs": 10595,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "installed",
+          "startMs": 10646,
+          "endMs": 11095,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "capacity",
+          "startMs": 11146,
+          "endMs": 11595,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "In",
+          "startMs": 11646,
+          "endMs": 12095,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "this",
+          "startMs": 12146,
+          "endMs": 12595,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "walkthrough",
+          "startMs": 12645,
+          "endMs": 13094,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "we",
+          "startMs": 13145,
+          "endMs": 13594,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "follow",
+          "startMs": 13645,
+          "endMs": 14094,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "one",
+          "startMs": 14145,
+          "endMs": 14594,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "chain",
+          "startMs": 14645,
+          "endMs": 15094,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "real",
+          "startMs": 15145,
+          "endMs": 15594,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "time",
+          "startMs": 15644,
+          "endMs": 16093,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "balance",
+          "startMs": 16144,
+          "endMs": 16593,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "real",
+          "startMs": 16644,
+          "endMs": 17093,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "output",
+          "startMs": 17144,
+          "endMs": 17593,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "daily",
+          "startMs": 17644,
+          "endMs": 18093,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "ramps",
+          "startMs": 18144,
+          "endMs": 18593,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "disturbance",
+          "startMs": 18643,
+          "endMs": 19092,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "stability",
+          "startMs": 19143,
+          "endMs": 19592,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "storage",
+          "startMs": 19643,
+          "endMs": 20092,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "duration",
+          "startMs": 20143,
+          "endMs": 20592,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 20643,
+          "endMs": 21092,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "transmission",
+          "startMs": 21143,
+          "endMs": 21592,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "delivery",
+          "startMs": 21642,
+          "endMs": 22091,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Together",
+          "startMs": 22142,
+          "endMs": 22591,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "these",
+          "startMs": 22642,
+          "endMs": 23091,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "show",
+          "startMs": 23142,
+          "endMs": 23591,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "why",
+          "startMs": 23642,
+          "endMs": 24091,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "good",
+          "startMs": 24142,
+          "endMs": 24591,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "system",
+          "startMs": 24641,
+          "endMs": 25090,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "design",
+          "startMs": 25141,
+          "endMs": 25590,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 25641,
+          "endMs": 26090,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "about",
+          "startMs": 26141,
+          "endMs": 26590,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "timing",
+          "startMs": 26641,
+          "endMs": 27090,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "stability",
+          "startMs": 27141,
+          "endMs": 27590,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 27640,
+          "endMs": 28089,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "delivery",
+          "startMs": 28140,
+          "endMs": 28589,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "not",
+          "startMs": 28640,
+          "endMs": 29089,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "capacity",
+          "startMs": 29140,
+          "endMs": 29589,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "alone",
+          "startMs": 29640,
+          "endMs": 30089,
+          "confidence": 0.33249999999999996
+        }
+      ],
+      "alignmentMode": "fallback",
+      "scriptHash": "40e99c11c8",
+      "audioHash": "3386768d96",
+      "modelUsed": "gemini-2.5-pro-preview-tts",
+      "voiceUsed": "Alnilam",
+      "promptVersion": "v2-conversational-professor"
+    },
+    {
+      "slideIndex": 1,
+      "audioSrc": "narration/slide-01-8cf2be43d1.wav",
+      "durationMs": 30851,
+      "scriptText": "The first operating rule is continuous balance: supply and demand must match every second. When demand exceeds generation, frequency drifts downward, and operators treat that drift as an early warning. If imbalance persists, protective actions can disconnect equipment to protect the system. So fast, flexible response matters. With that in mind, the next question is how much different resources actually produce through the day.",
+      "segments": [
+        {
+          "id": "s-1",
+          "text": "The first operating rule is continuous balance: supply and demand must match every second.",
+          "startMs": 150,
+          "endMs": 6784
+        },
+        {
+          "id": "s-2",
+          "text": "When demand exceeds generation, frequency drifts downward, and operators treat that drift as an early warning.",
+          "startMs": 6832,
+          "endMs": 14421,
+          "focusTargetId": "frequency-alert",
+          "effect": "glow"
+        },
+        {
+          "id": "s-3",
+          "text": "If imbalance persists, protective actions can disconnect equipment to protect the system.",
+          "startMs": 14470,
+          "endMs": 20150
+        },
+        {
+          "id": "s-4",
+          "text": "So fast, flexible response matters.",
+          "startMs": 20198,
+          "endMs": 22536
+        },
+        {
+          "id": "s-5",
+          "text": "With that in mind, the next question is how much different resources actually produce through the day.",
+          "startMs": 22585,
+          "endMs": 30651
+        }
+      ],
+      "words": [
+        {
+          "word": "The",
+          "startMs": 150,
+          "endMs": 579,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "first",
+          "startMs": 627,
+          "endMs": 1056,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "operating",
+          "startMs": 1104,
+          "endMs": 1533,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "rule",
+          "startMs": 1582,
+          "endMs": 2011,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 2059,
+          "endMs": 2488,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "continuous",
+          "startMs": 2536,
+          "endMs": 2965,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "balance",
+          "startMs": 3014,
+          "endMs": 3443,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "supply",
+          "startMs": 3491,
+          "endMs": 3920,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 3968,
+          "endMs": 4397,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "demand",
+          "startMs": 4446,
+          "endMs": 4875,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "must",
+          "startMs": 4923,
+          "endMs": 5352,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "match",
+          "startMs": 5400,
+          "endMs": 5829,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "every",
+          "startMs": 5878,
+          "endMs": 6307,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "second",
+          "startMs": 6355,
+          "endMs": 6784,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "When",
+          "startMs": 6832,
+          "endMs": 7261,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "demand",
+          "startMs": 7310,
+          "endMs": 7739,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "exceeds",
+          "startMs": 7787,
+          "endMs": 8216,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "generation",
+          "startMs": 8264,
+          "endMs": 8693,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "frequency",
+          "startMs": 8742,
+          "endMs": 9171,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "drifts",
+          "startMs": 9219,
+          "endMs": 9648,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "downward",
+          "startMs": 9696,
+          "endMs": 10125,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 10174,
+          "endMs": 10603,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "operators",
+          "startMs": 10651,
+          "endMs": 11080,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "treat",
+          "startMs": 11128,
+          "endMs": 11557,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "that",
+          "startMs": 11606,
+          "endMs": 12035,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "drift",
+          "startMs": 12083,
+          "endMs": 12512,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "as",
+          "startMs": 12560,
+          "endMs": 12989,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "an",
+          "startMs": 13038,
+          "endMs": 13467,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "early",
+          "startMs": 13515,
+          "endMs": 13944,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "warning",
+          "startMs": 13992,
+          "endMs": 14421,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "If",
+          "startMs": 14470,
+          "endMs": 14899,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "imbalance",
+          "startMs": 14947,
+          "endMs": 15376,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "persists",
+          "startMs": 15425,
+          "endMs": 15854,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "protective",
+          "startMs": 15902,
+          "endMs": 16331,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "actions",
+          "startMs": 16379,
+          "endMs": 16808,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "can",
+          "startMs": 16857,
+          "endMs": 17286,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "disconnect",
+          "startMs": 17334,
+          "endMs": 17763,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "equipment",
+          "startMs": 17811,
+          "endMs": 18240,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 18289,
+          "endMs": 18718,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "protect",
+          "startMs": 18766,
+          "endMs": 19195,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 19243,
+          "endMs": 19672,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "system",
+          "startMs": 19721,
+          "endMs": 20150,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "So",
+          "startMs": 20198,
+          "endMs": 20627,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "fast",
+          "startMs": 20675,
+          "endMs": 21104,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "flexible",
+          "startMs": 21153,
+          "endMs": 21582,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "response",
+          "startMs": 21630,
+          "endMs": 22059,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "matters",
+          "startMs": 22107,
+          "endMs": 22536,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "With",
+          "startMs": 22585,
+          "endMs": 23014,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "that",
+          "startMs": 23062,
+          "endMs": 23491,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "in",
+          "startMs": 23539,
+          "endMs": 23968,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "mind",
+          "startMs": 24017,
+          "endMs": 24446,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 24494,
+          "endMs": 24923,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "next",
+          "startMs": 24971,
+          "endMs": 25400,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "question",
+          "startMs": 25449,
+          "endMs": 25878,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 25926,
+          "endMs": 26355,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "how",
+          "startMs": 26403,
+          "endMs": 26832,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "much",
+          "startMs": 26881,
+          "endMs": 27310,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "different",
+          "startMs": 27358,
+          "endMs": 27787,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "resources",
+          "startMs": 27835,
+          "endMs": 28264,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "actually",
+          "startMs": 28313,
+          "endMs": 28742,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "produce",
+          "startMs": 28790,
+          "endMs": 29219,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "through",
+          "startMs": 29267,
+          "endMs": 29696,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 29745,
+          "endMs": 30174,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "day",
+          "startMs": 30222,
+          "endMs": 30651,
+          "confidence": 0.33249999999999996
+        }
+      ],
+      "alignmentMode": "fallback",
+      "scriptHash": "55c4c18c3c",
+      "audioHash": "e2e30aabb2",
+      "modelUsed": "gemini-2.5-pro-preview-tts",
+      "voiceUsed": "Alnilam",
+      "promptVersion": "v2-conversational-professor"
+    },
+    {
+      "slideIndex": 2,
+      "audioSrc": "narration/slide-02-1fa3cf0839.wav",
+      "durationMs": 31011,
+      "scriptText": "Building on balance, planning needs real output, not label output. Nameplate capacity is a best-case maximum, while actual generation varies with weather, sun angle, season, and operating limits. That is why planners use expected production and uncertainty ranges instead of one-for-one nameplate replacement. When these variations are viewed hour by hour, they create the daily shape that drives the next constraint.",
+      "segments": [
+        {
+          "id": "s-1",
+          "text": "Building on balance, planning needs real output, not label output.",
+          "startMs": 150,
+          "endMs": 4899
+        },
+        {
+          "id": "s-2",
+          "text": "Nameplate capacity is a best-case maximum, while actual generation varies with weather, sun angle, season, and operating limits.",
+          "startMs": 4948,
+          "endMs": 14016
+        },
+        {
+          "id": "s-3",
+          "text": "That is why planners use expected production and uncertainty ranges instead of one-for-one nameplate replacement.",
+          "startMs": 14065,
+          "endMs": 22173
+        },
+        {
+          "id": "s-4",
+          "text": "When these variations are viewed hour by hour, they create the daily shape that drives the next constraint.",
+          "startMs": 22222,
+          "endMs": 30811
+        }
+      ],
+      "words": [
+        {
+          "word": "Building",
+          "startMs": 150,
+          "endMs": 581,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "on",
+          "startMs": 629,
+          "endMs": 1060,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "balance",
+          "startMs": 1109,
+          "endMs": 1540,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "planning",
+          "startMs": 1589,
+          "endMs": 2020,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "needs",
+          "startMs": 2069,
+          "endMs": 2500,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "real",
+          "startMs": 2549,
+          "endMs": 2980,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "output",
+          "startMs": 3029,
+          "endMs": 3460,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "not",
+          "startMs": 3508,
+          "endMs": 3939,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "label",
+          "startMs": 3988,
+          "endMs": 4419,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "output",
+          "startMs": 4468,
+          "endMs": 4899,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Nameplate",
+          "startMs": 4948,
+          "endMs": 5379,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "capacity",
+          "startMs": 5428,
+          "endMs": 5859,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 5908,
+          "endMs": 6339,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "a",
+          "startMs": 6387,
+          "endMs": 6818,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "best",
+          "startMs": 6867,
+          "endMs": 7298,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "case",
+          "startMs": 7347,
+          "endMs": 7778,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "maximum",
+          "startMs": 7827,
+          "endMs": 8258,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "while",
+          "startMs": 8307,
+          "endMs": 8738,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "actual",
+          "startMs": 8787,
+          "endMs": 9218,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "generation",
+          "startMs": 9267,
+          "endMs": 9698,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "varies",
+          "startMs": 9746,
+          "endMs": 10177,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "with",
+          "startMs": 10226,
+          "endMs": 10657,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "weather",
+          "startMs": 10706,
+          "endMs": 11137,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "sun",
+          "startMs": 11186,
+          "endMs": 11617,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "angle",
+          "startMs": 11666,
+          "endMs": 12097,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "season",
+          "startMs": 12146,
+          "endMs": 12577,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 12625,
+          "endMs": 13056,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "operating",
+          "startMs": 13105,
+          "endMs": 13536,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "limits",
+          "startMs": 13585,
+          "endMs": 14016,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "That",
+          "startMs": 14065,
+          "endMs": 14496,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 14545,
+          "endMs": 14976,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "why",
+          "startMs": 15025,
+          "endMs": 15456,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "planners",
+          "startMs": 15505,
+          "endMs": 15936,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "use",
+          "startMs": 15984,
+          "endMs": 16415,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "expected",
+          "startMs": 16464,
+          "endMs": 16895,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "production",
+          "startMs": 16944,
+          "endMs": 17375,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 17424,
+          "endMs": 17855,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "uncertainty",
+          "startMs": 17904,
+          "endMs": 18335,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "ranges",
+          "startMs": 18384,
+          "endMs": 18815,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "instead",
+          "startMs": 18863,
+          "endMs": 19294,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "of",
+          "startMs": 19343,
+          "endMs": 19774,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "one",
+          "startMs": 19823,
+          "endMs": 20254,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "for",
+          "startMs": 20303,
+          "endMs": 20734,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "one",
+          "startMs": 20783,
+          "endMs": 21214,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "nameplate",
+          "startMs": 21263,
+          "endMs": 21694,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "replacement",
+          "startMs": 21742,
+          "endMs": 22173,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "When",
+          "startMs": 22222,
+          "endMs": 22653,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "these",
+          "startMs": 22702,
+          "endMs": 23133,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "variations",
+          "startMs": 23182,
+          "endMs": 23613,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "are",
+          "startMs": 23662,
+          "endMs": 24093,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "viewed",
+          "startMs": 24142,
+          "endMs": 24573,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "hour",
+          "startMs": 24622,
+          "endMs": 25053,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "by",
+          "startMs": 25101,
+          "endMs": 25532,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "hour",
+          "startMs": 25581,
+          "endMs": 26012,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "they",
+          "startMs": 26061,
+          "endMs": 26492,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "create",
+          "startMs": 26541,
+          "endMs": 26972,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 27021,
+          "endMs": 27452,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "daily",
+          "startMs": 27501,
+          "endMs": 27932,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "shape",
+          "startMs": 27980,
+          "endMs": 28411,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "that",
+          "startMs": 28460,
+          "endMs": 28891,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "drives",
+          "startMs": 28940,
+          "endMs": 29371,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 29420,
+          "endMs": 29851,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "next",
+          "startMs": 29900,
+          "endMs": 30331,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "constraint",
+          "startMs": 30380,
+          "endMs": 30811,
+          "confidence": 0.33249999999999996
+        }
+      ],
+      "alignmentMode": "fallback",
+      "scriptHash": "f79965213b",
+      "audioHash": "9e8c585c71",
+      "modelUsed": "gemini-2.5-pro-preview-tts",
+      "voiceUsed": "Alnilam",
+      "promptVersion": "v2-conversational-professor"
+    },
+    {
+      "slideIndex": 3,
+      "audioSrc": "narration/slide-03-fa2e3fc308.wav",
+      "durationMs": 28931,
+      "scriptText": "From that output pattern, many grids now face the duck-curve shape. Midday solar depresses net demand, then near sunset solar falls as demand rises, creating a steep ramp over a short window. Other resources must increase quickly to hold balance and reliability. Managing ramps is necessary, but reliability also depends on how the system behaves during disturbances, which leads to stability.",
+      "segments": [
+        {
+          "id": "s-1",
+          "text": "From that output pattern, many grids now face the duck-curve shape.",
+          "startMs": 150,
+          "endMs": 5644
+        },
+        {
+          "id": "s-2",
+          "text": "Midday solar depresses net demand, then near sunset solar falls as demand rises, creating a steep ramp over a short window.",
+          "startMs": 5691,
+          "endMs": 15341,
+          "focusTargetId": "sunset-ramp",
+          "effect": "pulse"
+        },
+        {
+          "id": "s-3",
+          "text": "Other resources must increase quickly to hold balance and reliability.",
+          "startMs": 15388,
+          "endMs": 19959
+        },
+        {
+          "id": "s-4",
+          "text": "Managing ramps is necessary, but reliability also depends on how the system behaves during disturbances, which leads to stability.",
+          "startMs": 20006,
+          "endMs": 28733
+        }
+      ],
+      "words": [
+        {
+          "word": "From",
+          "startMs": 150,
+          "endMs": 565,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "that",
+          "startMs": 611,
+          "endMs": 1026,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "output",
+          "startMs": 1073,
+          "endMs": 1488,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "pattern",
+          "startMs": 1535,
+          "endMs": 1950,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "many",
+          "startMs": 1997,
+          "endMs": 2412,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "grids",
+          "startMs": 2458,
+          "endMs": 2873,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "now",
+          "startMs": 2920,
+          "endMs": 3335,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "face",
+          "startMs": 3382,
+          "endMs": 3797,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 3844,
+          "endMs": 4259,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "duck",
+          "startMs": 4305,
+          "endMs": 4720,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "curve",
+          "startMs": 4767,
+          "endMs": 5182,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "shape",
+          "startMs": 5229,
+          "endMs": 5644,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Midday",
+          "startMs": 5691,
+          "endMs": 6106,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "solar",
+          "startMs": 6153,
+          "endMs": 6568,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "depresses",
+          "startMs": 6614,
+          "endMs": 7029,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "net",
+          "startMs": 7076,
+          "endMs": 7491,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "demand",
+          "startMs": 7538,
+          "endMs": 7953,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "then",
+          "startMs": 8000,
+          "endMs": 8415,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "near",
+          "startMs": 8461,
+          "endMs": 8876,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "sunset",
+          "startMs": 8923,
+          "endMs": 9338,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "solar",
+          "startMs": 9385,
+          "endMs": 9800,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "falls",
+          "startMs": 9847,
+          "endMs": 10262,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "as",
+          "startMs": 10309,
+          "endMs": 10724,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "demand",
+          "startMs": 10770,
+          "endMs": 11185,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "rises",
+          "startMs": 11232,
+          "endMs": 11647,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "creating",
+          "startMs": 11694,
+          "endMs": 12109,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "a",
+          "startMs": 12156,
+          "endMs": 12571,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "steep",
+          "startMs": 12617,
+          "endMs": 13032,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "ramp",
+          "startMs": 13079,
+          "endMs": 13494,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "over",
+          "startMs": 13541,
+          "endMs": 13956,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "a",
+          "startMs": 14003,
+          "endMs": 14418,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "short",
+          "startMs": 14465,
+          "endMs": 14880,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "window",
+          "startMs": 14926,
+          "endMs": 15341,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Other",
+          "startMs": 15388,
+          "endMs": 15803,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "resources",
+          "startMs": 15850,
+          "endMs": 16265,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "must",
+          "startMs": 16312,
+          "endMs": 16727,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "increase",
+          "startMs": 16773,
+          "endMs": 17188,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "quickly",
+          "startMs": 17235,
+          "endMs": 17650,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 17697,
+          "endMs": 18112,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "hold",
+          "startMs": 18159,
+          "endMs": 18574,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "balance",
+          "startMs": 18620,
+          "endMs": 19035,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 19082,
+          "endMs": 19497,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "reliability",
+          "startMs": 19544,
+          "endMs": 19959,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Managing",
+          "startMs": 20006,
+          "endMs": 20421,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "ramps",
+          "startMs": 20468,
+          "endMs": 20883,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 20929,
+          "endMs": 21344,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "necessary",
+          "startMs": 21391,
+          "endMs": 21806,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "but",
+          "startMs": 21853,
+          "endMs": 22268,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "reliability",
+          "startMs": 22315,
+          "endMs": 22730,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "also",
+          "startMs": 22776,
+          "endMs": 23191,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "depends",
+          "startMs": 23238,
+          "endMs": 23653,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "on",
+          "startMs": 23700,
+          "endMs": 24115,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "how",
+          "startMs": 24162,
+          "endMs": 24577,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 24624,
+          "endMs": 25039,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "system",
+          "startMs": 25085,
+          "endMs": 25500,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "behaves",
+          "startMs": 25547,
+          "endMs": 25962,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "during",
+          "startMs": 26009,
+          "endMs": 26424,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "disturbances",
+          "startMs": 26471,
+          "endMs": 26886,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "which",
+          "startMs": 26932,
+          "endMs": 27347,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "leads",
+          "startMs": 27394,
+          "endMs": 27809,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 27856,
+          "endMs": 28271,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "stability",
+          "startMs": 28318,
+          "endMs": 28733,
+          "confidence": 0.33249999999999996
+        }
+      ],
+      "alignmentMode": "fallback",
+      "scriptHash": "562e229ca1",
+      "audioHash": "6b959855d0",
+      "modelUsed": "gemini-2.5-pro-preview-tts",
+      "voiceUsed": "Alnilam",
+      "promptVersion": "v2-conversational-professor"
+    },
+    {
+      "slideIndex": 4,
+      "audioSrc": "narration/slide-04-1e57e70d85.wav",
+      "durationMs": 32251,
+      "scriptText": "After ramping comes disturbance response. Stability is the grid’s ability to absorb shocks and return near target frequency. Rotating machines contribute physical inertia, while inverter-based resources provide controlled electronic response. Modern systems rely on both forms of support to recover quickly and predictably. These are second-to-minute dynamics; the next constraint is longer duration, where reliability depends on how long energy can be sustained.",
+      "segments": [
+        {
+          "id": "s-1",
+          "text": "After ramping comes disturbance response.",
+          "startMs": 150,
+          "endMs": 2486
+        },
+        {
+          "id": "s-2",
+          "text": "Stability is the grid’s ability to absorb shocks and return near target frequency.",
+          "startMs": 2534,
+          "endMs": 9162
+        },
+        {
+          "id": "s-3",
+          "text": "Rotating machines contribute physical inertia, while inverter-based resources provide controlled electronic response.",
+          "startMs": 9210,
+          "endMs": 15361
+        },
+        {
+          "id": "s-4",
+          "text": "Modern systems rely on both forms of support to recover quickly and predictably.",
+          "startMs": 15409,
+          "endMs": 21561
+        },
+        {
+          "id": "s-5",
+          "text": "These are second-to-minute dynamics; the next constraint is longer duration, where reliability depends on how long energy can be sustained.",
+          "startMs": 21608,
+          "endMs": 32052
+        }
+      ],
+      "words": [
+        {
+          "word": "After",
+          "startMs": 150,
+          "endMs": 579,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "ramping",
+          "startMs": 626,
+          "endMs": 1055,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "comes",
+          "startMs": 1103,
+          "endMs": 1532,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "disturbance",
+          "startMs": 1580,
+          "endMs": 2009,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "response",
+          "startMs": 2057,
+          "endMs": 2486,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Stability",
+          "startMs": 2534,
+          "endMs": 2963,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 3011,
+          "endMs": 3440,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 3488,
+          "endMs": 3917,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "grid",
+          "startMs": 3964,
+          "endMs": 4393,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "s",
+          "startMs": 4441,
+          "endMs": 4870,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "ability",
+          "startMs": 4918,
+          "endMs": 5347,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 5395,
+          "endMs": 5824,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "absorb",
+          "startMs": 5872,
+          "endMs": 6301,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "shocks",
+          "startMs": 6349,
+          "endMs": 6778,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 6826,
+          "endMs": 7255,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "return",
+          "startMs": 7302,
+          "endMs": 7731,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "near",
+          "startMs": 7779,
+          "endMs": 8208,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "target",
+          "startMs": 8256,
+          "endMs": 8685,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "frequency",
+          "startMs": 8733,
+          "endMs": 9162,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Rotating",
+          "startMs": 9210,
+          "endMs": 9639,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "machines",
+          "startMs": 9687,
+          "endMs": 10116,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "contribute",
+          "startMs": 10164,
+          "endMs": 10593,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "physical",
+          "startMs": 10641,
+          "endMs": 11070,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "inertia",
+          "startMs": 11117,
+          "endMs": 11546,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "while",
+          "startMs": 11594,
+          "endMs": 12023,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "inverter",
+          "startMs": 12071,
+          "endMs": 12500,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "based",
+          "startMs": 12548,
+          "endMs": 12977,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "resources",
+          "startMs": 13025,
+          "endMs": 13454,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "provide",
+          "startMs": 13502,
+          "endMs": 13931,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "controlled",
+          "startMs": 13979,
+          "endMs": 14408,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "electronic",
+          "startMs": 14455,
+          "endMs": 14884,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "response",
+          "startMs": 14932,
+          "endMs": 15361,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Modern",
+          "startMs": 15409,
+          "endMs": 15838,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "systems",
+          "startMs": 15886,
+          "endMs": 16315,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "rely",
+          "startMs": 16363,
+          "endMs": 16792,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "on",
+          "startMs": 16840,
+          "endMs": 17269,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "both",
+          "startMs": 17317,
+          "endMs": 17746,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "forms",
+          "startMs": 17794,
+          "endMs": 18223,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "of",
+          "startMs": 18270,
+          "endMs": 18699,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "support",
+          "startMs": 18747,
+          "endMs": 19176,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 19224,
+          "endMs": 19653,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "recover",
+          "startMs": 19701,
+          "endMs": 20130,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "quickly",
+          "startMs": 20178,
+          "endMs": 20607,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 20655,
+          "endMs": 21084,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "predictably",
+          "startMs": 21132,
+          "endMs": 21561,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "These",
+          "startMs": 21608,
+          "endMs": 22037,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "are",
+          "startMs": 22085,
+          "endMs": 22514,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "second",
+          "startMs": 22562,
+          "endMs": 22991,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 23039,
+          "endMs": 23468,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "minute",
+          "startMs": 23516,
+          "endMs": 23945,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "dynamics",
+          "startMs": 23993,
+          "endMs": 24422,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 24470,
+          "endMs": 24899,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "next",
+          "startMs": 24947,
+          "endMs": 25376,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "constraint",
+          "startMs": 25423,
+          "endMs": 25852,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 25900,
+          "endMs": 26329,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "longer",
+          "startMs": 26377,
+          "endMs": 26806,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "duration",
+          "startMs": 26854,
+          "endMs": 27283,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "where",
+          "startMs": 27331,
+          "endMs": 27760,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "reliability",
+          "startMs": 27808,
+          "endMs": 28237,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "depends",
+          "startMs": 28285,
+          "endMs": 28714,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "on",
+          "startMs": 28761,
+          "endMs": 29190,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "how",
+          "startMs": 29238,
+          "endMs": 29667,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "long",
+          "startMs": 29715,
+          "endMs": 30144,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "energy",
+          "startMs": 30192,
+          "endMs": 30621,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "can",
+          "startMs": 30669,
+          "endMs": 31098,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "be",
+          "startMs": 31146,
+          "endMs": 31575,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "sustained",
+          "startMs": 31623,
+          "endMs": 32052,
+          "confidence": 0.33249999999999996
+        }
+      ],
+      "alignmentMode": "fallback",
+      "scriptHash": "794ff99a30",
+      "audioHash": "a0fb2d5533",
+      "modelUsed": "gemini-2.5-pro-preview-tts",
+      "voiceUsed": "Alnilam",
+      "promptVersion": "v2-conversational-professor"
+    },
+    {
+      "slideIndex": 5,
+      "audioSrc": "narration/slide-05-04bae1b088.wav",
+      "durationMs": 35811,
+      "scriptText": "Stability handles fast events; duration handles longer shortages. Storage helps shift energy across time, and short-duration batteries are effective for moving midday energy into evening demand. But multi-day low-wind or low-solar periods require much larger energy volume, so cost and scale rise quickly with duration. Storage solves important timing problems, yet another constraint remains: power still must be delivered to where demand exists.",
+      "segments": [
+        {
+          "id": "s-1",
+          "text": "Stability handles fast events; duration handles longer shortages.",
+          "startMs": 150,
+          "endMs": 4337
+        },
+        {
+          "id": "s-2",
+          "text": "Storage helps shift energy across time, and short-duration batteries are effective for moving midday energy into evening demand.",
+          "startMs": 4390,
+          "endMs": 14407
+        },
+        {
+          "id": "s-3",
+          "text": "But multi-day low-wind or low-solar periods require much larger energy volume, so cost and scale rise quickly with duration.",
+          "startMs": 14460,
+          "endMs": 26067
+        },
+        {
+          "id": "s-4",
+          "text": "Storage solves important timing problems, yet another constraint remains: power still must be delivered to where demand exists.",
+          "startMs": 26120,
+          "endMs": 35607
+        }
+      ],
+      "words": [
+        {
+          "word": "Stability",
+          "startMs": 150,
+          "endMs": 627,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "handles",
+          "startMs": 680,
+          "endMs": 1157,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "fast",
+          "startMs": 1210,
+          "endMs": 1687,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "events",
+          "startMs": 1740,
+          "endMs": 2217,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "duration",
+          "startMs": 2270,
+          "endMs": 2747,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "handles",
+          "startMs": 2800,
+          "endMs": 3277,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "longer",
+          "startMs": 3330,
+          "endMs": 3807,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "shortages",
+          "startMs": 3860,
+          "endMs": 4337,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Storage",
+          "startMs": 4390,
+          "endMs": 4867,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "helps",
+          "startMs": 4920,
+          "endMs": 5397,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "shift",
+          "startMs": 5450,
+          "endMs": 5927,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "energy",
+          "startMs": 5980,
+          "endMs": 6457,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "across",
+          "startMs": 6510,
+          "endMs": 6987,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "time",
+          "startMs": 7040,
+          "endMs": 7517,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 7570,
+          "endMs": 8047,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "short",
+          "startMs": 8100,
+          "endMs": 8577,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "duration",
+          "startMs": 8630,
+          "endMs": 9107,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "batteries",
+          "startMs": 9160,
+          "endMs": 9637,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "are",
+          "startMs": 9690,
+          "endMs": 10167,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "effective",
+          "startMs": 10220,
+          "endMs": 10697,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "for",
+          "startMs": 10750,
+          "endMs": 11227,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "moving",
+          "startMs": 11280,
+          "endMs": 11757,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "midday",
+          "startMs": 11810,
+          "endMs": 12287,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "energy",
+          "startMs": 12340,
+          "endMs": 12817,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "into",
+          "startMs": 12870,
+          "endMs": 13347,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "evening",
+          "startMs": 13400,
+          "endMs": 13877,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "demand",
+          "startMs": 13930,
+          "endMs": 14407,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "But",
+          "startMs": 14460,
+          "endMs": 14937,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "multi",
+          "startMs": 14990,
+          "endMs": 15467,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "day",
+          "startMs": 15520,
+          "endMs": 15997,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "low",
+          "startMs": 16050,
+          "endMs": 16527,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "wind",
+          "startMs": 16580,
+          "endMs": 17057,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "or",
+          "startMs": 17110,
+          "endMs": 17587,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "low",
+          "startMs": 17640,
+          "endMs": 18117,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "solar",
+          "startMs": 18170,
+          "endMs": 18647,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "periods",
+          "startMs": 18700,
+          "endMs": 19177,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "require",
+          "startMs": 19230,
+          "endMs": 19707,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "much",
+          "startMs": 19760,
+          "endMs": 20237,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "larger",
+          "startMs": 20290,
+          "endMs": 20767,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "energy",
+          "startMs": 20820,
+          "endMs": 21297,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "volume",
+          "startMs": 21350,
+          "endMs": 21827,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "so",
+          "startMs": 21880,
+          "endMs": 22357,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "cost",
+          "startMs": 22410,
+          "endMs": 22887,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 22940,
+          "endMs": 23417,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "scale",
+          "startMs": 23470,
+          "endMs": 23947,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "rise",
+          "startMs": 24000,
+          "endMs": 24477,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "quickly",
+          "startMs": 24530,
+          "endMs": 25007,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "with",
+          "startMs": 25060,
+          "endMs": 25537,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "duration",
+          "startMs": 25590,
+          "endMs": 26067,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Storage",
+          "startMs": 26120,
+          "endMs": 26597,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "solves",
+          "startMs": 26650,
+          "endMs": 27127,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "important",
+          "startMs": 27180,
+          "endMs": 27657,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "timing",
+          "startMs": 27710,
+          "endMs": 28187,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "problems",
+          "startMs": 28240,
+          "endMs": 28717,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "yet",
+          "startMs": 28770,
+          "endMs": 29247,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "another",
+          "startMs": 29300,
+          "endMs": 29777,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "constraint",
+          "startMs": 29830,
+          "endMs": 30307,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "remains",
+          "startMs": 30360,
+          "endMs": 30837,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "power",
+          "startMs": 30890,
+          "endMs": 31367,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "still",
+          "startMs": 31420,
+          "endMs": 31897,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "must",
+          "startMs": 31950,
+          "endMs": 32427,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "be",
+          "startMs": 32480,
+          "endMs": 32957,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "delivered",
+          "startMs": 33010,
+          "endMs": 33487,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 33540,
+          "endMs": 34017,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "where",
+          "startMs": 34070,
+          "endMs": 34547,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "demand",
+          "startMs": 34600,
+          "endMs": 35077,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "exists",
+          "startMs": 35130,
+          "endMs": 35607,
+          "confidence": 0.33249999999999996
+        }
+      ],
+      "alignmentMode": "fallback",
+      "scriptHash": "37868a73c8",
+      "audioHash": "32515f21c5",
+      "modelUsed": "gemini-2.5-pro-preview-tts",
+      "voiceUsed": "Alnilam",
+      "promptVersion": "v2-conversational-professor"
+    },
+    {
+      "slideIndex": 6,
+      "audioSrc": "narration/slide-06-20c0b9b03f.wav",
+      "durationMs": 34051,
+      "scriptText": "Even with available generation and storage, electricity must travel from source to load. Transmission corridors move bulk power to population centers, but when those corridors saturate, additional generation can exist without serving demand. That congestion is a core reliability and economics constraint, not a side detail. So planning must coordinate generation, storage, and network capacity together. That full-system view sets up practical design decisions.",
+      "segments": [
+        {
+          "id": "s-1",
+          "text": "Even with available generation and storage, electricity must travel from source to load.",
+          "startMs": 150,
+          "endMs": 6847
+        },
+        {
+          "id": "s-2",
+          "text": "Transmission corridors move bulk power to population centers, but when those corridors saturate, additional generation can exist without serving demand.",
+          "startMs": 6900,
+          "endMs": 17232,
+          "focusTargetId": "corridor",
+          "effect": "glow"
+        },
+        {
+          "id": "s-3",
+          "text": "That congestion is a core reliability and economics constraint, not a side detail.",
+          "startMs": 17284,
+          "endMs": 23982
+        },
+        {
+          "id": "s-4",
+          "text": "So planning must coordinate generation, storage, and network capacity together.",
+          "startMs": 24034,
+          "endMs": 29174
+        },
+        {
+          "id": "s-5",
+          "text": "That full-system view sets up practical design decisions.",
+          "startMs": 29226,
+          "endMs": 33847
+        }
+      ],
+      "words": [
+        {
+          "word": "Even",
+          "startMs": 150,
+          "endMs": 617,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "with",
+          "startMs": 669,
+          "endMs": 1136,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "available",
+          "startMs": 1188,
+          "endMs": 1655,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "generation",
+          "startMs": 1707,
+          "endMs": 2174,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 2226,
+          "endMs": 2693,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "storage",
+          "startMs": 2746,
+          "endMs": 3213,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "electricity",
+          "startMs": 3265,
+          "endMs": 3732,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "must",
+          "startMs": 3784,
+          "endMs": 4251,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "travel",
+          "startMs": 4303,
+          "endMs": 4770,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "from",
+          "startMs": 4823,
+          "endMs": 5290,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "source",
+          "startMs": 5342,
+          "endMs": 5809,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 5861,
+          "endMs": 6328,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "load",
+          "startMs": 6380,
+          "endMs": 6847,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Transmission",
+          "startMs": 6900,
+          "endMs": 7367,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "corridors",
+          "startMs": 7419,
+          "endMs": 7886,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "move",
+          "startMs": 7938,
+          "endMs": 8405,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "bulk",
+          "startMs": 8457,
+          "endMs": 8924,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "power",
+          "startMs": 8976,
+          "endMs": 9443,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 9496,
+          "endMs": 9963,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "population",
+          "startMs": 10015,
+          "endMs": 10482,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "centers",
+          "startMs": 10534,
+          "endMs": 11001,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "but",
+          "startMs": 11053,
+          "endMs": 11520,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "when",
+          "startMs": 11573,
+          "endMs": 12040,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "those",
+          "startMs": 12092,
+          "endMs": 12559,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "corridors",
+          "startMs": 12611,
+          "endMs": 13078,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "saturate",
+          "startMs": 13130,
+          "endMs": 13597,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "additional",
+          "startMs": 13650,
+          "endMs": 14117,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "generation",
+          "startMs": 14169,
+          "endMs": 14636,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "can",
+          "startMs": 14688,
+          "endMs": 15155,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "exist",
+          "startMs": 15207,
+          "endMs": 15674,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "without",
+          "startMs": 15726,
+          "endMs": 16193,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "serving",
+          "startMs": 16246,
+          "endMs": 16713,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "demand",
+          "startMs": 16765,
+          "endMs": 17232,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "That",
+          "startMs": 17284,
+          "endMs": 17751,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "congestion",
+          "startMs": 17803,
+          "endMs": 18270,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "is",
+          "startMs": 18323,
+          "endMs": 18790,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "a",
+          "startMs": 18842,
+          "endMs": 19309,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "core",
+          "startMs": 19361,
+          "endMs": 19828,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "reliability",
+          "startMs": 19880,
+          "endMs": 20347,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 20400,
+          "endMs": 20867,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "economics",
+          "startMs": 20919,
+          "endMs": 21386,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "constraint",
+          "startMs": 21438,
+          "endMs": 21905,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "not",
+          "startMs": 21957,
+          "endMs": 22424,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "a",
+          "startMs": 22476,
+          "endMs": 22943,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "side",
+          "startMs": 22996,
+          "endMs": 23463,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "detail",
+          "startMs": 23515,
+          "endMs": 23982,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "So",
+          "startMs": 24034,
+          "endMs": 24501,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "planning",
+          "startMs": 24553,
+          "endMs": 25020,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "must",
+          "startMs": 25073,
+          "endMs": 25540,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "coordinate",
+          "startMs": 25592,
+          "endMs": 26059,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "generation",
+          "startMs": 26111,
+          "endMs": 26578,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "storage",
+          "startMs": 26630,
+          "endMs": 27097,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 27150,
+          "endMs": 27617,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "network",
+          "startMs": 27669,
+          "endMs": 28136,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "capacity",
+          "startMs": 28188,
+          "endMs": 28655,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "together",
+          "startMs": 28707,
+          "endMs": 29174,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "That",
+          "startMs": 29226,
+          "endMs": 29693,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "full",
+          "startMs": 29746,
+          "endMs": 30213,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "system",
+          "startMs": 30265,
+          "endMs": 30732,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "view",
+          "startMs": 30784,
+          "endMs": 31251,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "sets",
+          "startMs": 31303,
+          "endMs": 31770,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "up",
+          "startMs": 31823,
+          "endMs": 32290,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "practical",
+          "startMs": 32342,
+          "endMs": 32809,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "design",
+          "startMs": 32861,
+          "endMs": 33328,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "decisions",
+          "startMs": 33380,
+          "endMs": 33847,
+          "confidence": 0.33249999999999996
+        }
+      ],
+      "alignmentMode": "fallback",
+      "scriptHash": "21413e5129",
+      "audioHash": "c79c33d85e",
+      "modelUsed": "gemini-2.5-pro-preview-tts",
+      "voiceUsed": "Alnilam",
+      "promptVersion": "v2-conversational-professor"
+    },
+    {
+      "slideIndex": 7,
+      "audioSrc": "narration/slide-07-46d26f12e8.wav",
+      "durationMs": 31931,
+      "scriptText": "Putting the chain together, reliable design starts with measured demand, not equipment shopping. Teams first profile loads, then reduce demand through efficiency, and only then size solar and storage against the remaining profile. This sequence improves cost, performance, and operational predictability. The same lesson scales from local systems to regional grids: reliability comes from timing, stability, and delivery working together.",
+      "segments": [
+        {
+          "id": "s-1",
+          "text": "Putting the chain together, reliable design starts with measured demand, not equipment shopping.",
+          "startMs": 150,
+          "endMs": 6950
+        },
+        {
+          "id": "s-2",
+          "text": "Teams first profile loads, then reduce demand through efficiency, and only then size solar and storage against the remaining profile.",
+          "startMs": 7003,
+          "endMs": 17493
+        },
+        {
+          "id": "s-3",
+          "text": "This sequence improves cost, performance, and operational predictability.",
+          "startMs": 17546,
+          "endMs": 21710
+        },
+        {
+          "id": "s-4",
+          "text": "The same lesson scales from local systems to regional grids: reliability comes from timing, stability, and delivery working together.",
+          "startMs": 21763,
+          "endMs": 31726
+        }
+      ],
+      "words": [
+        {
+          "word": "Putting",
+          "startMs": 150,
+          "endMs": 624,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 677,
+          "endMs": 1151,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "chain",
+          "startMs": 1204,
+          "endMs": 1678,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "together",
+          "startMs": 1731,
+          "endMs": 2205,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "reliable",
+          "startMs": 2258,
+          "endMs": 2732,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "design",
+          "startMs": 2785,
+          "endMs": 3259,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "starts",
+          "startMs": 3313,
+          "endMs": 3787,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "with",
+          "startMs": 3840,
+          "endMs": 4314,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "measured",
+          "startMs": 4367,
+          "endMs": 4841,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "demand",
+          "startMs": 4894,
+          "endMs": 5368,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "not",
+          "startMs": 5421,
+          "endMs": 5895,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "equipment",
+          "startMs": 5948,
+          "endMs": 6422,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "shopping",
+          "startMs": 6476,
+          "endMs": 6950,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Teams",
+          "startMs": 7003,
+          "endMs": 7477,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "first",
+          "startMs": 7530,
+          "endMs": 8004,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "profile",
+          "startMs": 8057,
+          "endMs": 8531,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "loads",
+          "startMs": 8584,
+          "endMs": 9058,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "then",
+          "startMs": 9111,
+          "endMs": 9585,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "reduce",
+          "startMs": 9639,
+          "endMs": 10113,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "demand",
+          "startMs": 10166,
+          "endMs": 10640,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "through",
+          "startMs": 10693,
+          "endMs": 11167,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "efficiency",
+          "startMs": 11220,
+          "endMs": 11694,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 11747,
+          "endMs": 12221,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "only",
+          "startMs": 12274,
+          "endMs": 12748,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "then",
+          "startMs": 12802,
+          "endMs": 13276,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "size",
+          "startMs": 13329,
+          "endMs": 13803,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "solar",
+          "startMs": 13856,
+          "endMs": 14330,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 14383,
+          "endMs": 14857,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "storage",
+          "startMs": 14910,
+          "endMs": 15384,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "against",
+          "startMs": 15437,
+          "endMs": 15911,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 15964,
+          "endMs": 16438,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "remaining",
+          "startMs": 16492,
+          "endMs": 16966,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "profile",
+          "startMs": 17019,
+          "endMs": 17493,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "This",
+          "startMs": 17546,
+          "endMs": 18020,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "sequence",
+          "startMs": 18073,
+          "endMs": 18547,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "improves",
+          "startMs": 18600,
+          "endMs": 19074,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "cost",
+          "startMs": 19128,
+          "endMs": 19602,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "performance",
+          "startMs": 19655,
+          "endMs": 20129,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 20182,
+          "endMs": 20656,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "operational",
+          "startMs": 20709,
+          "endMs": 21183,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "predictability",
+          "startMs": 21236,
+          "endMs": 21710,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "The",
+          "startMs": 21763,
+          "endMs": 22237,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "same",
+          "startMs": 22291,
+          "endMs": 22765,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "lesson",
+          "startMs": 22818,
+          "endMs": 23292,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "scales",
+          "startMs": 23345,
+          "endMs": 23819,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "from",
+          "startMs": 23872,
+          "endMs": 24346,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "local",
+          "startMs": 24399,
+          "endMs": 24873,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "systems",
+          "startMs": 24926,
+          "endMs": 25400,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 25454,
+          "endMs": 25928,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "regional",
+          "startMs": 25981,
+          "endMs": 26455,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "grids",
+          "startMs": 26508,
+          "endMs": 26982,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "reliability",
+          "startMs": 27035,
+          "endMs": 27509,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "comes",
+          "startMs": 27562,
+          "endMs": 28036,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "from",
+          "startMs": 28089,
+          "endMs": 28563,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "timing",
+          "startMs": 28616,
+          "endMs": 29090,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "stability",
+          "startMs": 29144,
+          "endMs": 29618,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 29671,
+          "endMs": 30145,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "delivery",
+          "startMs": 30198,
+          "endMs": 30672,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "working",
+          "startMs": 30725,
+          "endMs": 31199,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "together",
+          "startMs": 31252,
+          "endMs": 31726,
+          "confidence": 0.33249999999999996
+        }
+      ],
+      "alignmentMode": "fallback",
+      "scriptHash": "e50590a180",
+      "audioHash": "b4f673aad2",
+      "modelUsed": "gemini-2.5-pro-preview-tts",
+      "voiceUsed": "Alnilam",
+      "promptVersion": "v2-conversational-professor"
+    },
+    {
+      "slideIndex": 8,
+      "audioSrc": "narration/slide-08-0f125b72c1.wav",
+      "durationMs": 27051,
+      "scriptText": "This walkthrough connected the constraints as one system: real-time balance, variable output, daily ramps, disturbance stability, storage duration, and transmission delivery. Those principles guide engineering choices from grid planning to site-level design. The references on this slide document the data sources and technical claims used throughout, so the narrative and visuals can be reviewed with full context.",
+      "segments": [
+        {
+          "id": "s-1",
+          "text": "This walkthrough connected the constraints as one system: real-time balance, variable output, daily ramps, disturbance stability, storage duration, and transmission delivery.",
+          "startMs": 150,
+          "endMs": 10079
+        },
+        {
+          "id": "s-2",
+          "text": "Those principles guide engineering choices from grid planning to site-level design.",
+          "startMs": 10124,
+          "endMs": 15519
+        },
+        {
+          "id": "s-3",
+          "text": "The references on this slide document the data sources and technical claims used throughout, so the narrative and visuals can be reviewed with full context.",
+          "startMs": 15565,
+          "endMs": 26854
+        }
+      ],
+      "words": [
+        {
+          "word": "This",
+          "startMs": 150,
+          "endMs": 558,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "walkthrough",
+          "startMs": 603,
+          "endMs": 1011,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "connected",
+          "startMs": 1056,
+          "endMs": 1464,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 1510,
+          "endMs": 1918,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "constraints",
+          "startMs": 1963,
+          "endMs": 2371,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "as",
+          "startMs": 2416,
+          "endMs": 2824,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "one",
+          "startMs": 2870,
+          "endMs": 3278,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "system",
+          "startMs": 3323,
+          "endMs": 3731,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "real",
+          "startMs": 3777,
+          "endMs": 4185,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "time",
+          "startMs": 4230,
+          "endMs": 4638,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "balance",
+          "startMs": 4683,
+          "endMs": 5091,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "variable",
+          "startMs": 5137,
+          "endMs": 5545,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "output",
+          "startMs": 5590,
+          "endMs": 5998,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "daily",
+          "startMs": 6044,
+          "endMs": 6452,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "ramps",
+          "startMs": 6497,
+          "endMs": 6905,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "disturbance",
+          "startMs": 6950,
+          "endMs": 7358,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "stability",
+          "startMs": 7404,
+          "endMs": 7812,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "storage",
+          "startMs": 7857,
+          "endMs": 8265,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "duration",
+          "startMs": 8311,
+          "endMs": 8719,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 8764,
+          "endMs": 9172,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "transmission",
+          "startMs": 9217,
+          "endMs": 9625,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "delivery",
+          "startMs": 9671,
+          "endMs": 10079,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "Those",
+          "startMs": 10124,
+          "endMs": 10532,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "principles",
+          "startMs": 10577,
+          "endMs": 10985,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "guide",
+          "startMs": 11031,
+          "endMs": 11439,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "engineering",
+          "startMs": 11484,
+          "endMs": 11892,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "choices",
+          "startMs": 11938,
+          "endMs": 12346,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "from",
+          "startMs": 12391,
+          "endMs": 12799,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "grid",
+          "startMs": 12844,
+          "endMs": 13252,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "planning",
+          "startMs": 13298,
+          "endMs": 13706,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "to",
+          "startMs": 13751,
+          "endMs": 14159,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "site",
+          "startMs": 14205,
+          "endMs": 14613,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "level",
+          "startMs": 14658,
+          "endMs": 15066,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "design",
+          "startMs": 15111,
+          "endMs": 15519,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "The",
+          "startMs": 15565,
+          "endMs": 15973,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "references",
+          "startMs": 16018,
+          "endMs": 16426,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "on",
+          "startMs": 16472,
+          "endMs": 16880,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "this",
+          "startMs": 16925,
+          "endMs": 17333,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "slide",
+          "startMs": 17378,
+          "endMs": 17786,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "document",
+          "startMs": 17832,
+          "endMs": 18240,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 18285,
+          "endMs": 18693,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "data",
+          "startMs": 18738,
+          "endMs": 19146,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "sources",
+          "startMs": 19192,
+          "endMs": 19600,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 19645,
+          "endMs": 20053,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "technical",
+          "startMs": 20099,
+          "endMs": 20507,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "claims",
+          "startMs": 20552,
+          "endMs": 20960,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "used",
+          "startMs": 21005,
+          "endMs": 21413,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "throughout",
+          "startMs": 21459,
+          "endMs": 21867,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "so",
+          "startMs": 21912,
+          "endMs": 22320,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "the",
+          "startMs": 22366,
+          "endMs": 22774,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "narrative",
+          "startMs": 22819,
+          "endMs": 23227,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "and",
+          "startMs": 23272,
+          "endMs": 23680,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "visuals",
+          "startMs": 23726,
+          "endMs": 24134,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "can",
+          "startMs": 24179,
+          "endMs": 24587,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "be",
+          "startMs": 24633,
+          "endMs": 25041,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "reviewed",
+          "startMs": 25086,
+          "endMs": 25494,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "with",
+          "startMs": 25539,
+          "endMs": 25947,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "full",
+          "startMs": 25993,
+          "endMs": 26401,
+          "confidence": 0.33249999999999996
+        },
+        {
+          "word": "context",
+          "startMs": 26446,
+          "endMs": 26854,
+          "confidence": 0.33249999999999996
+        }
+      ],
+      "alignmentMode": "fallback",
+      "scriptHash": "681d6ac0a5",
+      "audioHash": "82c7617db3",
+      "modelUsed": "gemini-2.5-pro-preview-tts",
+      "voiceUsed": "Alnilam",
+      "promptVersion": "v2-conversational-professor"
+    }
+  ],
+  "tts": {
+    "provider": "gemini",
+    "model": "gemini-2.5-pro-preview-tts",
+    "requestedVoice": "Alnilam",
+    "fallbackVoice": "Charon",
+    "resolvedVoice": "Alnilam",
+    "promptVersion": "v2-conversational-professor",
+    "scriptStyleVersion": "spoken-conversational-v1",
+    "hashPolicy": "model|resolvedVoice|promptVersion|scriptText"
+  }
+}

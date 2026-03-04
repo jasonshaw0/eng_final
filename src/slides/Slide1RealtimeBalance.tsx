@@ -4,14 +4,28 @@ import SupplyDemandViz from '../visuals/SupplyDemandViz'
 
 const slide = slides[1]
 
-interface Props { showAnimControls?: boolean }
+interface Props {
+  activeFocusTarget?: string | null
+  focusEffect?: 'pulse' | 'glow' | null
+  timelineMs?: number
+  activeSegmentId?: string | null
+  keyframeState?: Record<string, number | string | boolean>
+  autoplayActive?: boolean
+}
 
-export default function Slide1RealtimeBalance({ showAnimControls = true }: Props) {
+export default function Slide1RealtimeBalance({
+  activeFocusTarget,
+  focusEffect,
+  timelineMs = 0,
+  activeSegmentId = null,
+  keyframeState = {},
+  autoplayActive = false,
+}: Props) {
   return (
     <div className="w-full h-full flex items-center justify-center px-12 lg:px-20 py-8">
       <div className="w-full max-w-7xl flex flex-col lg:flex-row items-stretch gap-8">
         <div className="flex-1 flex flex-col justify-center">
-          <div className="bg-white rounded-2xl border border-border p-8 card-shadow h-full flex flex-col justify-center">
+          <div className="bg-bg-card rounded-2xl border border-border p-8 card-shadow h-full flex flex-col justify-center">
             <div className="flex items-center gap-3 mb-5">
               <span className="w-10 h-10 rounded-xl bg-accent-cyan/10 flex items-center justify-center text-accent-cyan text-sm font-bold font-mono border border-accent-cyan/20">01</span>
               <div>
@@ -32,13 +46,20 @@ export default function Slide1RealtimeBalance({ showAnimControls = true }: Props
           </div>
         </div>
         <div className="flex-1 flex flex-col">
-          <div className="bg-white rounded-2xl border border-border p-6 card-shadow flex-1 flex flex-col min-h-80">
+          <div className="bg-bg-card rounded-2xl border border-border p-6 card-shadow flex-1 flex flex-col min-h-80">
             <div className="flex items-center gap-2 mb-3 pb-3 border-b border-border">
               <TrendingUp className="w-4 h-4 text-accent-cyan" />
               <span className="text-xs font-bold text-text-muted uppercase tracking-widest">Live Visualization</span>
             </div>
             <div className="flex-1 flex items-center justify-center">
-              <SupplyDemandViz showControls={showAnimControls} />
+              <SupplyDemandViz
+                focusTargetId={activeFocusTarget}
+                focusEffect={focusEffect}
+                timelineMs={timelineMs}
+                activeSegmentId={activeSegmentId}
+                keyframeState={keyframeState}
+                autoplayActive={autoplayActive}
+              />
             </div>
           </div>
         </div>

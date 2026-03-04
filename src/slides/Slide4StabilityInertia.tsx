@@ -2,13 +2,19 @@ import { Gauge } from 'lucide-react'
 import { slides } from '../content/slides'
 import FrequencyResponseViz from '../visuals/FrequencyResponseViz'
 const slide = slides[4]
-interface Props { showAnimControls?: boolean }
-export default function Slide4StabilityInertia({ showAnimControls = true }: Props) {
+interface Props {
+  activeFocusTarget?: string | null
+  focusEffect?: 'pulse' | 'glow' | null
+}
+export default function Slide4StabilityInertia({
+  activeFocusTarget,
+  focusEffect,
+}: Props) {
   return (
     <div className="w-full h-full flex items-center justify-center px-12 lg:px-20 py-8">
       <div className="w-full max-w-7xl flex flex-col lg:flex-row items-stretch gap-8">
         <div className="flex-1 flex flex-col justify-center">
-          <div className="bg-white rounded-2xl border border-border p-8 card-shadow h-full flex flex-col justify-center">
+          <div className="bg-bg-card rounded-2xl border border-border p-8 card-shadow h-full flex flex-col justify-center">
             <div className="flex items-center gap-3 mb-5">
               <span className="w-10 h-10 rounded-xl bg-accent-emerald/10 flex items-center justify-center text-accent-emerald text-sm font-bold font-mono border border-accent-emerald/20">04</span>
               <div><span className="text-xs text-text-muted uppercase tracking-widest font-semibold">Stability</span><div className="w-12 h-0.5 bg-accent-emerald/30 rounded-full mt-1" /></div>
@@ -21,9 +27,14 @@ export default function Slide4StabilityInertia({ showAnimControls = true }: Prop
           </div>
         </div>
         <div className="flex-1 flex flex-col">
-          <div className="bg-white rounded-2xl border border-border p-6 card-shadow flex-1 flex flex-col min-h-80">
+          <div className="bg-bg-card rounded-2xl border border-border p-6 card-shadow flex-1 flex flex-col min-h-80">
             <div className="flex items-center gap-2 mb-3 pb-3 border-b border-border"><Gauge className="w-4 h-4 text-accent-emerald" /><span className="text-xs font-bold text-text-muted uppercase tracking-widest">Frequency Gauge</span></div>
-            <div className="flex-1 flex items-center justify-center"><FrequencyResponseViz showControls={showAnimControls} /></div>
+            <div className="flex-1 flex items-center justify-center">
+              <FrequencyResponseViz
+                focusTargetId={activeFocusTarget}
+                focusEffect={focusEffect}
+              />
+            </div>
           </div>
         </div>
       </div>

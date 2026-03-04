@@ -1,156 +1,144 @@
-import { Play, Pause, SkipForward, Square, Settings, Mic } from 'lucide-react'
+import { Mic, Pause, Play, RotateCcw } from 'lucide-react'
+import type { NarrationSegment } from '../narration/manifestTypes'
 import type { AutoPlayStatus } from '../narration/useAutoPlay'
-import { narrations } from '../narration/narrationScripts'
 
 interface Props {
   status: AutoPlayStatus
-  currentSlide: number
-  currentSegment: number
-  generationProgress: { done: number; total: number }
+  segment: NarrationSegment | null
   error: string | null
-  playbackRate: number
+  autoPlayActive: boolean
+  alignmentWarning?: string | null
   onPause: () => void
   onResume: () => void
-  onStop: () => void
-  onSkip: () => void
-  onSpeedChange: (rate: number) => void
-  onSettings: () => void
+  onReset: () => void
 }
 
-const speeds = [0.75, 1, 1.25, 1.5, 2]
+function truncateLine(text: string, maxChars: number): string {
+  if (text.length <= maxChars) return text
+  if (maxChars <= 1) return '…'
+  return `${text.slice(0, maxChars - 1).trimEnd()}…`
+}
+
+function wrapSubtitle(text: string, maxChars = 54, maxLines = 2): string[] {
+  const cleaned = text.trim().replace(/\s+/g, ' ')
+  if (!cleaned) return []
+
+  const chunks: string[] = []
+  const phrases = cleaned.split(/(?<=[,;:.!?])\s+/)
+  let current = ''
+
+  for (const phrase of phrases) {
+    const words = phrase.split(/\s+/)
+    for (const word of words) {
+      const next = current ? `${current} ${word}` : word
+      if (next.length <= maxChars) {
+        current = next
+        continue
+      }
+      if (current) chunks.push(current)
+      current = word
+    }
+    if (current && /[,.!?;:]$/.test(current)) {
+      chunks.push(current)
+      current = ''
+    }
+  }
+  if (current) chunks.push(current)
+
+  if (chunks.length <= maxLines) return chunks
+
+  const clipped = chunks.slice(0, maxLines)
+  clipped[maxLines - 1] = truncateLine(clipped[maxLines - 1], maxChars)
+  return clipped
+}
 
 export default function AutoPlayBar({
   status,
-  currentSlide,
-  currentSegment,
-  generationProgress,
+  segment,
   error,
-  playbackRate,
+  autoPlayActive,
+  alignmentWarning,
   onPause,
   onResume,
-  onStop,
-  onSkip,
-  onSpeedChange,
-  onSettings,
+  onReset,
 }: Props) {
-  if (status === 'idle') return null
+  if (!autoPlayActive && !error && !alignmentWarning) return null
 
-  const narration = narrations[currentSlide]
-  const isPlaying = status === 'playing'
-  const isPaused = status === 'paused'
-  const isGenerating = status === 'generating'
-
-  const nextSpeed = () => {
-    const idx = speeds.indexOf(playbackRate)
-    onSpeedChange(speeds[(idx + 1) % speeds.length])
-  }
+  const lines = segment ? wrapSubtitle(segment.text) : []
+  const showSubtitle = (status === 'playing' || status === 'paused') && lines.length > 0
+  const controlsVisible = status === 'playing' || status === 'paused' || status === 'loading'
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50">
-      {/* Current sentence subtitle */}
-      {(isPlaying || isPaused) && narration && currentSegment >= 0 && narration.segments[currentSegment] && (
-        <div className="mb-1 flex justify-center px-8">
-          <div className="inline-flex items-start gap-2.5 px-5 py-3 bg-white/95 backdrop-blur-md rounded-xl border border-border shadow-lg max-w-3xl">
-            <Mic className="w-3.5 h-3.5 text-accent-blue shrink-0 mt-0.5" />
-            <p className="text-sm text-text-primary leading-relaxed font-medium">
-              {narration.segments[currentSegment].text}
-            </p>
+    <div className="fixed bottom-0 left-0 right-0 z-50 pointer-events-none">
+      {showSubtitle && (
+        <div className="px-6 pb-4 flex justify-center">
+          <div
+            key={segment?.id || 'subtitle'}
+            className="max-w-4xl w-full md:w-auto rounded-2xl border border-border bg-bg-secondary/88 text-text-primary shadow-xl backdrop-blur-md transition-opacity duration-150"
+          >
+            <div className="px-5 py-3 flex items-start gap-3">
+              <Mic className="w-4 h-4 shrink-0 mt-1 text-accent-cyan" />
+              <div className="leading-relaxed text-[15px] font-medium tracking-[0.01em]">
+                {lines.map((line, idx) => (
+                  <p key={`${segment?.id || 'line'}-${idx}`}>{line}</p>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       )}
 
-      {/* Controls bar */}
-      <div className="bg-white/95 backdrop-blur-md border-t border-border shadow-lg">
-        <div className="max-w-4xl mx-auto px-6 py-3.5 flex items-center justify-between gap-4">
-          {/* Left: Status */}
-          <div className="flex items-center gap-3 min-w-0">
-            {isGenerating && (
-              <>
-                <div className="w-5 h-5 border-2 border-accent-blue/30 border-t-accent-blue rounded-full animate-spin" />
-                <div className="min-w-0">
-                  <span className="text-sm font-semibold text-text-primary">
-                    Generating audio...
-                  </span>
-                  <span className="text-xs text-text-muted ml-2">
-                    {generationProgress.done}/{generationProgress.total} slides
-                  </span>
-                  <div className="w-32 h-1.5 bg-bg-surface rounded-full overflow-hidden mt-1.5 border border-border">
-                    <div
-                      className="h-full bg-accent-blue rounded-full transition-all duration-300"
-                      style={{ width: `${(generationProgress.done / generationProgress.total) * 100}%` }}
-                    />
-                  </div>
-                </div>
-              </>
+      {controlsVisible && (
+        <div className="px-6 pb-4 flex justify-center">
+          <div className="pointer-events-auto rounded-full border border-border bg-bg-secondary/88 backdrop-blur-md shadow-lg px-2 py-1.5 flex items-center gap-1.5">
+            {status === 'playing' ? (
+              <button
+                onClick={onPause}
+                className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-[11px] font-semibold text-text-secondary hover:text-text-primary hover:bg-bg-surface transition-colors"
+                aria-label="Pause narration"
+              >
+                <Pause className="w-3.5 h-3.5" />
+                Pause
+              </button>
+            ) : (
+              <button
+                onClick={onResume}
+                className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-[11px] font-semibold text-text-secondary hover:text-text-primary hover:bg-bg-surface transition-colors"
+                aria-label="Resume narration"
+                disabled={status === 'loading'}
+              >
+                <Play className="w-3.5 h-3.5" />
+                Resume
+              </button>
             )}
-            {(isPlaying || isPaused) && (
-              <span className="text-sm font-semibold text-text-primary flex items-center gap-2">
-                {isPlaying ? (
-                  <span className="flex items-center gap-1.5">
-                    <span className="w-2 h-2 rounded-full bg-accent-emerald animate-pulse" />
-                    Playing
-                  </span>
-                ) : (
-                  <span className="flex items-center gap-1.5">
-                    <span className="w-2 h-2 rounded-full bg-accent-amber" />
-                    Paused
-                  </span>
-                )}
-              </span>
-            )}
-            {error && (
-              <span className="text-sm text-accent-rose font-medium truncate">{error}</span>
-            )}
-          </div>
 
-          {/* Center: Transport controls */}
-          {(isPlaying || isPaused) && (
-            <div className="flex items-center gap-2">
-              <button
-                onClick={isPaused ? onResume : onPause}
-                className="w-10 h-10 flex items-center justify-center rounded-xl bg-bg-surface hover:bg-border border border-border transition-colors"
-                title={isPaused ? 'Resume' : 'Pause'}
-              >
-                {isPaused ? <Play className="w-4 h-4" /> : <Pause className="w-4 h-4" />}
-              </button>
-              <button
-                onClick={onSkip}
-                className="w-10 h-10 flex items-center justify-center rounded-xl bg-bg-surface hover:bg-border border border-border transition-colors"
-                title="Skip to next slide"
-              >
-                <SkipForward className="w-4 h-4" />
-              </button>
-              <button
-                onClick={nextSpeed}
-                className="px-3 py-2.5 rounded-xl bg-accent-blue/8 text-accent-blue font-mono font-bold text-xs border border-accent-blue/15 hover:bg-accent-blue/15 transition-colors"
-                title="Playback speed"
-              >
-                {playbackRate}×
-              </button>
-            </div>
-          )}
-
-          {/* Right: Stop / Settings */}
-          <div className="flex items-center gap-2">
-            {(isPlaying || isPaused) && (
-              <button
-                onClick={onStop}
-                className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-accent-rose/10 text-accent-rose border border-accent-rose/20 text-sm font-semibold hover:bg-accent-rose/20 transition-colors"
-              >
-                <Square className="w-3.5 h-3.5" />
-                Stop
-              </button>
-            )}
             <button
-              onClick={onSettings}
-              className="w-10 h-10 flex items-center justify-center rounded-xl bg-bg-surface hover:bg-border border border-border text-text-muted hover:text-text-secondary transition-colors"
-              title="Settings"
+              onClick={onReset}
+              className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-[11px] font-semibold text-text-secondary hover:text-text-primary hover:bg-bg-surface transition-colors"
+              aria-label="Reset narration"
             >
-              <Settings className="w-4 h-4" />
+              <RotateCcw className="w-3.5 h-3.5" />
+              Reset
             </button>
           </div>
         </div>
-      </div>
+      )}
+
+      {error && (
+        <div className="px-6 pb-4 flex justify-center">
+          <div className="max-w-3xl w-full md:w-auto rounded-xl border border-rose-300/40 bg-rose-950/72 text-rose-100 px-4 py-2 text-sm shadow-lg">
+            {error}
+          </div>
+        </div>
+      )}
+
+      {alignmentWarning && (
+        <div className="px-6 pb-4 flex justify-center">
+          <div className="max-w-3xl w-full md:w-auto rounded-xl border border-amber-300/40 bg-amber-950/65 text-amber-100 px-4 py-2 text-sm shadow-lg">
+            {alignmentWarning}
+          </div>
+        </div>
+      )}
     </div>
   )
 }

@@ -1,73 +1,65 @@
-# React + TypeScript + Vite
+# Renewable Grid Presentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive class presentation built with React + Vite.
 
-Currently, two official plugins are available:
+## Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Build
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
 ```
+
+## AI Narration Workflow (Static / GitHub Pages Friendly)
+
+This app ships pre-rendered narration so viewers never regenerate TTS at runtime.
+
+1. Update canonical narration text in `public/narration/manifest.json` (`slides[].scriptText`).
+2. Optional but recommended: verify alignment prerequisites (ffmpeg + Python packages):
+
+```bash
+npm run alignment:setup
+```
+
+3. Generate or refresh narrated WAV files + timing metadata:
+
+```bash
+GEMINI_API_KEY=your_key_here npm run narration:build
+```
+
+Voice behavior:
+- Requested voice defaults to `Alnilam`.
+- If that voice is rejected by Gemini, the builder falls back to `Charon` and records it in manifest metadata.
+
+4. Verify narration consistency:
+
+```bash
+npm run narration:verify
+```
+
+5. Build the app:
+
+```bash
+npm run build
+```
+
+`npm run build` now runs `narration:verify` first and fails if narration assets are stale or mismatched.
+
+6. Narration build writes/updates:
+- `public/narration/slide-XX-<hash>.wav`
+- `public/narration/manifest.json` (`scriptText`, `segments[]`, `words[]`, per-slide hashes/metadata, manifest-level TTS metadata)
+- a validation summary in terminal (forced/fallback alignment + text/timing checks)
+
+If forced alignment dependencies are missing, the builder still works and marks fallback timing mode.
+
+7. Manual visual sync keyframes live in:
+- `public/narration/keyframes.json`
+
+Runtime source of truth:
+- Subtitles and autoplay timing read from `public/narration/manifest.json`.
+- Print narration script also reads from the same manifest so captions/script/audio stay in lockstep.

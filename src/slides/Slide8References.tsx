@@ -1,11 +1,22 @@
 import { BookOpen, ExternalLink, Printer } from 'lucide-react'
-import { references } from '../content/slides'
-interface Props { showAnimControls?: boolean }
-export default function Slide8References(_props: Props) {
+import { references, visualCredits } from '../content/slides'
+interface Props {
+  activeFocusTarget?: string | null
+}
+export default function Slide8References({ activeFocusTarget }: Props) {
+  const highlightReferences = activeFocusTarget === 'references'
+  const highlightCredits = activeFocusTarget === 'credits'
+  const highlightThanks = activeFocusTarget === 'thanks'
+
   return (
     <div className="w-full h-full flex flex-col items-center justify-center px-12 lg:px-20 py-8">
       <div className="max-w-4xl w-full">
-        <div className="bg-white rounded-2xl border border-border p-8 card-shadow">
+        <div
+          className={`bg-bg-card rounded-2xl border p-8 card-shadow transition-all duration-500 ${
+            highlightReferences ? 'border-accent-blue shadow-lg shadow-accent-blue/10' : 'border-border'
+          }`}
+          id="references"
+        >
           <div className="flex items-center gap-3 mb-6">
             <div className="w-10 h-10 rounded-xl bg-accent-blue/10 flex items-center justify-center border border-accent-blue/20">
               <BookOpen className="w-4 h-4 text-accent-blue" />
@@ -27,15 +38,24 @@ export default function Slide8References(_props: Props) {
               </div>
             ))}
           </div>
-          <div className="p-5 rounded-xl bg-bg-surface border border-border">
+          <div
+            className={`p-5 rounded-xl bg-bg-surface border transition-all duration-500 ${
+              highlightCredits ? 'border-accent-emerald shadow-md shadow-accent-emerald/10' : 'border-border'
+            }`}
+            id="credits"
+          >
             <h3 className="text-sm font-bold text-text-primary mb-2 uppercase tracking-wider">Credits</h3>
-            <p className="text-sm text-text-muted leading-relaxed">
-              All visualizations — supply/demand animation, frequency response gauge, duck curve morph, capacity meter,
-              storage scale diagram, transmission congestion map, and solutions pipeline — are original SVG graphics
-              created programmatically for this presentation. No external chart libraries or stock images were used.
-            </p>
+            <div className="space-y-3">
+              {visualCredits.map((credit) => (
+                <div key={credit.id} className="rounded-lg border border-border/80 bg-bg-card p-3">
+                  <p className="text-sm font-semibold text-text-secondary leading-snug">{credit.asset}</p>
+                  <p className="mt-1 text-xs text-text-muted leading-relaxed">Source: {credit.source}</p>
+                  <p className="mt-1 text-xs text-text-muted leading-relaxed">{credit.method} Author: {credit.author}.</p>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="mt-6 text-center">
+          <div className="mt-6 text-center" id="thanks">
             <button
               onClick={() => window.open(window.location.origin + window.location.pathname + '#/print', '_blank')}
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-bg-surface border border-border hover:border-border-hover text-text-secondary hover:text-text-primary text-sm font-medium shadow-sm transition-all"
@@ -43,6 +63,9 @@ export default function Slide8References(_props: Props) {
               <Printer className="w-4 h-4" />
               Print-Friendly Notes View
             </button>
+            <p className={`mt-4 text-sm transition-colors duration-500 ${highlightThanks ? 'text-accent-blue font-semibold' : 'text-text-muted'}`}>
+              Thank you for listening.
+            </p>
           </div>
         </div>
       </div>

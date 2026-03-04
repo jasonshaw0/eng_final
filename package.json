@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run narration:verify && tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "narration:build": "node scripts/build_narration.mjs",
+    "narration:verify": "node scripts/verify_narration.mjs",
+    "alignment:setup": "powershell -ExecutionPolicy Bypass -File scripts/setup_alignment.ps1"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.0",

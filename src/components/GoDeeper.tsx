@@ -20,7 +20,7 @@ export default function GoDeeper({ items }: Props) {
     <div className="w-full max-w-3xl">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 px-4 py-2 text-sm font-semibold text-accent-amber hover:text-accent-amber/80 bg-white/95 backdrop-blur rounded-xl border border-amber-200 hover:border-amber-300 shadow-sm transition-all"
+        className="flex items-center gap-2 px-4 py-2 text-sm font-semibold text-accent-amber hover:text-accent-amber/80 bg-bg-secondary/90 backdrop-blur rounded-xl border border-border hover:border-accent-amber/40 shadow-sm transition-all"
         aria-expanded={open}
       >
         <svg
@@ -42,7 +42,7 @@ export default function GoDeeper({ items }: Props) {
           open ? 'max-h-96 opacity-100 mt-2' : 'max-h-0 opacity-0'
         }`}
       >
-        <div className="bg-white/95 backdrop-blur rounded-xl border border-border p-5 space-y-3 card-shadow-lg">
+        <div className="bg-bg-secondary/94 backdrop-blur rounded-xl border border-border p-5 space-y-3 card-shadow-lg">
           {items.map((item, i) => (
             <div key={i} className="flex gap-3">
               <span className="text-accent-amber text-sm mt-0.5 font-bold">▸</span>

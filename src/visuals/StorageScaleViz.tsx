@@ -1,4 +1,5 @@
-import AnimationControls, { useAnimationTimer } from '../components/AnimationControls'
+import { useAnimationTimer } from '../components/useAnimationTimer'
+import type { VisualFocusProps } from './types'
 
 const levels = [
   { label: '4 hours', height: 45, color: '#059669', desc: 'Evening peak' },
@@ -8,16 +9,17 @@ const levels = [
 ]
 const costMultipliers = [1, 3, 6, 18]
 
-interface Props { showControls?: boolean }
+type Props = VisualFocusProps
 
-export default function StorageScaleViz({ showControls = true }: Props) {
+export default function StorageScaleViz({ focusTargetId, focusEffect }: Props) {
   const CYCLE = 12
-  const { elapsed, paused, setPaused, speed, setSpeed } = useAnimationTimer(CYCLE)
+  const { elapsed } = useAnimationTimer(CYCLE)
   let phase = 0
   if (elapsed < 3) phase = 0; else if (elapsed < 6) phase = 1; else if (elapsed < 9) phase = 2; else phase = 3
 
   const w = 500, h = 350, barX = 95, barW = 100, baseY = 300
   const activeLevel = levels[phase], targetH = activeLevel.height
+  const focusOpacity = focusEffect === 'glow' ? 0.25 : 0.15
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-center gap-3">
@@ -25,6 +27,12 @@ export default function StorageScaleViz({ showControls = true }: Props) {
         Storing energy for <strong className="text-text-secondary">4 hours is easy; 72 hours is 18× costlier</strong>. Duration is the hidden variable in the storage equation.
       </p>
       <svg viewBox={`0 0 ${w} ${h}`} className="w-full max-w-md">
+        {focusTargetId === 'short-storage' && (
+          <rect x={barX - 14} y={baseY - levels[0].height - 14} width={barW + 28} height={levels[0].height + 28} rx="14" fill="#059669" opacity={focusOpacity} />
+        )}
+        {focusTargetId === 'long-storage' && (
+          <rect x={barX - 14} y={baseY - levels[3].height - 14} width={barW + 28} height={levels[3].height + 28} rx="14" fill="#e11d48" opacity={focusOpacity} />
+        )}
         {/* Ghost bars */}
         {levels.map((l, i) => (
           <rect key={i} x={barX} y={baseY - l.height} width={barW} height={l.height} rx="8" fill={l.color} opacity={i <= phase ? 0 : 0.03} stroke={l.color} strokeWidth="0.5" strokeOpacity={0.08} />
@@ -38,6 +46,9 @@ export default function StorageScaleViz({ showControls = true }: Props) {
 
         {/* Cost bars */}
         <g transform="translate(250, 50)">
+          {focusTargetId === 'cost-rail' && (
+            <rect x="-8" y="12" width="190" height="210" rx="12" fill="#2563eb" opacity={focusOpacity} />
+          )}
           <text x="0" y="0" fill="#475569" fontSize="14" fontWeight="800">Relative Cost</text>
           {levels.map((l, i) => {
             const bw = Math.min(costMultipliers[i] * 8, 150), active = i === phase
@@ -52,7 +63,6 @@ export default function StorageScaleViz({ showControls = true }: Props) {
         </g>
         <line x1={barX - 10} y1={baseY} x2={barX + barW + 10} y2={baseY} stroke="#e2e8f0" strokeWidth="1.5" />
       </svg>
-      <AnimationControls cycleDuration={CYCLE} elapsed={elapsed} onPauseChange={setPaused} onSpeedChange={setSpeed} paused={paused} speed={speed} visible={showControls} />
     </div>
   )
 }
