@@ -14,6 +14,16 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
+function describePlaybackError(error: unknown): string {
+  if (error instanceof DOMException) {
+    return `${error.name}: ${error.message}`
+  }
+  if (error instanceof Error) {
+    return error.message
+  }
+  return 'unknown playback error'
+}
+
 function resolveAssetPath(relativePath: string): string {
   const base = import.meta.env.BASE_URL || '/'
   if (!relativePath) return ''
@@ -239,6 +249,31 @@ export function useAutoPlay(
       return
     }
 
+    const audio = audioRef.current || new Audio()
+    audioRef.current = audio
+    audio.preload = 'auto'
+    audio.setAttribute('playsinline', 'true')
+    audio.playbackRate = playbackRateRef.current
+    audio.pause()
+    audio.src = src
+    audio.currentTime = 0
+    audio.load()
+
+    try {
+      await audio.play()
+    } catch (firstErr) {
+      await sleep(120)
+      try {
+        await audio.play()
+      } catch (secondErr) {
+        const reason = describePlaybackError(secondErr || firstErr)
+        setError(`Slide ${normalized.slideIndex + 1} audio playback failed (${reason}). Using fallback timing.`)
+        audio.pause()
+        await playTimedFallback(normalized, skipToken)
+        return
+      }
+    }
+
     await new Promise<void>((resolve) => {
       let done = false
 
@@ -249,13 +284,10 @@ export function useAutoPlay(
           cancelAnimationFrame(rafRef.current)
           rafRef.current = 0
         }
+        audio.removeEventListener('ended', onEnded)
+        audio.removeEventListener('error', onError)
         resolve()
       }
-
-      const audio = new Audio(src)
-      audioRef.current = audio
-      audio.preload = 'auto'
-      audio.playbackRate = playbackRateRef.current
 
       const loop = () => {
         if (!audioRef.current || done) return
@@ -274,17 +306,9 @@ export function useAutoPlay(
         finish()
       }
 
-      audio.addEventListener('ended', onEnded, { once: true })
-      audio.addEventListener('error', onError, { once: true })
-
-      audio.play().then(() => {
-        rafRef.current = requestAnimationFrame(loop)
-      }).catch(async () => {
-        setError(`Slide ${normalized.slideIndex + 1} autoplay blocked. Using fallback timing.`)
-        clearAudio()
-        await playTimedFallback(normalized, skipToken)
-        finish()
-      })
+      audio.addEventListener('ended', onEnded)
+      audio.addEventListener('error', onError)
+      rafRef.current = requestAnimationFrame(loop)
     })
   }, [clearAudio, playTimedFallback, updateTimeline])
 
@@ -335,7 +359,6 @@ export function useAutoPlay(
 
       setStatus(pausedRef.current ? 'paused' : 'playing')
       await playTrack(track, skipToken)
-      clearAudio()
 
       if (i < orderedTracks.length - 1 && isRunningRef.current) {
         await waitWithPause(1100, skipToken)
