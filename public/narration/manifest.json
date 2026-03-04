@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "generatedAt": "2026-03-04T16:38:32.676Z",
+  "version": 9,
+  "generatedAt": "2026-03-04T16:43:55.788Z",
   "voice": "Alnilam",
   "slides": [
     {
@@ -12,391 +12,391 @@
         {
           "id": "s-1",
           "text": "People often frame the solution as simply adding more solar and wind.",
-          "startMs": 150,
-          "endMs": 6097
+          "startMs": 31,
+          "endMs": 4515
         },
         {
           "id": "s-2",
           "text": "That is necessary, but reliability depends on more than installed capacity.",
-          "startMs": 6148,
-          "endMs": 11595
+          "startMs": 4995,
+          "endMs": 9760
         },
         {
           "id": "s-3",
           "text": "In this walkthrough we follow one chain: real-time balance, real output, daily ramps, disturbance stability, storage duration, and transmission delivery.",
-          "startMs": 11646,
-          "endMs": 22091
+          "startMs": 10420,
+          "endMs": 23032
         },
         {
           "id": "s-4",
           "text": "Together these show why good system design is about timing, stability, and delivery, not capacity alone.",
-          "startMs": 22142,
-          "endMs": 30089
+          "startMs": 23192,
+          "endMs": 30271
         }
       ],
       "words": [
         {
           "word": "People",
-          "startMs": 150,
-          "endMs": 599,
-          "confidence": 0.33249999999999996
+          "startMs": 31,
+          "endMs": 531,
+          "confidence": 0.52915
         },
         {
           "word": "often",
-          "startMs": 649,
-          "endMs": 1098,
-          "confidence": 0.33249999999999996
+          "startMs": 712,
+          "endMs": 952,
+          "confidence": 0.8112999999999999
         },
         {
           "word": "frame",
-          "startMs": 1149,
-          "endMs": 1598,
-          "confidence": 0.33249999999999996
+          "startMs": 1072,
+          "endMs": 1392,
+          "confidence": 0.627
         },
         {
           "word": "the",
-          "startMs": 1649,
-          "endMs": 2098,
-          "confidence": 0.33249999999999996
+          "startMs": 1452,
+          "endMs": 1532,
+          "confidence": 0.93195
         },
         {
           "word": "solution",
-          "startMs": 2149,
-          "endMs": 2598,
-          "confidence": 0.33249999999999996
+          "startMs": 1592,
+          "endMs": 2093,
+          "confidence": 0.7818499999999999
         },
         {
           "word": "as",
-          "startMs": 2649,
-          "endMs": 3098,
-          "confidence": 0.33249999999999996
+          "startMs": 2233,
+          "endMs": 2313,
+          "confidence": 0.6156
         },
         {
           "word": "simply",
-          "startMs": 3149,
-          "endMs": 3598,
-          "confidence": 0.33249999999999996
+          "startMs": 2413,
+          "endMs": 2753,
+          "confidence": 0.7789999999999999
         },
         {
           "word": "adding",
-          "startMs": 3648,
-          "endMs": 4097,
-          "confidence": 0.33249999999999996
+          "startMs": 2974,
+          "endMs": 3214,
+          "confidence": 0.8492999999999999
         },
         {
           "word": "more",
-          "startMs": 4148,
-          "endMs": 4597,
-          "confidence": 0.33249999999999996
+          "startMs": 3274,
+          "endMs": 3514,
+          "confidence": 0.7922999999999999
         },
         {
           "word": "solar",
-          "startMs": 4648,
-          "endMs": 5097,
-          "confidence": 0.33249999999999996
+          "startMs": 3654,
+          "endMs": 4014,
+          "confidence": 0.8569
         },
         {
           "word": "and",
-          "startMs": 5148,
-          "endMs": 5597,
-          "confidence": 0.33249999999999996
+          "startMs": 4075,
+          "endMs": 4155,
+          "confidence": 0.7903999999999999
         },
         {
           "word": "wind",
-          "startMs": 5648,
-          "endMs": 6097,
-          "confidence": 0.33249999999999996
+          "startMs": 4215,
+          "endMs": 4515,
+          "confidence": 0.9177
         },
         {
           "word": "That",
-          "startMs": 6148,
-          "endMs": 6597,
-          "confidence": 0.33249999999999996
+          "startMs": 4995,
+          "endMs": 5156,
+          "confidence": 0.86925
         },
         {
           "word": "is",
-          "startMs": 6647,
-          "endMs": 7096,
-          "confidence": 0.33249999999999996
+          "startMs": 5236,
+          "endMs": 5316,
+          "confidence": 0.7372
         },
         {
           "word": "necessary",
-          "startMs": 7147,
-          "endMs": 7596,
-          "confidence": 0.33249999999999996
+          "startMs": 5336,
+          "endMs": 6076,
+          "confidence": 0.82555
         },
         {
           "word": "but",
-          "startMs": 7647,
-          "endMs": 8096,
-          "confidence": 0.33249999999999996
+          "startMs": 6317,
+          "endMs": 6437,
+          "confidence": 0.9480999999999999
         },
         {
           "word": "reliability",
-          "startMs": 8147,
-          "endMs": 8596,
-          "confidence": 0.33249999999999996
+          "startMs": 6517,
+          "endMs": 7278,
+          "confidence": 0.7885
         },
         {
           "word": "depends",
-          "startMs": 8647,
-          "endMs": 9096,
-          "confidence": 0.33249999999999996
+          "startMs": 7318,
+          "endMs": 7718,
+          "confidence": 0.7562
         },
         {
           "word": "on",
-          "startMs": 9147,
-          "endMs": 9596,
-          "confidence": 0.33249999999999996
+          "startMs": 7878,
+          "endMs": 7938,
+          "confidence": 0.7277
         },
         {
           "word": "more",
-          "startMs": 9646,
-          "endMs": 10095,
-          "confidence": 0.33249999999999996
+          "startMs": 8058,
+          "endMs": 8318,
+          "confidence": 0.8103499999999999
         },
         {
           "word": "than",
-          "startMs": 10146,
-          "endMs": 10595,
-          "confidence": 0.33249999999999996
+          "startMs": 8379,
+          "endMs": 8519,
+          "confidence": 0.8588
         },
         {
           "word": "installed",
-          "startMs": 10646,
-          "endMs": 11095,
-          "confidence": 0.33249999999999996
+          "startMs": 8659,
+          "endMs": 9099,
+          "confidence": 0.8321999999999999
         },
         {
           "word": "capacity",
-          "startMs": 11146,
-          "endMs": 11595,
-          "confidence": 0.33249999999999996
+          "startMs": 9139,
+          "endMs": 9760,
+          "confidence": 0.8464499999999999
         },
         {
           "word": "In",
-          "startMs": 11646,
-          "endMs": 12095,
-          "confidence": 0.33249999999999996
+          "startMs": 10420,
+          "endMs": 10480,
+          "confidence": 0.9386
         },
         {
           "word": "this",
-          "startMs": 12146,
-          "endMs": 12595,
-          "confidence": 0.33249999999999996
+          "startMs": 10520,
+          "endMs": 10681,
+          "confidence": 0.7799499999999999
         },
         {
           "word": "walkthrough",
-          "startMs": 12645,
-          "endMs": 13094,
-          "confidence": 0.33249999999999996
+          "startMs": 10761,
+          "endMs": 11281,
+          "confidence": 0.7903999999999999
         },
         {
           "word": "we",
-          "startMs": 13145,
-          "endMs": 13594,
-          "confidence": 0.33249999999999996
+          "startMs": 11301,
+          "endMs": 11461,
+          "confidence": 0.82365
         },
         {
           "word": "follow",
-          "startMs": 13645,
-          "endMs": 14094,
-          "confidence": 0.33249999999999996
+          "startMs": 11521,
+          "endMs": 11862,
+          "confidence": 0.8436
         },
         {
           "word": "one",
-          "startMs": 14145,
-          "endMs": 14594,
-          "confidence": 0.33249999999999996
+          "startMs": 11882,
+          "endMs": 12342,
+          "confidence": 0.6878
         },
         {
           "word": "chain",
-          "startMs": 14645,
-          "endMs": 15094,
-          "confidence": 0.33249999999999996
+          "startMs": 12502,
+          "endMs": 12863,
+          "confidence": 0.83885
         },
         {
           "word": "real",
-          "startMs": 15145,
-          "endMs": 15594,
-          "confidence": 0.33249999999999996
+          "startMs": 13483,
+          "endMs": 14064,
+          "confidence": 0.722
         },
         {
           "word": "time",
-          "startMs": 15644,
-          "endMs": 16093,
-          "confidence": 0.33249999999999996
+          "startMs": 14124,
+          "endMs": 15025,
+          "confidence": 0.8607
         },
         {
           "word": "balance",
-          "startMs": 16144,
-          "endMs": 16593,
-          "confidence": 0.33249999999999996
+          "startMs": 15045,
+          "endMs": 15305,
+          "confidence": 0.7429
         },
         {
           "word": "real",
-          "startMs": 16644,
-          "endMs": 17093,
-          "confidence": 0.33249999999999996
+          "startMs": 15445,
+          "endMs": 15825,
+          "confidence": 0.8018
         },
         {
           "word": "output",
-          "startMs": 17144,
-          "endMs": 17593,
-          "confidence": 0.33249999999999996
+          "startMs": 16346,
+          "endMs": 16706,
+          "confidence": 0.8967999999999999
         },
         {
           "word": "daily",
-          "startMs": 17644,
-          "endMs": 18093,
-          "confidence": 0.33249999999999996
+          "startMs": 16766,
+          "endMs": 17126,
+          "confidence": 0.8626
         },
         {
           "word": "ramps",
-          "startMs": 18144,
-          "endMs": 18593,
-          "confidence": 0.33249999999999996
+          "startMs": 17607,
+          "endMs": 18207,
+          "confidence": 0.80655
         },
         {
           "word": "disturbance",
-          "startMs": 18643,
-          "endMs": 19092,
-          "confidence": 0.33249999999999996
+          "startMs": 18247,
+          "endMs": 18768,
+          "confidence": 0.8122499999999999
         },
         {
           "word": "stability",
-          "startMs": 19143,
-          "endMs": 19592,
-          "confidence": 0.33249999999999996
+          "startMs": 19248,
+          "endMs": 19749,
+          "confidence": 0.8531
         },
         {
           "word": "storage",
-          "startMs": 19643,
-          "endMs": 20092,
-          "confidence": 0.33249999999999996
+          "startMs": 19789,
+          "endMs": 20269,
+          "confidence": 0.855
         },
         {
           "word": "duration",
-          "startMs": 20143,
-          "endMs": 20592,
-          "confidence": 0.33249999999999996
+          "startMs": 20630,
+          "endMs": 20730,
+          "confidence": 0.81985
         },
         {
           "word": "and",
-          "startMs": 20643,
-          "endMs": 21092,
-          "confidence": 0.33249999999999996
+          "startMs": 20770,
+          "endMs": 21550,
+          "confidence": 0.7970499999999999
         },
         {
           "word": "transmission",
-          "startMs": 21143,
-          "endMs": 21592,
-          "confidence": 0.33249999999999996
+          "startMs": 21610,
+          "endMs": 22071,
+          "confidence": 0.8398
         },
         {
           "word": "delivery",
-          "startMs": 21642,
-          "endMs": 22091,
-          "confidence": 0.33249999999999996
+          "startMs": 22611,
+          "endMs": 23032,
+          "confidence": 0.8492999999999999
         },
         {
           "word": "Together",
-          "startMs": 22142,
-          "endMs": 22591,
-          "confidence": 0.33249999999999996
+          "startMs": 23192,
+          "endMs": 23392,
+          "confidence": 0.75525
         },
         {
           "word": "these",
-          "startMs": 22642,
-          "endMs": 23091,
-          "confidence": 0.33249999999999996
+          "startMs": 23492,
+          "endMs": 23712,
+          "confidence": 0.7333999999999999
         },
         {
           "word": "show",
-          "startMs": 23142,
-          "endMs": 23591,
-          "confidence": 0.33249999999999996
+          "startMs": 23792,
+          "endMs": 23973,
+          "confidence": 0.7970499999999999
         },
         {
           "word": "why",
-          "startMs": 23642,
-          "endMs": 24091,
-          "confidence": 0.33249999999999996
+          "startMs": 24013,
+          "endMs": 24333,
+          "confidence": 0.7296
         },
         {
           "word": "good",
-          "startMs": 24142,
-          "endMs": 24591,
-          "confidence": 0.33249999999999996
+          "startMs": 24433,
+          "endMs": 24773,
+          "confidence": 0.78565
         },
         {
           "word": "system",
-          "startMs": 24641,
-          "endMs": 25090,
-          "confidence": 0.33249999999999996
+          "startMs": 24813,
+          "endMs": 25194,
+          "confidence": 0.7695
         },
         {
           "word": "design",
-          "startMs": 25141,
-          "endMs": 25590,
-          "confidence": 0.33249999999999996
+          "startMs": 25234,
+          "endMs": 25394,
+          "confidence": 0.57
         },
         {
           "word": "is",
-          "startMs": 25641,
-          "endMs": 26090,
-          "confidence": 0.33249999999999996
+          "startMs": 25454,
+          "endMs": 25674,
+          "confidence": 0.7049
         },
         {
           "word": "about",
-          "startMs": 26141,
-          "endMs": 26590,
-          "confidence": 0.33249999999999996
+          "startMs": 25774,
+          "endMs": 26215,
+          "confidence": 0.92055
         },
         {
           "word": "timing",
-          "startMs": 26641,
-          "endMs": 27090,
-          "confidence": 0.33249999999999996
+          "startMs": 26595,
+          "endMs": 27215,
+          "confidence": 0.7770999999999999
         },
         {
           "word": "stability",
-          "startMs": 27141,
-          "endMs": 27590,
-          "confidence": 0.33249999999999996
+          "startMs": 27416,
+          "endMs": 27476,
+          "confidence": 0.86165
         },
         {
           "word": "and",
-          "startMs": 27640,
-          "endMs": 28089,
-          "confidence": 0.33249999999999996
+          "startMs": 27536,
+          "endMs": 28056,
+          "confidence": 0.8379
         },
         {
           "word": "delivery",
-          "startMs": 28140,
-          "endMs": 28589,
-          "confidence": 0.33249999999999996
+          "startMs": 28417,
+          "endMs": 28677,
+          "confidence": 0.74385
         },
         {
           "word": "not",
-          "startMs": 28640,
-          "endMs": 29089,
-          "confidence": 0.33249999999999996
+          "startMs": 28817,
+          "endMs": 29457,
+          "confidence": 0.9006
         },
         {
           "word": "capacity",
-          "startMs": 29140,
-          "endMs": 29589,
-          "confidence": 0.33249999999999996
+          "startMs": 29578,
+          "endMs": 30038,
+          "confidence": 0.7162999999999999
         },
         {
           "word": "alone",
-          "startMs": 29640,
-          "endMs": 30089,
-          "confidence": 0.33249999999999996
+          "startMs": 30038,
+          "endMs": 30271,
+          "confidence": 0.27549999999999997
         }
       ],
-      "alignmentMode": "fallback",
+      "alignmentMode": "forced",
       "scriptHash": "40e99c11c8",
       "audioHash": "3386768d96",
       "modelUsed": "gemini-2.5-pro-preview-tts",
@@ -412,423 +412,423 @@
         {
           "id": "s-1",
           "text": "The first operating rule is continuous balance: supply and demand must match every second.",
-          "startMs": 150,
-          "endMs": 6784
+          "startMs": 31,
+          "endMs": 6669
         },
         {
           "id": "s-2",
           "text": "When demand exceeds generation, frequency drifts downward, and operators treat that drift as an early warning.",
-          "startMs": 6832,
-          "endMs": 14421,
+          "startMs": 7291,
+          "endMs": 15373,
           "focusTargetId": "frequency-alert",
           "effect": "glow"
         },
         {
           "id": "s-3",
           "text": "If imbalance persists, protective actions can disconnect equipment to protect the system.",
-          "startMs": 14470,
-          "endMs": 20150
+          "startMs": 15373,
+          "endMs": 21117
         },
         {
           "id": "s-4",
           "text": "So fast, flexible response matters.",
-          "startMs": 20198,
-          "endMs": 22536
+          "startMs": 21579,
+          "endMs": 23969
         },
         {
           "id": "s-5",
           "text": "With that in mind, the next question is how much different resources actually produce through the day.",
-          "startMs": 22585,
-          "endMs": 30651
+          "startMs": 24612,
+          "endMs": 30831
         }
       ],
       "words": [
         {
           "word": "The",
-          "startMs": 150,
-          "endMs": 579,
-          "confidence": 0.33249999999999996
+          "startMs": 31,
+          "endMs": 392,
+          "confidence": 0.7324499999999999
         },
         {
           "word": "first",
-          "startMs": 627,
-          "endMs": 1056,
-          "confidence": 0.33249999999999996
+          "startMs": 452,
+          "endMs": 713,
+          "confidence": 0.8227
         },
         {
           "word": "operating",
-          "startMs": 1104,
-          "endMs": 1533,
-          "confidence": 0.33249999999999996
+          "startMs": 753,
+          "endMs": 1315,
+          "confidence": 0.7903999999999999
         },
         {
           "word": "rule",
-          "startMs": 1582,
-          "endMs": 2011,
-          "confidence": 0.33249999999999996
+          "startMs": 1375,
+          "endMs": 1635,
+          "confidence": 0.7134499999999999
         },
         {
           "word": "is",
-          "startMs": 2059,
-          "endMs": 2488,
-          "confidence": 0.33249999999999996
+          "startMs": 1836,
+          "endMs": 1896,
+          "confidence": 0.6839999999999999
         },
         {
           "word": "continuous",
-          "startMs": 2536,
-          "endMs": 2965,
-          "confidence": 0.33249999999999996
+          "startMs": 1976,
+          "endMs": 2698,
+          "confidence": 0.8293499999999999
         },
         {
           "word": "balance",
-          "startMs": 3014,
-          "endMs": 3443,
-          "confidence": 0.33249999999999996
+          "startMs": 2758,
+          "endMs": 3220,
+          "confidence": 0.855
         },
         {
           "word": "supply",
-          "startMs": 3491,
-          "endMs": 3920,
-          "confidence": 0.33249999999999996
+          "startMs": 3701,
+          "endMs": 4243,
+          "confidence": 0.8910999999999999
         },
         {
           "word": "and",
-          "startMs": 3968,
-          "endMs": 4397,
-          "confidence": 0.33249999999999996
+          "startMs": 4283,
+          "endMs": 4463,
+          "confidence": 0.64885
         },
         {
           "word": "demand",
-          "startMs": 4446,
-          "endMs": 4875,
-          "confidence": 0.33249999999999996
+          "startMs": 4503,
+          "endMs": 4904,
+          "confidence": 0.646
         },
         {
           "word": "must",
-          "startMs": 4923,
-          "endMs": 5352,
-          "confidence": 0.33249999999999996
+          "startMs": 5105,
+          "endMs": 5326,
+          "confidence": 0.87115
         },
         {
           "word": "match",
-          "startMs": 5400,
-          "endMs": 5829,
-          "confidence": 0.33249999999999996
+          "startMs": 5466,
+          "endMs": 5847,
+          "confidence": 0.8702
         },
         {
           "word": "every",
-          "startMs": 5878,
-          "endMs": 6307,
-          "confidence": 0.33249999999999996
+          "startMs": 6027,
+          "endMs": 6228,
+          "confidence": 0.65455
         },
         {
           "word": "second",
-          "startMs": 6355,
-          "endMs": 6784,
-          "confidence": 0.33249999999999996
+          "startMs": 6308,
+          "endMs": 6669,
+          "confidence": 0.8492999999999999
         },
         {
           "word": "When",
-          "startMs": 6832,
-          "endMs": 7261,
-          "confidence": 0.33249999999999996
+          "startMs": 7291,
+          "endMs": 7431,
+          "confidence": 0.87115
         },
         {
           "word": "demand",
-          "startMs": 7310,
-          "endMs": 7739,
-          "confidence": 0.33249999999999996
+          "startMs": 7471,
+          "endMs": 7893,
+          "confidence": 0.7818499999999999
         },
         {
           "word": "exceeds",
-          "startMs": 7787,
-          "endMs": 8216,
-          "confidence": 0.33249999999999996
+          "startMs": 7933,
+          "endMs": 8655,
+          "confidence": 0.82555
         },
         {
           "word": "generation",
-          "startMs": 8264,
-          "endMs": 8693,
-          "confidence": 0.33249999999999996
+          "startMs": 8755,
+          "endMs": 9377,
+          "confidence": 0.82555
         },
         {
           "word": "frequency",
-          "startMs": 8742,
-          "endMs": 9171,
-          "confidence": 0.33249999999999996
+          "startMs": 9778,
+          "endMs": 10359,
+          "confidence": 0.7979999999999999
         },
         {
           "word": "drifts",
-          "startMs": 9219,
-          "endMs": 9648,
-          "confidence": 0.33249999999999996
+          "startMs": 10399,
+          "endMs": 10841,
+          "confidence": 0.7068
         },
         {
           "word": "downward",
-          "startMs": 9696,
-          "endMs": 10125,
-          "confidence": 0.33249999999999996
+          "startMs": 10921,
+          "endMs": 11442,
+          "confidence": 0.80275
         },
         {
           "word": "and",
-          "startMs": 10174,
-          "endMs": 10603,
-          "confidence": 0.33249999999999996
+          "startMs": 11843,
+          "endMs": 11944,
+          "confidence": 0.78755
         },
         {
           "word": "operators",
-          "startMs": 10651,
-          "endMs": 11080,
-          "confidence": 0.33249999999999996
+          "startMs": 11964,
+          "endMs": 12626,
+          "confidence": 0.7143999999999999
         },
         {
           "word": "treat",
-          "startMs": 11128,
-          "endMs": 11557,
-          "confidence": 0.33249999999999996
+          "startMs": 12666,
+          "endMs": 13027,
+          "confidence": 0.8417
         },
         {
           "word": "that",
-          "startMs": 11606,
-          "endMs": 12035,
-          "confidence": 0.33249999999999996
+          "startMs": 13067,
+          "endMs": 13227,
+          "confidence": 0.7638
         },
         {
           "word": "drift",
-          "startMs": 12083,
-          "endMs": 12512,
-          "confidence": 0.33249999999999996
+          "startMs": 13327,
+          "endMs": 13648,
+          "confidence": 0.817
         },
         {
           "word": "as",
-          "startMs": 12560,
-          "endMs": 12989,
-          "confidence": 0.33249999999999996
+          "startMs": 13869,
+          "endMs": 13929,
+          "confidence": 0.71155
         },
         {
           "word": "an",
-          "startMs": 13038,
-          "endMs": 13467,
-          "confidence": 0.33249999999999996
+          "startMs": 13989,
+          "endMs": 14049,
+          "confidence": 0.23845
         },
         {
           "word": "early",
-          "startMs": 13515,
-          "endMs": 13944,
-          "confidence": 0.33249999999999996
+          "startMs": 14190,
+          "endMs": 14471,
+          "confidence": 0.6640499999999999
         },
         {
           "word": "warning",
-          "startMs": 13992,
-          "endMs": 14421,
-          "confidence": 0.33249999999999996
+          "startMs": 14531,
+          "endMs": 15373,
+          "confidence": 0.86735
         },
         {
           "word": "If",
-          "startMs": 14470,
-          "endMs": 14899,
-          "confidence": 0.33249999999999996
+          "startMs": 15373,
+          "endMs": 15634,
+          "confidence": 0.8626
         },
         {
           "word": "imbalance",
-          "startMs": 14947,
-          "endMs": 15376,
-          "confidence": 0.33249999999999996
+          "startMs": 15735,
+          "endMs": 16297,
+          "confidence": 0.7258
         },
         {
           "word": "persists",
-          "startMs": 15425,
-          "endMs": 15854,
-          "confidence": 0.33249999999999996
+          "startMs": 16357,
+          "endMs": 16960,
+          "confidence": 0.8531
         },
         {
           "word": "protective",
-          "startMs": 15902,
-          "endMs": 16331,
-          "confidence": 0.33249999999999996
+          "startMs": 17321,
+          "endMs": 17823,
+          "confidence": 0.836
         },
         {
           "word": "actions",
-          "startMs": 16379,
-          "endMs": 16808,
-          "confidence": 0.33249999999999996
+          "startMs": 17944,
+          "endMs": 18305,
+          "confidence": 0.6536
         },
         {
           "word": "can",
-          "startMs": 16857,
-          "endMs": 17286,
-          "confidence": 0.33249999999999996
+          "startMs": 18386,
+          "endMs": 18526,
+          "confidence": 0.87115
         },
         {
           "word": "disconnect",
-          "startMs": 17334,
-          "endMs": 17763,
-          "confidence": 0.33249999999999996
+          "startMs": 18647,
+          "endMs": 19209,
+          "confidence": 0.836
         },
         {
           "word": "equipment",
-          "startMs": 17811,
-          "endMs": 18240,
-          "confidence": 0.33249999999999996
+          "startMs": 19269,
+          "endMs": 19731,
+          "confidence": 0.6963499999999999
         },
         {
           "word": "to",
-          "startMs": 18289,
-          "endMs": 18718,
-          "confidence": 0.33249999999999996
+          "startMs": 19932,
+          "endMs": 20013,
+          "confidence": 0.8759
         },
         {
           "word": "protect",
-          "startMs": 18766,
-          "endMs": 19195,
-          "confidence": 0.33249999999999996
+          "startMs": 20073,
+          "endMs": 20495,
+          "confidence": 0.8607
         },
         {
           "word": "the",
-          "startMs": 19243,
-          "endMs": 19672,
-          "confidence": 0.33249999999999996
+          "startMs": 20535,
+          "endMs": 20695,
+          "confidence": 0.51585
         },
         {
           "word": "system",
-          "startMs": 19721,
-          "endMs": 20150,
-          "confidence": 0.33249999999999996
+          "startMs": 20756,
+          "endMs": 21117,
+          "confidence": 0.8977499999999999
         },
         {
           "word": "So",
-          "startMs": 20198,
-          "endMs": 20627,
-          "confidence": 0.33249999999999996
+          "startMs": 21579,
+          "endMs": 21740,
+          "confidence": 0.8084499999999999
         },
         {
           "word": "fast",
-          "startMs": 20675,
-          "endMs": 21104,
-          "confidence": 0.33249999999999996
+          "startMs": 21840,
+          "endMs": 22242,
+          "confidence": 0.7951499999999999
         },
         {
           "word": "flexible",
-          "startMs": 21153,
-          "endMs": 21582,
-          "confidence": 0.33249999999999996
+          "startMs": 22423,
+          "endMs": 22885,
+          "confidence": 0.6859
         },
         {
           "word": "response",
-          "startMs": 21630,
-          "endMs": 22059,
-          "confidence": 0.33249999999999996
+          "startMs": 22945,
+          "endMs": 23467,
+          "confidence": 0.85025
         },
         {
           "word": "matters",
-          "startMs": 22107,
-          "endMs": 22536,
-          "confidence": 0.33249999999999996
+          "startMs": 23608,
+          "endMs": 23969,
+          "confidence": 0.9119999999999999
         },
         {
           "word": "With",
-          "startMs": 22585,
-          "endMs": 23014,
-          "confidence": 0.33249999999999996
+          "startMs": 24612,
+          "endMs": 24732,
+          "confidence": 0.8759
         },
         {
           "word": "that",
-          "startMs": 23062,
-          "endMs": 23491,
-          "confidence": 0.33249999999999996
+          "startMs": 24772,
+          "endMs": 24913,
+          "confidence": 0.9414499999999999
         },
         {
           "word": "in",
-          "startMs": 23539,
-          "endMs": 23968,
-          "confidence": 0.33249999999999996
+          "startMs": 24973,
+          "endMs": 25034,
+          "confidence": 0.9423999999999999
         },
         {
           "word": "mind",
-          "startMs": 24017,
-          "endMs": 24446,
-          "confidence": 0.33249999999999996
+          "startMs": 25094,
+          "endMs": 25375,
+          "confidence": 0.9148499999999999
         },
         {
           "word": "the",
-          "startMs": 24494,
-          "endMs": 24923,
-          "confidence": 0.33249999999999996
+          "startMs": 25656,
+          "endMs": 25757,
+          "confidence": 0.7657
         },
         {
           "word": "next",
-          "startMs": 24971,
-          "endMs": 25400,
-          "confidence": 0.33249999999999996
+          "startMs": 25797,
+          "endMs": 26018,
+          "confidence": 0.8464499999999999
         },
         {
           "word": "question",
-          "startMs": 25449,
-          "endMs": 25878,
-          "confidence": 0.33249999999999996
+          "startMs": 26078,
+          "endMs": 26480,
+          "confidence": 0.7134499999999999
         },
         {
           "word": "is",
-          "startMs": 25926,
-          "endMs": 26355,
-          "confidence": 0.33249999999999996
+          "startMs": 26520,
+          "endMs": 26881,
+          "confidence": 0.89965
         },
         {
           "word": "how",
-          "startMs": 26403,
-          "endMs": 26832,
-          "confidence": 0.33249999999999996
+          "startMs": 27002,
+          "endMs": 27183,
+          "confidence": 0.8246
         },
         {
           "word": "much",
-          "startMs": 26881,
-          "endMs": 27310,
-          "confidence": 0.33249999999999996
+          "startMs": 27283,
+          "endMs": 27504,
+          "confidence": 0.5813999999999999
         },
         {
           "word": "different",
-          "startMs": 27358,
-          "endMs": 27787,
-          "confidence": 0.33249999999999996
+          "startMs": 27624,
+          "endMs": 27926,
+          "confidence": 0.7068
         },
         {
           "word": "resources",
-          "startMs": 27835,
-          "endMs": 28264,
-          "confidence": 0.33249999999999996
+          "startMs": 28006,
+          "endMs": 28588,
+          "confidence": 0.7866
         },
         {
           "word": "actually",
-          "startMs": 28313,
-          "endMs": 28742,
-          "confidence": 0.33249999999999996
+          "startMs": 28629,
+          "endMs": 29211,
+          "confidence": 0.9224499999999999
         },
         {
           "word": "produce",
-          "startMs": 28790,
-          "endMs": 29219,
-          "confidence": 0.33249999999999996
+          "startMs": 29291,
+          "endMs": 29814,
+          "confidence": 0.6659499999999999
         },
         {
           "word": "through",
-          "startMs": 29267,
-          "endMs": 29696,
-          "confidence": 0.33249999999999996
+          "startMs": 29894,
+          "endMs": 30095,
+          "confidence": 0.627
         },
         {
           "word": "the",
-          "startMs": 29745,
-          "endMs": 30174,
-          "confidence": 0.33249999999999996
+          "startMs": 30135,
+          "endMs": 30215,
+          "confidence": 0.7894499999999999
         },
         {
           "word": "day",
-          "startMs": 30222,
-          "endMs": 30651,
-          "confidence": 0.33249999999999996
+          "startMs": 30255,
+          "endMs": 30831,
+          "confidence": 0.7970499999999999
         }
       ],
-      "alignmentMode": "fallback",
+      "alignmentMode": "forced",
       "scriptHash": "55c4c18c3c",
       "audioHash": "e2e30aabb2",
       "modelUsed": "gemini-2.5-pro-preview-tts",
@@ -844,415 +844,415 @@
         {
           "id": "s-1",
           "text": "Building on balance, planning needs real output, not label output.",
-          "startMs": 150,
-          "endMs": 4899
+          "startMs": 31,
+          "endMs": 5477
         },
         {
           "id": "s-2",
           "text": "Nameplate capacity is a best-case maximum, while actual generation varies with weather, sun angle, season, and operating limits.",
-          "startMs": 4948,
-          "endMs": 14016
+          "startMs": 6438,
+          "endMs": 14767
         },
         {
           "id": "s-3",
           "text": "That is why planners use expected production and uncertainty ranges instead of one-for-one nameplate replacement.",
-          "startMs": 14065,
-          "endMs": 22173
+          "startMs": 14827,
+          "endMs": 24178
         },
         {
           "id": "s-4",
           "text": "When these variations are viewed hour by hour, they create the daily shape that drives the next constraint.",
-          "startMs": 22222,
-          "endMs": 30811
+          "startMs": 24239,
+          "endMs": 30991
         }
       ],
       "words": [
         {
           "word": "Building",
-          "startMs": 150,
-          "endMs": 581,
-          "confidence": 0.33249999999999996
+          "startMs": 31,
+          "endMs": 772,
+          "confidence": 0.64885
         },
         {
           "word": "on",
-          "startMs": 629,
-          "endMs": 1060,
-          "confidence": 0.33249999999999996
+          "startMs": 972,
+          "endMs": 1052,
+          "confidence": 0.722
         },
         {
           "word": "balance",
-          "startMs": 1109,
-          "endMs": 1540,
-          "confidence": 0.33249999999999996
+          "startMs": 1172,
+          "endMs": 1673,
+          "confidence": 0.91865
         },
         {
           "word": "planning",
-          "startMs": 1589,
-          "endMs": 2020,
-          "confidence": 0.33249999999999996
+          "startMs": 2093,
+          "endMs": 2514,
+          "confidence": 0.74385
         },
         {
           "word": "needs",
-          "startMs": 2069,
-          "endMs": 2500,
-          "confidence": 0.33249999999999996
+          "startMs": 2654,
+          "endMs": 2894,
+          "confidence": 0.85215
         },
         {
           "word": "real",
-          "startMs": 2549,
-          "endMs": 2980,
-          "confidence": 0.33249999999999996
+          "startMs": 2914,
+          "endMs": 3355,
+          "confidence": 0.7723499999999999
         },
         {
           "word": "output",
-          "startMs": 3029,
-          "endMs": 3460,
-          "confidence": 0.33249999999999996
+          "startMs": 3495,
+          "endMs": 3875,
+          "confidence": 0.8246
         },
         {
           "word": "not",
-          "startMs": 3508,
-          "endMs": 3939,
-          "confidence": 0.33249999999999996
+          "startMs": 4196,
+          "endMs": 4396,
+          "confidence": 0.6963499999999999
         },
         {
           "word": "label",
-          "startMs": 3988,
-          "endMs": 4419,
-          "confidence": 0.33249999999999996
+          "startMs": 4596,
+          "endMs": 4956,
+          "confidence": 0.75145
         },
         {
           "word": "output",
-          "startMs": 4468,
-          "endMs": 4899,
-          "confidence": 0.33249999999999996
+          "startMs": 5076,
+          "endMs": 5477,
+          "confidence": 0.8246
         },
         {
           "word": "Nameplate",
-          "startMs": 4948,
-          "endMs": 5379,
-          "confidence": 0.33249999999999996
+          "startMs": 6438,
+          "endMs": 6938,
+          "confidence": 0.87115
         },
         {
           "word": "capacity",
-          "startMs": 5428,
-          "endMs": 5859,
-          "confidence": 0.33249999999999996
+          "startMs": 6979,
+          "endMs": 7559,
+          "confidence": 0.7866
         },
         {
           "word": "is",
-          "startMs": 5908,
-          "endMs": 6339,
-          "confidence": 0.33249999999999996
+          "startMs": 7599,
+          "endMs": 7799,
+          "confidence": 0.61465
         },
         {
           "word": "a",
-          "startMs": 6387,
-          "endMs": 6818,
-          "confidence": 0.33249999999999996
+          "startMs": 7879,
+          "endMs": 7919,
+          "confidence": 0.8958499999999999
         },
         {
           "word": "best",
-          "startMs": 6867,
-          "endMs": 7298,
-          "confidence": 0.33249999999999996
+          "startMs": 8060,
+          "endMs": 8340,
+          "confidence": 0.8379
         },
         {
           "word": "case",
-          "startMs": 7347,
-          "endMs": 7778,
-          "confidence": 0.33249999999999996
+          "startMs": 8420,
+          "endMs": 8700,
+          "confidence": 0.89965
         },
         {
           "word": "maximum",
-          "startMs": 7827,
-          "endMs": 8258,
-          "confidence": 0.33249999999999996
+          "startMs": 8700,
+          "endMs": 8740,
+          "confidence": 0.89965
         },
         {
           "word": "while",
-          "startMs": 8307,
-          "endMs": 8738,
-          "confidence": 0.33249999999999996
+          "startMs": 8740,
+          "endMs": 9321,
+          "confidence": 0.75525
         },
         {
           "word": "actual",
-          "startMs": 8787,
-          "endMs": 9218,
-          "confidence": 0.33249999999999996
+          "startMs": 9681,
+          "endMs": 9902,
+          "confidence": 0.8398
         },
         {
           "word": "generation",
-          "startMs": 9267,
-          "endMs": 9698,
-          "confidence": 0.33249999999999996
+          "startMs": 9922,
+          "endMs": 10522,
+          "confidence": 0.817
         },
         {
           "word": "varies",
-          "startMs": 9746,
-          "endMs": 10177,
-          "confidence": 0.33249999999999996
+          "startMs": 10582,
+          "endMs": 11163,
+          "confidence": 0.7134499999999999
         },
         {
           "word": "with",
-          "startMs": 10226,
-          "endMs": 10657,
-          "confidence": 0.33249999999999996
+          "startMs": 11343,
+          "endMs": 11744,
+          "confidence": 0.7970499999999999
         },
         {
           "word": "weather",
-          "startMs": 10706,
-          "endMs": 11137,
-          "confidence": 0.33249999999999996
+          "startMs": 11844,
+          "endMs": 11984,
+          "confidence": 0.7524
         },
         {
           "word": "sun",
-          "startMs": 11186,
-          "endMs": 11617,
-          "confidence": 0.33249999999999996
+          "startMs": 12084,
+          "endMs": 12404,
+          "confidence": 0.8835
         },
         {
           "word": "angle",
-          "startMs": 11666,
-          "endMs": 12097,
-          "confidence": 0.33249999999999996
+          "startMs": 12745,
+          "endMs": 12965,
+          "confidence": 0.7885
         },
         {
           "word": "season",
-          "startMs": 12146,
-          "endMs": 12577,
-          "confidence": 0.33249999999999996
+          "startMs": 13045,
+          "endMs": 13325,
+          "confidence": 0.8246
         },
         {
           "word": "and",
-          "startMs": 12625,
-          "endMs": 13056,
-          "confidence": 0.33249999999999996
+          "startMs": 13586,
+          "endMs": 14006,
+          "confidence": 0.7827999999999999
         },
         {
           "word": "operating",
-          "startMs": 13105,
-          "endMs": 13536,
-          "confidence": 0.33249999999999996
+          "startMs": 14186,
+          "endMs": 14246,
+          "confidence": 0.8967999999999999
         },
         {
           "word": "limits",
-          "startMs": 13585,
-          "endMs": 14016,
-          "confidence": 0.33249999999999996
+          "startMs": 14347,
+          "endMs": 14767,
+          "confidence": 0.88445
         },
         {
           "word": "That",
-          "startMs": 14065,
-          "endMs": 14496,
-          "confidence": 0.33249999999999996
+          "startMs": 14827,
+          "endMs": 15107,
+          "confidence": 0.88635
         },
         {
           "word": "is",
-          "startMs": 14545,
-          "endMs": 14976,
-          "confidence": 0.33249999999999996
+          "startMs": 16008,
+          "endMs": 16168,
+          "confidence": 0.93195
         },
         {
           "word": "why",
-          "startMs": 15025,
-          "endMs": 15456,
-          "confidence": 0.33249999999999996
+          "startMs": 16229,
+          "endMs": 16289,
+          "confidence": 0.7448
         },
         {
           "word": "planners",
-          "startMs": 15505,
-          "endMs": 15936,
-          "confidence": 0.33249999999999996
+          "startMs": 16349,
+          "endMs": 16469,
+          "confidence": 0.84075
         },
         {
           "word": "use",
-          "startMs": 15984,
-          "endMs": 16415,
-          "confidence": 0.33249999999999996
+          "startMs": 16529,
+          "endMs": 16989,
+          "confidence": 0.7372
         },
         {
           "word": "expected",
-          "startMs": 16464,
-          "endMs": 16895,
-          "confidence": 0.33249999999999996
+          "startMs": 17029,
+          "endMs": 17310,
+          "confidence": 0.5357999999999999
         },
         {
           "word": "production",
-          "startMs": 16944,
-          "endMs": 17375,
-          "confidence": 0.33249999999999996
+          "startMs": 17350,
+          "endMs": 18091,
+          "confidence": 0.8816
         },
         {
           "word": "and",
-          "startMs": 17424,
-          "endMs": 17855,
-          "confidence": 0.33249999999999996
+          "startMs": 18171,
+          "endMs": 18651,
+          "confidence": 0.73055
         },
         {
           "word": "uncertainty",
-          "startMs": 17904,
-          "endMs": 18335,
-          "confidence": 0.33249999999999996
+          "startMs": 18791,
+          "endMs": 18851,
+          "confidence": 0.7989499999999999
         },
         {
           "word": "ranges",
-          "startMs": 18384,
-          "endMs": 18815,
-          "confidence": 0.33249999999999996
+          "startMs": 18972,
+          "endMs": 19612,
+          "confidence": 0.7657
         },
         {
           "word": "instead",
-          "startMs": 18863,
-          "endMs": 19294,
-          "confidence": 0.33249999999999996
+          "startMs": 19672,
+          "endMs": 20033,
+          "confidence": 0.73435
         },
         {
           "word": "of",
-          "startMs": 19343,
-          "endMs": 19774,
-          "confidence": 0.33249999999999996
+          "startMs": 20053,
+          "endMs": 20753,
+          "confidence": 0.7391
         },
         {
           "word": "one",
-          "startMs": 19823,
-          "endMs": 20254,
-          "confidence": 0.33249999999999996
+          "startMs": 20773,
+          "endMs": 20934,
+          "confidence": 0.7172499999999999
         },
         {
           "word": "for",
-          "startMs": 20303,
-          "endMs": 20734,
-          "confidence": 0.33249999999999996
+          "startMs": 20974,
+          "endMs": 21815,
+          "confidence": 0.62605
         },
         {
           "word": "one",
-          "startMs": 20783,
-          "endMs": 21214,
-          "confidence": 0.33249999999999996
+          "startMs": 21835,
+          "endMs": 22415,
+          "confidence": 0.63745
         },
         {
           "word": "nameplate",
-          "startMs": 21263,
-          "endMs": 21694,
-          "confidence": 0.33249999999999996
+          "startMs": 22475,
+          "endMs": 23136,
+          "confidence": 0.88065
         },
         {
           "word": "replacement",
-          "startMs": 21742,
-          "endMs": 22173,
-          "confidence": 0.33249999999999996
+          "startMs": 23977,
+          "endMs": 24178,
+          "confidence": 0.7960999999999999
         },
         {
           "word": "When",
-          "startMs": 22222,
-          "endMs": 22653,
-          "confidence": 0.33249999999999996
+          "startMs": 24239,
+          "endMs": 24460,
+          "confidence": 0.7619
         },
         {
           "word": "these",
-          "startMs": 22702,
-          "endMs": 23133,
-          "confidence": 0.33249999999999996
+          "startMs": 24480,
+          "endMs": 25184,
+          "confidence": 0.7780499999999999
         },
         {
           "word": "variations",
-          "startMs": 23182,
-          "endMs": 23613,
-          "confidence": 0.33249999999999996
+          "startMs": 25184,
+          "endMs": 25224,
+          "confidence": 0.7780499999999999
         },
         {
           "word": "are",
-          "startMs": 23662,
-          "endMs": 24093,
-          "confidence": 0.33249999999999996
+          "startMs": 25325,
+          "endMs": 25406,
+          "confidence": 0.80085
         },
         {
           "word": "viewed",
-          "startMs": 24142,
-          "endMs": 24573,
-          "confidence": 0.33249999999999996
+          "startMs": 25446,
+          "endMs": 25708,
+          "confidence": 0.6592999999999999
         },
         {
           "word": "hour",
-          "startMs": 24622,
-          "endMs": 25053,
-          "confidence": 0.33249999999999996
+          "startMs": 25748,
+          "endMs": 26211,
+          "confidence": 0.72105
         },
         {
           "word": "by",
-          "startMs": 25101,
-          "endMs": 25532,
-          "confidence": 0.33249999999999996
+          "startMs": 26251,
+          "endMs": 26452,
+          "confidence": 0.8417
         },
         {
           "word": "hour",
-          "startMs": 25581,
-          "endMs": 26012,
-          "confidence": 0.33249999999999996
+          "startMs": 26492,
+          "endMs": 26855,
+          "confidence": 0.6422
         },
         {
           "word": "they",
-          "startMs": 26061,
-          "endMs": 26492,
-          "confidence": 0.33249999999999996
+          "startMs": 26895,
+          "endMs": 27338,
+          "confidence": 0.7333999999999999
         },
         {
           "word": "create",
-          "startMs": 26541,
-          "endMs": 26972,
-          "confidence": 0.33249999999999996
+          "startMs": 27418,
+          "endMs": 27821,
+          "confidence": 0.6944499999999999
         },
         {
           "word": "the",
-          "startMs": 27021,
-          "endMs": 27452,
-          "confidence": 0.33249999999999996
+          "startMs": 27841,
+          "endMs": 28002,
+          "confidence": 0.6726
         },
         {
           "word": "daily",
-          "startMs": 27501,
-          "endMs": 27932,
-          "confidence": 0.33249999999999996
+          "startMs": 28122,
+          "endMs": 28465,
+          "confidence": 0.8607
         },
         {
           "word": "shape",
-          "startMs": 27980,
-          "endMs": 28411,
-          "confidence": 0.33249999999999996
+          "startMs": 28565,
+          "endMs": 28867,
+          "confidence": 0.8873
         },
         {
           "word": "that",
-          "startMs": 28460,
-          "endMs": 28891,
-          "confidence": 0.33249999999999996
+          "startMs": 29028,
+          "endMs": 29149,
+          "confidence": 0.8312499999999999
         },
         {
           "word": "drives",
-          "startMs": 28940,
-          "endMs": 29371,
-          "confidence": 0.33249999999999996
+          "startMs": 29209,
+          "endMs": 29612,
+          "confidence": 0.74575
         },
         {
           "word": "the",
-          "startMs": 29420,
-          "endMs": 29851,
-          "confidence": 0.33249999999999996
+          "startMs": 29632,
+          "endMs": 29793,
+          "confidence": 0.7087
         },
         {
           "word": "next",
-          "startMs": 29900,
-          "endMs": 30331,
-          "confidence": 0.33249999999999996
+          "startMs": 29893,
+          "endMs": 30155,
+          "confidence": 0.8122499999999999
         },
         {
           "word": "constraint",
-          "startMs": 30380,
-          "endMs": 30811,
-          "confidence": 0.33249999999999996
+          "startMs": 30256,
+          "endMs": 30991,
+          "confidence": 0.8160499999999999
         }
       ],
-      "alignmentMode": "fallback",
+      "alignmentMode": "forced",
       "scriptHash": "f79965213b",
       "audioHash": "9e8c585c71",
       "modelUsed": "gemini-2.5-pro-preview-tts",
@@ -1268,405 +1268,405 @@
         {
           "id": "s-1",
           "text": "From that output pattern, many grids now face the duck-curve shape.",
-          "startMs": 150,
-          "endMs": 5644
+          "startMs": 31,
+          "endMs": 4421
         },
         {
           "id": "s-2",
           "text": "Midday solar depresses net demand, then near sunset solar falls as demand rises, creating a steep ramp over a short window.",
-          "startMs": 5691,
-          "endMs": 15341,
+          "startMs": 5243,
+          "endMs": 14182,
           "focusTargetId": "sunset-ramp",
           "effect": "pulse"
         },
         {
           "id": "s-3",
           "text": "Other resources must increase quickly to hold balance and reliability.",
-          "startMs": 15388,
-          "endMs": 19959
+          "startMs": 15164,
+          "endMs": 18973
         },
         {
           "id": "s-4",
           "text": "Managing ramps is necessary, but reliability also depends on how the system behaves during disturbances, which leads to stability.",
-          "startMs": 20006,
-          "endMs": 28733
+          "startMs": 19875,
+          "endMs": 28911
         }
       ],
       "words": [
         {
           "word": "From",
-          "startMs": 150,
-          "endMs": 565,
-          "confidence": 0.33249999999999996
+          "startMs": 31,
+          "endMs": 492,
+          "confidence": 0.90155
         },
         {
           "word": "that",
-          "startMs": 611,
-          "endMs": 1026,
-          "confidence": 0.33249999999999996
+          "startMs": 532,
+          "endMs": 793,
+          "confidence": 0.8141499999999999
         },
         {
           "word": "output",
-          "startMs": 1073,
-          "endMs": 1488,
-          "confidence": 0.33249999999999996
+          "startMs": 933,
+          "endMs": 1254,
+          "confidence": 0.9043999999999999
         },
         {
           "word": "pattern",
-          "startMs": 1535,
-          "endMs": 1950,
-          "confidence": 0.33249999999999996
+          "startMs": 1294,
+          "endMs": 1635,
+          "confidence": 0.8492999999999999
         },
         {
           "word": "many",
-          "startMs": 1997,
-          "endMs": 2412,
-          "confidence": 0.33249999999999996
+          "startMs": 1975,
+          "endMs": 2216,
+          "confidence": 0.8265
         },
         {
           "word": "grids",
-          "startMs": 2458,
-          "endMs": 2873,
-          "confidence": 0.33249999999999996
+          "startMs": 2276,
+          "endMs": 2597,
+          "confidence": 0.7581
         },
         {
           "word": "now",
-          "startMs": 2920,
-          "endMs": 3335,
-          "confidence": 0.33249999999999996
+          "startMs": 2697,
+          "endMs": 2917,
+          "confidence": 0.8929999999999999
         },
         {
           "word": "face",
-          "startMs": 3382,
-          "endMs": 3797,
-          "confidence": 0.33249999999999996
+          "startMs": 3038,
+          "endMs": 3358,
+          "confidence": 0.83695
         },
         {
           "word": "the",
-          "startMs": 3844,
-          "endMs": 4259,
-          "confidence": 0.33249999999999996
+          "startMs": 3459,
+          "endMs": 3539,
+          "confidence": 0.9138999999999999
         },
         {
           "word": "duck",
-          "startMs": 4305,
-          "endMs": 4720,
-          "confidence": 0.33249999999999996
+          "startMs": 3559,
+          "endMs": 3779,
+          "confidence": 0.6839999999999999
         },
         {
           "word": "curve",
-          "startMs": 4767,
-          "endMs": 5182,
-          "confidence": 0.33249999999999996
+          "startMs": 3880,
+          "endMs": 4140,
+          "confidence": 0.8588
         },
         {
           "word": "shape",
-          "startMs": 5229,
-          "endMs": 5644,
-          "confidence": 0.33249999999999996
+          "startMs": 4180,
+          "endMs": 4421,
+          "confidence": 0.83695
         },
         {
           "word": "Midday",
-          "startMs": 5691,
-          "endMs": 6106,
-          "confidence": 0.33249999999999996
+          "startMs": 5243,
+          "endMs": 5704,
+          "confidence": 0.87495
         },
         {
           "word": "solar",
-          "startMs": 6153,
-          "endMs": 6568,
-          "confidence": 0.33249999999999996
+          "startMs": 5784,
+          "endMs": 6165,
+          "confidence": 0.78755
         },
         {
           "word": "depresses",
-          "startMs": 6614,
-          "endMs": 7029,
-          "confidence": 0.33249999999999996
+          "startMs": 6245,
+          "endMs": 6786,
+          "confidence": 0.7827999999999999
         },
         {
           "word": "net",
-          "startMs": 7076,
-          "endMs": 7491,
-          "confidence": 0.33249999999999996
+          "startMs": 6886,
+          "endMs": 7047,
+          "confidence": 0.9271999999999999
         },
         {
           "word": "demand",
-          "startMs": 7538,
-          "endMs": 7953,
-          "confidence": 0.33249999999999996
+          "startMs": 7087,
+          "endMs": 7548,
+          "confidence": 0.85975
         },
         {
           "word": "then",
-          "startMs": 8000,
-          "endMs": 8415,
-          "confidence": 0.33249999999999996
+          "startMs": 7949,
+          "endMs": 8189,
+          "confidence": 0.9148499999999999
         },
         {
           "word": "near",
-          "startMs": 8461,
-          "endMs": 8876,
-          "confidence": 0.33249999999999996
+          "startMs": 8249,
+          "endMs": 8630,
+          "confidence": 0.6991999999999999
         },
         {
           "word": "sunset",
-          "startMs": 8923,
-          "endMs": 9338,
-          "confidence": 0.33249999999999996
+          "startMs": 8750,
+          "endMs": 9312,
+          "confidence": 0.8056
         },
         {
           "word": "solar",
-          "startMs": 9385,
-          "endMs": 9800,
-          "confidence": 0.33249999999999996
+          "startMs": 9552,
+          "endMs": 9873,
+          "confidence": 0.7201
         },
         {
           "word": "falls",
-          "startMs": 9847,
-          "endMs": 10262,
-          "confidence": 0.33249999999999996
+          "startMs": 9973,
+          "endMs": 10394,
+          "confidence": 0.8160499999999999
         },
         {
           "word": "as",
-          "startMs": 10309,
-          "endMs": 10724,
-          "confidence": 0.33249999999999996
+          "startMs": 10514,
+          "endMs": 10574,
+          "confidence": 0.7885
         },
         {
           "word": "demand",
-          "startMs": 10770,
-          "endMs": 11185,
-          "confidence": 0.33249999999999996
+          "startMs": 10634,
+          "endMs": 10955,
+          "confidence": 0.86735
         },
         {
           "word": "rises",
-          "startMs": 11232,
-          "endMs": 11647,
-          "confidence": 0.33249999999999996
+          "startMs": 11015,
+          "endMs": 11436,
+          "confidence": 0.8075
         },
         {
           "word": "creating",
-          "startMs": 11694,
-          "endMs": 12109,
-          "confidence": 0.33249999999999996
+          "startMs": 11797,
+          "endMs": 12238,
+          "confidence": 0.7913499999999999
         },
         {
           "word": "a",
-          "startMs": 12156,
-          "endMs": 12571,
-          "confidence": 0.33249999999999996
+          "startMs": 12258,
+          "endMs": 12298,
+          "confidence": 0.95
         },
         {
           "word": "steep",
-          "startMs": 12617,
-          "endMs": 13032,
-          "confidence": 0.33249999999999996
+          "startMs": 12438,
+          "endMs": 12739,
+          "confidence": 0.8274499999999999
         },
         {
           "word": "ramp",
-          "startMs": 13079,
-          "endMs": 13494,
-          "confidence": 0.33249999999999996
+          "startMs": 12839,
+          "endMs": 13140,
+          "confidence": 0.6592999999999999
         },
         {
           "word": "over",
-          "startMs": 13541,
-          "endMs": 13956,
-          "confidence": 0.33249999999999996
+          "startMs": 13280,
+          "endMs": 13461,
+          "confidence": 0.81795
         },
         {
           "word": "a",
-          "startMs": 14003,
-          "endMs": 14418,
-          "confidence": 0.33249999999999996
+          "startMs": 13501,
+          "endMs": 13541,
+          "confidence": 0.475
         },
         {
           "word": "short",
-          "startMs": 14465,
-          "endMs": 14880,
-          "confidence": 0.33249999999999996
+          "startMs": 13601,
+          "endMs": 13801,
+          "confidence": 0.6611999999999999
         },
         {
           "word": "window",
-          "startMs": 14926,
-          "endMs": 15341,
-          "confidence": 0.33249999999999996
+          "startMs": 13862,
+          "endMs": 14182,
+          "confidence": 0.9025
         },
         {
           "word": "Other",
-          "startMs": 15388,
-          "endMs": 15803,
-          "confidence": 0.33249999999999996
+          "startMs": 15164,
+          "endMs": 15345,
+          "confidence": 0.7011
         },
         {
           "word": "resources",
-          "startMs": 15850,
-          "endMs": 16265,
-          "confidence": 0.33249999999999996
+          "startMs": 15405,
+          "endMs": 15966,
+          "confidence": 0.7998999999999999
         },
         {
           "word": "must",
-          "startMs": 16312,
-          "endMs": 16727,
-          "confidence": 0.33249999999999996
+          "startMs": 16046,
+          "endMs": 16247,
+          "confidence": 0.7524
         },
         {
           "word": "increase",
-          "startMs": 16773,
-          "endMs": 17188,
-          "confidence": 0.33249999999999996
+          "startMs": 16267,
+          "endMs": 16708,
+          "confidence": 0.6602499999999999
         },
         {
           "word": "quickly",
-          "startMs": 17235,
-          "endMs": 17650,
-          "confidence": 0.33249999999999996
+          "startMs": 16828,
+          "endMs": 17189,
+          "confidence": 0.8483499999999999
         },
         {
           "word": "to",
-          "startMs": 17697,
-          "endMs": 18112,
-          "confidence": 0.33249999999999996
+          "startMs": 17269,
+          "endMs": 17349,
+          "confidence": 0.9405
         },
         {
           "word": "hold",
-          "startMs": 18159,
-          "endMs": 18574,
-          "confidence": 0.33249999999999996
+          "startMs": 17389,
+          "endMs": 17590,
+          "confidence": 0.47404999999999997
         },
         {
           "word": "balance",
-          "startMs": 18620,
-          "endMs": 19035,
-          "confidence": 0.33249999999999996
+          "startMs": 17670,
+          "endMs": 18091,
+          "confidence": 0.7894499999999999
         },
         {
           "word": "and",
-          "startMs": 19082,
-          "endMs": 19497,
-          "confidence": 0.33249999999999996
+          "startMs": 18171,
+          "endMs": 18231,
+          "confidence": 0.8084499999999999
         },
         {
           "word": "reliability",
-          "startMs": 19544,
-          "endMs": 19959,
-          "confidence": 0.33249999999999996
+          "startMs": 18271,
+          "endMs": 18973,
+          "confidence": 0.8056
         },
         {
           "word": "Managing",
-          "startMs": 20006,
-          "endMs": 20421,
-          "confidence": 0.33249999999999996
+          "startMs": 19875,
+          "endMs": 20316,
+          "confidence": 0.81795
         },
         {
           "word": "ramps",
-          "startMs": 20468,
-          "endMs": 20883,
-          "confidence": 0.33249999999999996
+          "startMs": 20416,
+          "endMs": 20777,
+          "confidence": 0.7182
         },
         {
           "word": "is",
-          "startMs": 20929,
-          "endMs": 21344,
-          "confidence": 0.33249999999999996
+          "startMs": 20897,
+          "endMs": 20957,
+          "confidence": 0.8141499999999999
         },
         {
           "word": "necessary",
-          "startMs": 21391,
-          "endMs": 21806,
-          "confidence": 0.33249999999999996
+          "startMs": 21017,
+          "endMs": 21619,
+          "confidence": 0.7372
         },
         {
           "word": "but",
-          "startMs": 21853,
-          "endMs": 22268,
-          "confidence": 0.33249999999999996
+          "startMs": 22020,
+          "endMs": 22160,
+          "confidence": 0.8056
         },
         {
           "word": "reliability",
-          "startMs": 22315,
-          "endMs": 22730,
-          "confidence": 0.33249999999999996
+          "startMs": 22240,
+          "endMs": 23022,
+          "confidence": 0.836
         },
         {
           "word": "also",
-          "startMs": 22776,
-          "endMs": 23191,
-          "confidence": 0.33249999999999996
+          "startMs": 23062,
+          "endMs": 23583,
+          "confidence": 0.8854
         },
         {
           "word": "depends",
-          "startMs": 23238,
-          "endMs": 23653,
-          "confidence": 0.33249999999999996
+          "startMs": 23643,
+          "endMs": 24064,
+          "confidence": 0.7324499999999999
         },
         {
           "word": "on",
-          "startMs": 23700,
-          "endMs": 24115,
-          "confidence": 0.33249999999999996
+          "startMs": 24225,
+          "endMs": 24285,
+          "confidence": 0.95
         },
         {
           "word": "how",
-          "startMs": 24162,
-          "endMs": 24577,
-          "confidence": 0.33249999999999996
+          "startMs": 24385,
+          "endMs": 24565,
+          "confidence": 0.94905
         },
         {
           "word": "the",
-          "startMs": 24624,
-          "endMs": 25039,
-          "confidence": 0.33249999999999996
+          "startMs": 24625,
+          "endMs": 24726,
+          "confidence": 0.8417
         },
         {
           "word": "system",
-          "startMs": 25085,
-          "endMs": 25500,
-          "confidence": 0.33249999999999996
+          "startMs": 24806,
+          "endMs": 25127,
+          "confidence": 0.8797
         },
         {
           "word": "behaves",
-          "startMs": 25547,
-          "endMs": 25962,
-          "confidence": 0.33249999999999996
+          "startMs": 25187,
+          "endMs": 25768,
+          "confidence": 0.74765
         },
         {
           "word": "during",
-          "startMs": 26009,
-          "endMs": 26424,
-          "confidence": 0.33249999999999996
+          "startMs": 25828,
+          "endMs": 26069,
+          "confidence": 0.8265
         },
         {
           "word": "disturbances",
-          "startMs": 26471,
-          "endMs": 26886,
-          "confidence": 0.33249999999999996
+          "startMs": 26129,
+          "endMs": 26770,
+          "confidence": 0.7847
         },
         {
           "word": "which",
-          "startMs": 26932,
-          "endMs": 27347,
-          "confidence": 0.33249999999999996
+          "startMs": 27251,
+          "endMs": 27412,
+          "confidence": 0.7162999999999999
         },
         {
           "word": "leads",
-          "startMs": 27394,
-          "endMs": 27809,
-          "confidence": 0.33249999999999996
+          "startMs": 27512,
+          "endMs": 27833,
+          "confidence": 0.70395
         },
         {
           "word": "to",
-          "startMs": 27856,
-          "endMs": 28271,
-          "confidence": 0.33249999999999996
+          "startMs": 27893,
+          "endMs": 28053,
+          "confidence": 0.8492999999999999
         },
         {
           "word": "stability",
-          "startMs": 28318,
-          "endMs": 28733,
-          "confidence": 0.33249999999999996
+          "startMs": 28093,
+          "endMs": 28911,
+          "confidence": 0.85595
         }
       ],
-      "alignmentMode": "fallback",
+      "alignmentMode": "forced",
       "scriptHash": "562e229ca1",
       "audioHash": "6b959855d0",
       "modelUsed": "gemini-2.5-pro-preview-tts",
@@ -1682,439 +1682,439 @@
         {
           "id": "s-1",
           "text": "After ramping comes disturbance response.",
-          "startMs": 150,
-          "endMs": 2486
+          "startMs": 250,
+          "endMs": 2916
         },
         {
           "id": "s-2",
           "text": "Stability is the grid’s ability to absorb shocks and return near target frequency.",
-          "startMs": 2534,
-          "endMs": 9162
+          "startMs": 3657,
+          "endMs": 8869
         },
         {
           "id": "s-3",
           "text": "Rotating machines contribute physical inertia, while inverter-based resources provide controlled electronic response.",
-          "startMs": 9210,
-          "endMs": 15361
+          "startMs": 9731,
+          "endMs": 18016
         },
         {
           "id": "s-4",
           "text": "Modern systems rely on both forms of support to recover quickly and predictably.",
-          "startMs": 15409,
-          "endMs": 21561
+          "startMs": 18076,
+          "endMs": 23371
         },
         {
           "id": "s-5",
           "text": "These are second-to-minute dynamics; the next constraint is longer duration, where reliability depends on how long energy can be sustained.",
-          "startMs": 21608,
-          "endMs": 32052
+          "startMs": 23451,
+          "endMs": 32215
         }
       ],
       "words": [
         {
           "word": "After",
-          "startMs": 150,
-          "endMs": 579,
-          "confidence": 0.33249999999999996
+          "startMs": 250,
+          "endMs": 611,
+          "confidence": 0.8037
         },
         {
           "word": "ramping",
-          "startMs": 626,
-          "endMs": 1055,
-          "confidence": 0.33249999999999996
+          "startMs": 691,
+          "endMs": 1132,
+          "confidence": 0.8189
         },
         {
           "word": "comes",
-          "startMs": 1103,
-          "endMs": 1532,
-          "confidence": 0.33249999999999996
+          "startMs": 1392,
+          "endMs": 1653,
+          "confidence": 0.8189
         },
         {
           "word": "disturbance",
-          "startMs": 1580,
-          "endMs": 2009,
-          "confidence": 0.33249999999999996
+          "startMs": 1693,
+          "endMs": 2355,
+          "confidence": 0.7714
         },
         {
           "word": "response",
-          "startMs": 2057,
-          "endMs": 2486,
-          "confidence": 0.33249999999999996
+          "startMs": 2415,
+          "endMs": 2916,
+          "confidence": 0.84265
         },
         {
           "word": "Stability",
-          "startMs": 2534,
-          "endMs": 2963,
-          "confidence": 0.33249999999999996
+          "startMs": 3657,
+          "endMs": 4299,
+          "confidence": 0.84455
         },
         {
           "word": "is",
-          "startMs": 3011,
-          "endMs": 3440,
-          "confidence": 0.33249999999999996
+          "startMs": 4339,
+          "endMs": 4559,
+          "confidence": 0.7638
         },
         {
           "word": "the",
-          "startMs": 3488,
-          "endMs": 3917,
-          "confidence": 0.33249999999999996
+          "startMs": 4579,
+          "endMs": 4680,
+          "confidence": 0.7001499999999999
         },
         {
           "word": "grid",
-          "startMs": 3964,
-          "endMs": 4393,
-          "confidence": 0.33249999999999996
+          "startMs": 4760,
+          "endMs": 5101,
+          "confidence": 0.8910999999999999
         },
         {
           "word": "s",
-          "startMs": 4441,
-          "endMs": 4870,
-          "confidence": 0.33249999999999996
+          "startMs": 5181,
+          "endMs": 5622,
+          "confidence": 0.8379
         },
         {
           "word": "ability",
-          "startMs": 4918,
-          "endMs": 5347,
-          "confidence": 0.33249999999999996
+          "startMs": 5722,
+          "endMs": 5842,
+          "confidence": 0.8227
         },
         {
           "word": "to",
-          "startMs": 5395,
-          "endMs": 5824,
-          "confidence": 0.33249999999999996
+          "startMs": 5862,
+          "endMs": 6303,
+          "confidence": 0.7001499999999999
         },
         {
           "word": "absorb",
-          "startMs": 5872,
-          "endMs": 6301,
-          "confidence": 0.33249999999999996
+          "startMs": 6403,
+          "endMs": 6784,
+          "confidence": 0.8112999999999999
         },
         {
           "word": "shocks",
-          "startMs": 6349,
-          "endMs": 6778,
-          "confidence": 0.33249999999999996
+          "startMs": 7005,
+          "endMs": 7085,
+          "confidence": 0.78375
         },
         {
           "word": "and",
-          "startMs": 6826,
-          "endMs": 7255,
-          "confidence": 0.33249999999999996
+          "startMs": 7165,
+          "endMs": 7566,
+          "confidence": 0.78565
         },
         {
           "word": "return",
-          "startMs": 7302,
-          "endMs": 7731,
-          "confidence": 0.33249999999999996
+          "startMs": 7646,
+          "endMs": 7827,
+          "confidence": 0.7866
         },
         {
           "word": "near",
-          "startMs": 7779,
-          "endMs": 8208,
-          "confidence": 0.33249999999999996
+          "startMs": 7927,
+          "endMs": 8288,
+          "confidence": 0.8283999999999999
         },
         {
           "word": "target",
-          "startMs": 8256,
-          "endMs": 8685,
-          "confidence": 0.33249999999999996
+          "startMs": 8288,
+          "endMs": 8328,
+          "confidence": 0.8283999999999999
         },
         {
           "word": "frequency",
-          "startMs": 8733,
-          "endMs": 9162,
-          "confidence": 0.33249999999999996
+          "startMs": 8348,
+          "endMs": 8869,
+          "confidence": 0.82555
         },
         {
           "word": "Rotating",
-          "startMs": 9210,
-          "endMs": 9639,
-          "confidence": 0.33249999999999996
+          "startMs": 9731,
+          "endMs": 10192,
+          "confidence": 0.8654499999999999
         },
         {
           "word": "machines",
-          "startMs": 9687,
-          "endMs": 10116,
-          "confidence": 0.33249999999999996
+          "startMs": 10232,
+          "endMs": 10733,
+          "confidence": 0.741
         },
         {
           "word": "contribute",
-          "startMs": 10164,
-          "endMs": 10593,
-          "confidence": 0.33249999999999996
+          "startMs": 10853,
+          "endMs": 11354,
+          "confidence": 0.8436
         },
         {
           "word": "physical",
-          "startMs": 10641,
-          "endMs": 11070,
-          "confidence": 0.33249999999999996
+          "startMs": 11495,
+          "endMs": 11875,
+          "confidence": 0.73625
         },
         {
           "word": "inertia",
-          "startMs": 11117,
-          "endMs": 11546,
-          "confidence": 0.33249999999999996
+          "startMs": 11935,
+          "endMs": 12396,
+          "confidence": 0.8778
         },
         {
           "word": "while",
-          "startMs": 11594,
-          "endMs": 12023,
-          "confidence": 0.33249999999999996
+          "startMs": 12817,
+          "endMs": 13038,
+          "confidence": 0.7314999999999999
         },
         {
           "word": "inverter",
-          "startMs": 12071,
-          "endMs": 12500,
-          "confidence": 0.33249999999999996
+          "startMs": 13138,
+          "endMs": 13900,
+          "confidence": 0.8312499999999999
         },
         {
           "word": "based",
-          "startMs": 12548,
-          "endMs": 12977,
-          "confidence": 0.33249999999999996
+          "startMs": 13960,
+          "endMs": 14501,
+          "confidence": 0.8227
         },
         {
           "word": "resources",
-          "startMs": 13025,
-          "endMs": 13454,
-          "confidence": 0.33249999999999996
+          "startMs": 14661,
+          "endMs": 15002,
+          "confidence": 0.7922999999999999
         },
         {
           "word": "provide",
-          "startMs": 13502,
-          "endMs": 13931,
-          "confidence": 0.33249999999999996
+          "startMs": 15082,
+          "endMs": 15624,
+          "confidence": 0.80275
         },
         {
           "word": "controlled",
-          "startMs": 13979,
-          "endMs": 14408,
-          "confidence": 0.33249999999999996
+          "startMs": 15664,
+          "endMs": 16344,
+          "confidence": 0.70585
         },
         {
           "word": "electronic",
-          "startMs": 14455,
-          "endMs": 14884,
-          "confidence": 0.33249999999999996
+          "startMs": 16385,
+          "endMs": 17247,
+          "confidence": 0.84455
         },
         {
           "word": "response",
-          "startMs": 14932,
-          "endMs": 15361,
-          "confidence": 0.33249999999999996
+          "startMs": 17615,
+          "endMs": 18016,
+          "confidence": 0.6839999999999999
         },
         {
           "word": "Modern",
-          "startMs": 15409,
-          "endMs": 15838,
-          "confidence": 0.33249999999999996
+          "startMs": 18076,
+          "endMs": 18457,
+          "confidence": 0.7998999999999999
         },
         {
           "word": "systems",
-          "startMs": 15886,
-          "endMs": 16315,
-          "confidence": 0.33249999999999996
+          "startMs": 18477,
+          "endMs": 18818,
+          "confidence": 0.7467
         },
         {
           "word": "rely",
-          "startMs": 16363,
-          "endMs": 16792,
-          "confidence": 0.33249999999999996
+          "startMs": 18899,
+          "endMs": 18959,
+          "confidence": 0.8398
         },
         {
           "word": "on",
-          "startMs": 16840,
-          "endMs": 17269,
-          "confidence": 0.33249999999999996
+          "startMs": 19099,
+          "endMs": 19340,
+          "confidence": 0.8274499999999999
         },
         {
           "word": "both",
-          "startMs": 17317,
-          "endMs": 17746,
-          "confidence": 0.33249999999999996
+          "startMs": 19420,
+          "endMs": 19701,
+          "confidence": 0.7941999999999999
         },
         {
           "word": "forms",
-          "startMs": 17794,
-          "endMs": 18223,
-          "confidence": 0.33249999999999996
+          "startMs": 19761,
+          "endMs": 19801,
+          "confidence": 0.7314999999999999
         },
         {
           "word": "of",
-          "startMs": 18270,
-          "endMs": 18699,
-          "confidence": 0.33249999999999996
+          "startMs": 19881,
+          "endMs": 20302,
+          "confidence": 0.8825500000000001
         },
         {
           "word": "support",
-          "startMs": 18747,
-          "endMs": 19176,
-          "confidence": 0.33249999999999996
+          "startMs": 20403,
+          "endMs": 20523,
+          "confidence": 0.8274499999999999
         },
         {
           "word": "to",
-          "startMs": 19224,
-          "endMs": 19653,
-          "confidence": 0.33249999999999996
+          "startMs": 20543,
+          "endMs": 20984,
+          "confidence": 0.6479
         },
         {
           "word": "recover",
-          "startMs": 19701,
-          "endMs": 20130,
-          "confidence": 0.33249999999999996
+          "startMs": 21085,
+          "endMs": 21446,
+          "confidence": 0.7885
         },
         {
           "word": "quickly",
-          "startMs": 20178,
-          "endMs": 20607,
-          "confidence": 0.33249999999999996
+          "startMs": 21466,
+          "endMs": 21686,
+          "confidence": 0.6763999999999999
         },
         {
           "word": "and",
-          "startMs": 20655,
-          "endMs": 21084,
-          "confidence": 0.33249999999999996
+          "startMs": 21766,
+          "endMs": 22268,
+          "confidence": 0.8607
         },
         {
           "word": "predictably",
-          "startMs": 21132,
-          "endMs": 21561,
-          "confidence": 0.33249999999999996
+          "startMs": 23190,
+          "endMs": 23371,
+          "confidence": 0.5548
         },
         {
           "word": "These",
-          "startMs": 21608,
-          "endMs": 22037,
-          "confidence": 0.33249999999999996
+          "startMs": 23451,
+          "endMs": 23531,
+          "confidence": 0.84455
         },
         {
           "word": "are",
-          "startMs": 22085,
-          "endMs": 22514,
-          "confidence": 0.33249999999999996
+          "startMs": 23692,
+          "endMs": 24033,
+          "confidence": 0.8131999999999999
         },
         {
           "word": "second",
-          "startMs": 22562,
-          "endMs": 22991,
-          "confidence": 0.33249999999999996
+          "startMs": 24093,
+          "endMs": 24193,
+          "confidence": 0.83695
         },
         {
           "word": "to",
-          "startMs": 23039,
-          "endMs": 23468,
-          "confidence": 0.33249999999999996
+          "startMs": 24253,
+          "endMs": 24494,
+          "confidence": 0.7314999999999999
         },
         {
           "word": "minute",
-          "startMs": 23516,
-          "endMs": 23945,
-          "confidence": 0.33249999999999996
+          "startMs": 24534,
+          "endMs": 25096,
+          "confidence": 0.85785
         },
         {
           "word": "dynamics",
-          "startMs": 23993,
-          "endMs": 24422,
-          "confidence": 0.33249999999999996
+          "startMs": 25096,
+          "endMs": 25136,
+          "confidence": 0.85785
         },
         {
           "word": "the",
-          "startMs": 24470,
-          "endMs": 24899,
-          "confidence": 0.33249999999999996
+          "startMs": 25677,
+          "endMs": 25757,
+          "confidence": 0.9072499999999999
         },
         {
           "word": "next",
-          "startMs": 24947,
-          "endMs": 25376,
-          "confidence": 0.33249999999999996
+          "startMs": 25818,
+          "endMs": 26058,
+          "confidence": 0.6640499999999999
         },
         {
           "word": "constraint",
-          "startMs": 25423,
-          "endMs": 25852,
-          "confidence": 0.33249999999999996
+          "startMs": 26118,
+          "endMs": 26600,
+          "confidence": 0.73815
         },
         {
           "word": "is",
-          "startMs": 25900,
-          "endMs": 26329,
-          "confidence": 0.33249999999999996
+          "startMs": 26800,
+          "endMs": 26860,
+          "confidence": 0.7068
         },
         {
           "word": "longer",
-          "startMs": 26377,
-          "endMs": 26806,
-          "confidence": 0.33249999999999996
+          "startMs": 26900,
+          "endMs": 27342,
+          "confidence": 0.6811499999999999
         },
         {
           "word": "duration",
-          "startMs": 26854,
-          "endMs": 27283,
-          "confidence": 0.33249999999999996
+          "startMs": 27402,
+          "endMs": 27843,
+          "confidence": 0.8702
         },
         {
           "word": "where",
-          "startMs": 27331,
-          "endMs": 27760,
-          "confidence": 0.33249999999999996
+          "startMs": 28124,
+          "endMs": 28304,
+          "confidence": 0.8644999999999999
         },
         {
           "word": "reliability",
-          "startMs": 27808,
-          "endMs": 28237,
-          "confidence": 0.33249999999999996
+          "startMs": 28344,
+          "endMs": 29127,
+          "confidence": 0.8483499999999999
         },
         {
           "word": "depends",
-          "startMs": 28285,
-          "endMs": 28714,
-          "confidence": 0.33249999999999996
+          "startMs": 29187,
+          "endMs": 29568,
+          "confidence": 0.7143999999999999
         },
         {
           "word": "on",
-          "startMs": 28761,
-          "endMs": 29190,
-          "confidence": 0.33249999999999996
+          "startMs": 29668,
+          "endMs": 29728,
+          "confidence": 0.9461999999999999
         },
         {
           "word": "how",
-          "startMs": 29238,
-          "endMs": 29667,
-          "confidence": 0.33249999999999996
+          "startMs": 29889,
+          "endMs": 30069,
+          "confidence": 0.8379
         },
         {
           "word": "long",
-          "startMs": 29715,
-          "endMs": 30144,
-          "confidence": 0.33249999999999996
+          "startMs": 30189,
+          "endMs": 30530,
+          "confidence": 0.63175
         },
         {
           "word": "energy",
-          "startMs": 30192,
-          "endMs": 30621,
-          "confidence": 0.33249999999999996
+          "startMs": 30550,
+          "endMs": 31032,
+          "confidence": 0.7524
         },
         {
           "word": "can",
-          "startMs": 30669,
-          "endMs": 31098,
-          "confidence": 0.33249999999999996
+          "startMs": 31112,
+          "endMs": 31232,
+          "confidence": 0.9196
         },
         {
           "word": "be",
-          "startMs": 31146,
-          "endMs": 31575,
-          "confidence": 0.33249999999999996
+          "startMs": 31252,
+          "endMs": 31353,
+          "confidence": 0.7903999999999999
         },
         {
           "word": "sustained",
-          "startMs": 31623,
-          "endMs": 32052,
-          "confidence": 0.33249999999999996
+          "startMs": 31413,
+          "endMs": 32215,
+          "confidence": 0.7372
         }
       ],
-      "alignmentMode": "fallback",
+      "alignmentMode": "forced",
       "scriptHash": "794ff99a30",
       "audioHash": "a0fb2d5533",
       "modelUsed": "gemini-2.5-pro-preview-tts",
@@ -2130,433 +2130,433 @@
         {
           "id": "s-1",
           "text": "Stability handles fast events; duration handles longer shortages.",
-          "startMs": 150,
-          "endMs": 4337
+          "startMs": 31,
+          "endMs": 5559
         },
         {
           "id": "s-2",
           "text": "Storage helps shift energy across time, and short-duration batteries are effective for moving midday energy into evening demand.",
-          "startMs": 4390,
-          "endMs": 14407
+          "startMs": 6400,
+          "endMs": 15152
         },
         {
           "id": "s-3",
           "text": "But multi-day low-wind or low-solar periods require much larger energy volume, so cost and scale rise quickly with duration.",
-          "startMs": 14460,
-          "endMs": 26067
+          "startMs": 15853,
+          "endMs": 26812
         },
         {
           "id": "s-4",
           "text": "Storage solves important timing problems, yet another constraint remains: power still must be delivered to where demand exists.",
-          "startMs": 26120,
-          "endMs": 35607
+          "startMs": 26912,
+          "endMs": 35791
         }
       ],
       "words": [
         {
           "word": "Stability",
-          "startMs": 150,
-          "endMs": 627,
-          "confidence": 0.33249999999999996
+          "startMs": 31,
+          "endMs": 1012,
+          "confidence": 0.9025
         },
         {
           "word": "handles",
-          "startMs": 680,
-          "endMs": 1157,
-          "confidence": 0.33249999999999996
+          "startMs": 1052,
+          "endMs": 1733,
+          "confidence": 0.8607
         },
         {
           "word": "fast",
-          "startMs": 1210,
-          "endMs": 1687,
-          "confidence": 0.33249999999999996
+          "startMs": 1874,
+          "endMs": 2234,
+          "confidence": 0.86355
         },
         {
           "word": "events",
-          "startMs": 1740,
-          "endMs": 2217,
-          "confidence": 0.33249999999999996
+          "startMs": 2294,
+          "endMs": 2615,
+          "confidence": 0.836
         },
         {
           "word": "duration",
-          "startMs": 2270,
-          "endMs": 2747,
-          "confidence": 0.33249999999999996
+          "startMs": 3336,
+          "endMs": 3876,
+          "confidence": 0.7486
         },
         {
           "word": "handles",
-          "startMs": 2800,
-          "endMs": 3277,
-          "confidence": 0.33249999999999996
+          "startMs": 4157,
+          "endMs": 4537,
+          "confidence": 0.69255
         },
         {
           "word": "longer",
-          "startMs": 3330,
-          "endMs": 3807,
-          "confidence": 0.33249999999999996
+          "startMs": 4637,
+          "endMs": 4978,
+          "confidence": 0.7998999999999999
         },
         {
           "word": "shortages",
-          "startMs": 3860,
-          "endMs": 4337,
-          "confidence": 0.33249999999999996
+          "startMs": 5058,
+          "endMs": 5559,
+          "confidence": 0.7970499999999999
         },
         {
           "word": "Storage",
-          "startMs": 4390,
-          "endMs": 4867,
-          "confidence": 0.33249999999999996
+          "startMs": 6400,
+          "endMs": 6920,
+          "confidence": 0.85785
         },
         {
           "word": "helps",
-          "startMs": 4920,
-          "endMs": 5397,
-          "confidence": 0.33249999999999996
+          "startMs": 7101,
+          "endMs": 7361,
+          "confidence": 0.8302999999999999
         },
         {
           "word": "shift",
-          "startMs": 5450,
-          "endMs": 5927,
-          "confidence": 0.33249999999999996
+          "startMs": 7381,
+          "endMs": 7802,
+          "confidence": 0.8037
         },
         {
           "word": "energy",
-          "startMs": 5980,
-          "endMs": 6457,
-          "confidence": 0.33249999999999996
+          "startMs": 7922,
+          "endMs": 8302,
+          "confidence": 0.6982499999999999
         },
         {
           "word": "across",
-          "startMs": 6510,
-          "endMs": 6987,
-          "confidence": 0.33249999999999996
+          "startMs": 8382,
+          "endMs": 8723,
+          "confidence": 0.8473999999999999
         },
         {
           "word": "time",
-          "startMs": 7040,
-          "endMs": 7517,
-          "confidence": 0.33249999999999996
+          "startMs": 8783,
+          "endMs": 9124,
+          "confidence": 0.76
         },
         {
           "word": "and",
-          "startMs": 7570,
-          "endMs": 8047,
-          "confidence": 0.33249999999999996
+          "startMs": 9784,
+          "endMs": 9885,
+          "confidence": 0.7619
         },
         {
           "word": "short",
-          "startMs": 8100,
-          "endMs": 8577,
-          "confidence": 0.33249999999999996
+          "startMs": 10025,
+          "endMs": 10766,
+          "confidence": 0.8141499999999999
         },
         {
           "word": "duration",
-          "startMs": 8630,
-          "endMs": 9107,
-          "confidence": 0.33249999999999996
+          "startMs": 10826,
+          "endMs": 11286,
+          "confidence": 0.836
         },
         {
           "word": "batteries",
-          "startMs": 9160,
-          "endMs": 9637,
-          "confidence": 0.33249999999999996
+          "startMs": 11286,
+          "endMs": 11326,
+          "confidence": 0.836
         },
         {
           "word": "are",
-          "startMs": 9690,
-          "endMs": 10167,
-          "confidence": 0.33249999999999996
+          "startMs": 11326,
+          "endMs": 11547,
+          "confidence": 0.72105
         },
         {
           "word": "effective",
-          "startMs": 10220,
-          "endMs": 10697,
-          "confidence": 0.33249999999999996
+          "startMs": 11607,
+          "endMs": 12088,
+          "confidence": 0.9243499999999999
         },
         {
           "word": "for",
-          "startMs": 10750,
-          "endMs": 11227,
-          "confidence": 0.33249999999999996
+          "startMs": 12168,
+          "endMs": 12288,
+          "confidence": 0.9329
         },
         {
           "word": "moving",
-          "startMs": 11280,
-          "endMs": 11757,
-          "confidence": 0.33249999999999996
+          "startMs": 12348,
+          "endMs": 12628,
+          "confidence": 0.6630999999999999
         },
         {
           "word": "midday",
-          "startMs": 11810,
-          "endMs": 12287,
-          "confidence": 0.33249999999999996
+          "startMs": 12769,
+          "endMs": 13189,
+          "confidence": 0.7979999999999999
         },
         {
           "word": "energy",
-          "startMs": 12340,
-          "endMs": 12817,
-          "confidence": 0.33249999999999996
+          "startMs": 13329,
+          "endMs": 13690,
+          "confidence": 0.6289
         },
         {
           "word": "into",
-          "startMs": 12870,
-          "endMs": 13347,
-          "confidence": 0.33249999999999996
+          "startMs": 13730,
+          "endMs": 14150,
+          "confidence": 0.90155
         },
         {
           "word": "evening",
-          "startMs": 13400,
-          "endMs": 13877,
-          "confidence": 0.33249999999999996
+          "startMs": 14331,
+          "endMs": 14631,
+          "confidence": 0.70395
         },
         {
           "word": "demand",
-          "startMs": 13930,
-          "endMs": 14407,
-          "confidence": 0.33249999999999996
+          "startMs": 14691,
+          "endMs": 15152,
+          "confidence": 0.88065
         },
         {
           "word": "But",
-          "startMs": 14460,
-          "endMs": 14937,
-          "confidence": 0.33249999999999996
+          "startMs": 15853,
+          "endMs": 15973,
+          "confidence": 0.9480999999999999
         },
         {
           "word": "multi",
-          "startMs": 14990,
-          "endMs": 15467,
-          "confidence": 0.33249999999999996
+          "startMs": 16093,
+          "endMs": 16754,
+          "confidence": 0.8797
         },
         {
           "word": "day",
-          "startMs": 15520,
-          "endMs": 15997,
-          "confidence": 0.33249999999999996
+          "startMs": 16894,
+          "endMs": 17115,
+          "confidence": 0.9367
         },
         {
           "word": "low",
-          "startMs": 16050,
-          "endMs": 16527,
-          "confidence": 0.33249999999999996
+          "startMs": 17175,
+          "endMs": 17495,
+          "confidence": 0.62985
         },
         {
           "word": "wind",
-          "startMs": 16580,
-          "endMs": 17057,
-          "confidence": 0.33249999999999996
+          "startMs": 17655,
+          "endMs": 17715,
+          "confidence": 0.6498
         },
         {
           "word": "or",
-          "startMs": 17110,
-          "endMs": 17587,
-          "confidence": 0.33249999999999996
+          "startMs": 17795,
+          "endMs": 17996,
+          "confidence": 0.8037
         },
         {
           "word": "low",
-          "startMs": 17640,
-          "endMs": 18117,
-          "confidence": 0.33249999999999996
+          "startMs": 18096,
+          "endMs": 18436,
+          "confidence": 0.7951499999999999
         },
         {
           "word": "solar",
-          "startMs": 18170,
-          "endMs": 18647,
-          "confidence": 0.33249999999999996
+          "startMs": 18496,
+          "endMs": 18937,
+          "confidence": 0.7239
         },
         {
           "word": "periods",
-          "startMs": 18700,
-          "endMs": 19177,
-          "confidence": 0.33249999999999996
+          "startMs": 19298,
+          "endMs": 19758,
+          "confidence": 0.6944499999999999
         },
         {
           "word": "require",
-          "startMs": 19230,
-          "endMs": 19707,
-          "confidence": 0.33249999999999996
+          "startMs": 19898,
+          "endMs": 20119,
+          "confidence": 0.7723499999999999
         },
         {
           "word": "much",
-          "startMs": 19760,
-          "endMs": 20237,
-          "confidence": 0.33249999999999996
+          "startMs": 20279,
+          "endMs": 20719,
+          "confidence": 0.76475
         },
         {
           "word": "larger",
-          "startMs": 20290,
-          "endMs": 20767,
-          "confidence": 0.33249999999999996
+          "startMs": 20860,
+          "endMs": 21180,
+          "confidence": 0.8464499999999999
         },
         {
           "word": "energy",
-          "startMs": 20820,
-          "endMs": 21297,
-          "confidence": 0.33249999999999996
+          "startMs": 21240,
+          "endMs": 21641,
+          "confidence": 0.7619
         },
         {
           "word": "volume",
-          "startMs": 21350,
-          "endMs": 21827,
-          "confidence": 0.33249999999999996
+          "startMs": 22141,
+          "endMs": 22282,
+          "confidence": 0.8302999999999999
         },
         {
           "word": "so",
-          "startMs": 21880,
-          "endMs": 22357,
-          "confidence": 0.33249999999999996
+          "startMs": 22382,
+          "endMs": 22842,
+          "confidence": 0.8939499999999999
         },
         {
           "word": "cost",
-          "startMs": 22410,
-          "endMs": 22887,
-          "confidence": 0.33249999999999996
+          "startMs": 22963,
+          "endMs": 23043,
+          "confidence": 0.6668999999999999
         },
         {
           "word": "and",
-          "startMs": 22940,
-          "endMs": 23417,
-          "confidence": 0.33249999999999996
+          "startMs": 23163,
+          "endMs": 23583,
+          "confidence": 0.65455
         },
         {
           "word": "scale",
-          "startMs": 23470,
-          "endMs": 23947,
-          "confidence": 0.33249999999999996
+          "startMs": 23824,
+          "endMs": 24144,
+          "confidence": 0.8929999999999999
         },
         {
           "word": "rise",
-          "startMs": 24000,
-          "endMs": 24477,
-          "confidence": 0.33249999999999996
+          "startMs": 24284,
+          "endMs": 24665,
+          "confidence": 0.80465
         },
         {
           "word": "quickly",
-          "startMs": 24530,
-          "endMs": 25007,
-          "confidence": 0.33249999999999996
+          "startMs": 24685,
+          "endMs": 24865,
+          "confidence": 0.6327
         },
         {
           "word": "with",
-          "startMs": 25060,
-          "endMs": 25537,
-          "confidence": 0.33249999999999996
+          "startMs": 24945,
+          "endMs": 26207,
+          "confidence": 0.77045
         },
         {
           "word": "duration",
-          "startMs": 25590,
-          "endMs": 26067,
-          "confidence": 0.33249999999999996
+          "startMs": 26207,
+          "endMs": 26812,
+          "confidence": 0.8588
         },
         {
           "word": "Storage",
-          "startMs": 26120,
-          "endMs": 26597,
-          "confidence": 0.33249999999999996
+          "startMs": 26912,
+          "endMs": 27275,
+          "confidence": 0.8483499999999999
         },
         {
           "word": "solves",
-          "startMs": 26650,
-          "endMs": 27127,
-          "confidence": 0.33249999999999996
+          "startMs": 27275,
+          "endMs": 27315,
+          "confidence": 0.8483499999999999
         },
         {
           "word": "important",
-          "startMs": 27180,
-          "endMs": 27657,
-          "confidence": 0.33249999999999996
+          "startMs": 27316,
+          "endMs": 27900,
+          "confidence": 0.8075
         },
         {
           "word": "timing",
-          "startMs": 27710,
-          "endMs": 28187,
-          "confidence": 0.33249999999999996
+          "startMs": 28001,
+          "endMs": 28424,
+          "confidence": 0.8939499999999999
         },
         {
           "word": "problems",
-          "startMs": 28240,
-          "endMs": 28717,
-          "confidence": 0.33249999999999996
+          "startMs": 28484,
+          "endMs": 28948,
+          "confidence": 0.703
         },
         {
           "word": "yet",
-          "startMs": 28770,
-          "endMs": 29247,
-          "confidence": 0.33249999999999996
+          "startMs": 29452,
+          "endMs": 29613,
+          "confidence": 0.94905
         },
         {
           "word": "another",
-          "startMs": 29300,
-          "endMs": 29777,
-          "confidence": 0.33249999999999996
+          "startMs": 29794,
+          "endMs": 30157,
+          "confidence": 0.7866
         },
         {
           "word": "constraint",
-          "startMs": 29830,
-          "endMs": 30307,
-          "confidence": 0.33249999999999996
+          "startMs": 30217,
+          "endMs": 30701,
+          "confidence": 0.73815
         },
         {
           "word": "remains",
-          "startMs": 30360,
-          "endMs": 30837,
-          "confidence": 0.33249999999999996
+          "startMs": 30721,
+          "endMs": 31225,
+          "confidence": 0.76
         },
         {
           "word": "power",
-          "startMs": 30890,
-          "endMs": 31367,
-          "confidence": 0.33249999999999996
+          "startMs": 31930,
+          "endMs": 32333,
+          "confidence": 0.7951499999999999
         },
         {
           "word": "still",
-          "startMs": 31420,
-          "endMs": 31897,
-          "confidence": 0.33249999999999996
+          "startMs": 32575,
+          "endMs": 32878,
+          "confidence": 0.7619
         },
         {
           "word": "must",
-          "startMs": 31950,
-          "endMs": 32427,
-          "confidence": 0.33249999999999996
+          "startMs": 32958,
+          "endMs": 33160,
+          "confidence": 0.7524
         },
         {
           "word": "be",
-          "startMs": 32480,
-          "endMs": 32957,
-          "confidence": 0.33249999999999996
+          "startMs": 33260,
+          "endMs": 33381,
+          "confidence": 0.8873
         },
         {
           "word": "delivered",
-          "startMs": 33010,
-          "endMs": 33487,
-          "confidence": 0.33249999999999996
+          "startMs": 33442,
+          "endMs": 33946,
+          "confidence": 0.73625
         },
         {
           "word": "to",
-          "startMs": 33540,
-          "endMs": 34017,
-          "confidence": 0.33249999999999996
+          "startMs": 34046,
+          "endMs": 34147,
+          "confidence": 0.817
         },
         {
           "word": "where",
-          "startMs": 34070,
-          "endMs": 34547,
-          "confidence": 0.33249999999999996
+          "startMs": 34188,
+          "endMs": 34349,
+          "confidence": 0.87685
         },
         {
           "word": "demand",
-          "startMs": 34600,
-          "endMs": 35077,
-          "confidence": 0.33249999999999996
+          "startMs": 34389,
+          "endMs": 34933,
+          "confidence": 0.7676000000000001
         },
         {
           "word": "exists",
-          "startMs": 35130,
-          "endMs": 35607,
-          "confidence": 0.33249999999999996
+          "startMs": 34953,
+          "endMs": 35791,
+          "confidence": 0.8131999999999999
         }
       ],
-      "alignmentMode": "fallback",
+      "alignmentMode": "forced",
       "scriptHash": "37868a73c8",
       "audioHash": "32515f21c5",
       "modelUsed": "gemini-2.5-pro-preview-tts",
@@ -2572,429 +2572,429 @@
         {
           "id": "s-1",
           "text": "Even with available generation and storage, electricity must travel from source to load.",
-          "startMs": 150,
-          "endMs": 6847
+          "startMs": 31,
+          "endMs": 6257
         },
         {
           "id": "s-2",
           "text": "Transmission corridors move bulk power to population centers, but when those corridors saturate, additional generation can exist without serving demand.",
-          "startMs": 6900,
-          "endMs": 17232,
+          "startMs": 7157,
+          "endMs": 17166,
           "focusTargetId": "corridor",
           "effect": "glow"
         },
         {
           "id": "s-3",
           "text": "That congestion is a core reliability and economics constraint, not a side detail.",
-          "startMs": 17284,
-          "endMs": 23982
+          "startMs": 17987,
+          "endMs": 23532
         },
         {
           "id": "s-4",
           "text": "So planning must coordinate generation, storage, and network capacity together.",
-          "startMs": 24034,
-          "endMs": 29174
+          "startMs": 24293,
+          "endMs": 30038
         },
         {
           "id": "s-5",
           "text": "That full-system view sets up practical design decisions.",
-          "startMs": 29226,
-          "endMs": 33847
+          "startMs": 30038,
+          "endMs": 34003
         }
       ],
       "words": [
         {
           "word": "Even",
-          "startMs": 150,
-          "endMs": 617,
-          "confidence": 0.33249999999999996
+          "startMs": 31,
+          "endMs": 612,
+          "confidence": 0.59375
         },
         {
           "word": "with",
-          "startMs": 669,
-          "endMs": 1136,
-          "confidence": 0.33249999999999996
+          "startMs": 672,
+          "endMs": 872,
+          "confidence": 0.6678499999999999
         },
         {
           "word": "available",
-          "startMs": 1188,
-          "endMs": 1655,
-          "confidence": 0.33249999999999996
+          "startMs": 892,
+          "endMs": 1612,
+          "confidence": 0.703
         },
         {
           "word": "generation",
-          "startMs": 1707,
-          "endMs": 2174,
-          "confidence": 0.33249999999999996
+          "startMs": 1692,
+          "endMs": 2273,
+          "confidence": 0.73815
         },
         {
           "word": "and",
-          "startMs": 2226,
-          "endMs": 2693,
-          "confidence": 0.33249999999999996
+          "startMs": 2333,
+          "endMs": 2413,
+          "confidence": 0.8683
         },
         {
           "word": "storage",
-          "startMs": 2746,
-          "endMs": 3213,
-          "confidence": 0.33249999999999996
+          "startMs": 2473,
+          "endMs": 2974,
+          "confidence": 0.8473999999999999
         },
         {
           "word": "electricity",
-          "startMs": 3265,
-          "endMs": 3732,
-          "confidence": 0.33249999999999996
+          "startMs": 3394,
+          "endMs": 4054,
+          "confidence": 0.7695
         },
         {
           "word": "must",
-          "startMs": 3784,
-          "endMs": 4251,
-          "confidence": 0.33249999999999996
+          "startMs": 4215,
+          "endMs": 4455,
+          "confidence": 0.57855
         },
         {
           "word": "travel",
-          "startMs": 4303,
-          "endMs": 4770,
-          "confidence": 0.33249999999999996
+          "startMs": 4555,
+          "endMs": 4935,
+          "confidence": 0.73055
         },
         {
           "word": "from",
-          "startMs": 4823,
-          "endMs": 5290,
-          "confidence": 0.33249999999999996
+          "startMs": 5015,
+          "endMs": 5156,
+          "confidence": 0.76
         },
         {
           "word": "source",
-          "startMs": 5342,
-          "endMs": 5809,
-          "confidence": 0.33249999999999996
+          "startMs": 5316,
+          "endMs": 5696,
+          "confidence": 0.7951499999999999
         },
         {
           "word": "to",
-          "startMs": 5861,
-          "endMs": 6328,
-          "confidence": 0.33249999999999996
+          "startMs": 5796,
+          "endMs": 5916,
+          "confidence": 0.8293499999999999
         },
         {
           "word": "load",
-          "startMs": 6380,
-          "endMs": 6847,
-          "confidence": 0.33249999999999996
+          "startMs": 5956,
+          "endMs": 6257,
+          "confidence": 0.7619
         },
         {
           "word": "Transmission",
-          "startMs": 6900,
-          "endMs": 7367,
-          "confidence": 0.33249999999999996
+          "startMs": 7157,
+          "endMs": 7738,
+          "confidence": 0.8227
         },
         {
           "word": "corridors",
-          "startMs": 7419,
-          "endMs": 7886,
-          "confidence": 0.33249999999999996
+          "startMs": 7798,
+          "endMs": 8298,
+          "confidence": 0.6745
         },
         {
           "word": "move",
-          "startMs": 7938,
-          "endMs": 8405,
-          "confidence": 0.33249999999999996
+          "startMs": 8419,
+          "endMs": 8679,
+          "confidence": 0.57475
         },
         {
           "word": "bulk",
-          "startMs": 8457,
-          "endMs": 8924,
-          "confidence": 0.33249999999999996
+          "startMs": 8799,
+          "endMs": 9079,
+          "confidence": 0.9480999999999999
         },
         {
           "word": "power",
-          "startMs": 8976,
-          "endMs": 9443,
-          "confidence": 0.33249999999999996
+          "startMs": 9159,
+          "endMs": 9500,
+          "confidence": 0.855
         },
         {
           "word": "to",
-          "startMs": 9496,
-          "endMs": 9963,
-          "confidence": 0.33249999999999996
+          "startMs": 9560,
+          "endMs": 9640,
+          "confidence": 0.8929999999999999
         },
         {
           "word": "population",
-          "startMs": 10015,
-          "endMs": 10482,
-          "confidence": 0.33249999999999996
+          "startMs": 9680,
+          "endMs": 10300,
+          "confidence": 0.817
         },
         {
           "word": "centers",
-          "startMs": 10534,
-          "endMs": 11001,
-          "confidence": 0.33249999999999996
+          "startMs": 10360,
+          "endMs": 10681,
+          "confidence": 0.7799499999999999
         },
         {
           "word": "but",
-          "startMs": 11053,
-          "endMs": 11520,
-          "confidence": 0.33249999999999996
+          "startMs": 11281,
+          "endMs": 11401,
+          "confidence": 0.87495
         },
         {
           "word": "when",
-          "startMs": 11573,
-          "endMs": 12040,
-          "confidence": 0.33249999999999996
+          "startMs": 11441,
+          "endMs": 11601,
+          "confidence": 0.7732999999999999
         },
         {
           "word": "those",
-          "startMs": 12092,
-          "endMs": 12559,
-          "confidence": 0.33249999999999996
+          "startMs": 11661,
+          "endMs": 11902,
+          "confidence": 0.74955
         },
         {
           "word": "corridors",
-          "startMs": 12611,
-          "endMs": 13078,
-          "confidence": 0.33249999999999996
+          "startMs": 11982,
+          "endMs": 12502,
+          "confidence": 0.6773499999999999
         },
         {
           "word": "saturate",
-          "startMs": 13130,
-          "endMs": 13597,
-          "confidence": 0.33249999999999996
+          "startMs": 12602,
+          "endMs": 13223,
+          "confidence": 0.85025
         },
         {
           "word": "additional",
-          "startMs": 13650,
-          "endMs": 14117,
-          "confidence": 0.33249999999999996
+          "startMs": 13643,
+          "endMs": 14204,
+          "confidence": 0.76475
         },
         {
           "word": "generation",
-          "startMs": 14169,
-          "endMs": 14636,
-          "confidence": 0.33249999999999996
+          "startMs": 14264,
+          "endMs": 14904,
+          "confidence": 0.7638
         },
         {
           "word": "can",
-          "startMs": 14688,
-          "endMs": 15155,
-          "confidence": 0.33249999999999996
+          "startMs": 15004,
+          "endMs": 15145,
+          "confidence": 0.8797
         },
         {
           "word": "exist",
-          "startMs": 15207,
-          "endMs": 15674,
-          "confidence": 0.33249999999999996
+          "startMs": 15185,
+          "endMs": 15625,
+          "confidence": 0.66975
         },
         {
           "word": "without",
-          "startMs": 15726,
-          "endMs": 16193,
-          "confidence": 0.33249999999999996
+          "startMs": 15745,
+          "endMs": 16265,
+          "confidence": 0.8265
         },
         {
           "word": "serving",
-          "startMs": 16246,
-          "endMs": 16713,
-          "confidence": 0.33249999999999996
+          "startMs": 16366,
+          "endMs": 16686,
+          "confidence": 0.73055
         },
         {
           "word": "demand",
-          "startMs": 16765,
-          "endMs": 17232,
-          "confidence": 0.33249999999999996
+          "startMs": 16746,
+          "endMs": 17166,
+          "confidence": 0.86925
         },
         {
           "word": "That",
-          "startMs": 17284,
-          "endMs": 17751,
-          "confidence": 0.33249999999999996
+          "startMs": 17987,
+          "endMs": 18167,
+          "confidence": 0.8464499999999999
         },
         {
           "word": "congestion",
-          "startMs": 17803,
-          "endMs": 18270,
-          "confidence": 0.33249999999999996
+          "startMs": 18267,
+          "endMs": 18928,
+          "confidence": 0.8417
         },
         {
           "word": "is",
-          "startMs": 18323,
-          "endMs": 18790,
-          "confidence": 0.33249999999999996
+          "startMs": 19068,
+          "endMs": 19148,
+          "confidence": 0.7685500000000001
         },
         {
           "word": "a",
-          "startMs": 18842,
-          "endMs": 19309,
-          "confidence": 0.33249999999999996
+          "startMs": 19208,
+          "endMs": 19248,
+          "confidence": 0.95
         },
         {
           "word": "core",
-          "startMs": 19361,
-          "endMs": 19828,
-          "confidence": 0.33249999999999996
+          "startMs": 19348,
+          "endMs": 19689,
+          "confidence": 0.6479
         },
         {
           "word": "reliability",
-          "startMs": 19880,
-          "endMs": 20347,
-          "confidence": 0.33249999999999996
+          "startMs": 19749,
+          "endMs": 20569,
+          "confidence": 0.8759
         },
         {
           "word": "and",
-          "startMs": 20400,
-          "endMs": 20867,
-          "confidence": 0.33249999999999996
+          "startMs": 20670,
+          "endMs": 20750,
+          "confidence": 0.75715
         },
         {
           "word": "economics",
-          "startMs": 20919,
-          "endMs": 21386,
-          "confidence": 0.33249999999999996
+          "startMs": 20870,
+          "endMs": 21430,
+          "confidence": 0.72105
         },
         {
           "word": "constraint",
-          "startMs": 21438,
-          "endMs": 21905,
-          "confidence": 0.33249999999999996
+          "startMs": 21490,
+          "endMs": 22031,
+          "confidence": 0.74195
         },
         {
           "word": "not",
-          "startMs": 21957,
-          "endMs": 22424,
-          "confidence": 0.33249999999999996
+          "startMs": 22411,
+          "endMs": 22591,
+          "confidence": 0.80465
         },
         {
           "word": "a",
-          "startMs": 22476,
-          "endMs": 22943,
-          "confidence": 0.33249999999999996
+          "startMs": 22651,
+          "endMs": 22731,
+          "confidence": 0.6536
         },
         {
           "word": "side",
-          "startMs": 22996,
-          "endMs": 23463,
-          "confidence": 0.33249999999999996
+          "startMs": 22751,
+          "endMs": 23032,
+          "confidence": 0.7903999999999999
         },
         {
           "word": "detail",
-          "startMs": 23515,
-          "endMs": 23982,
-          "confidence": 0.33249999999999996
+          "startMs": 23112,
+          "endMs": 23532,
+          "confidence": 0.76
         },
         {
           "word": "So",
-          "startMs": 24034,
-          "endMs": 24501,
-          "confidence": 0.33249999999999996
+          "startMs": 24293,
+          "endMs": 24413,
+          "confidence": 0.9309999999999999
         },
         {
           "word": "planning",
-          "startMs": 24553,
-          "endMs": 25020,
-          "confidence": 0.33249999999999996
+          "startMs": 24533,
+          "endMs": 24973,
+          "confidence": 0.74005
         },
         {
           "word": "must",
-          "startMs": 25073,
-          "endMs": 25540,
-          "confidence": 0.33249999999999996
+          "startMs": 25094,
+          "endMs": 25274,
+          "confidence": 0.817
         },
         {
           "word": "coordinate",
-          "startMs": 25592,
-          "endMs": 26059,
-          "confidence": 0.33249999999999996
+          "startMs": 25374,
+          "endMs": 25994,
+          "confidence": 0.6953999999999999
         },
         {
           "word": "generation",
-          "startMs": 26111,
-          "endMs": 26578,
-          "confidence": 0.33249999999999996
+          "startMs": 26074,
+          "endMs": 26735,
+          "confidence": 0.73055
         },
         {
           "word": "storage",
-          "startMs": 26630,
-          "endMs": 27097,
-          "confidence": 0.33249999999999996
+          "startMs": 26995,
+          "endMs": 27516,
+          "confidence": 0.75905
         },
         {
           "word": "and",
-          "startMs": 27150,
-          "endMs": 27617,
-          "confidence": 0.33249999999999996
+          "startMs": 27716,
+          "endMs": 27796,
+          "confidence": 0.9433499999999999
         },
         {
           "word": "network",
-          "startMs": 27669,
-          "endMs": 28136,
-          "confidence": 0.33249999999999996
+          "startMs": 27896,
+          "endMs": 28276,
+          "confidence": 0.8379
         },
         {
           "word": "capacity",
-          "startMs": 28188,
-          "endMs": 28655,
-          "confidence": 0.33249999999999996
+          "startMs": 28336,
+          "endMs": 28937,
+          "confidence": 0.9119999999999999
         },
         {
           "word": "together",
-          "startMs": 28707,
-          "endMs": 29174,
-          "confidence": 0.33249999999999996
+          "startMs": 29037,
+          "endMs": 30038,
+          "confidence": 0.7732999999999999
         },
         {
           "word": "That",
-          "startMs": 29226,
-          "endMs": 29693,
-          "confidence": 0.33249999999999996
+          "startMs": 30038,
+          "endMs": 30360,
+          "confidence": 0.71915
         },
         {
           "word": "full",
-          "startMs": 29746,
-          "endMs": 30213,
-          "confidence": 0.33249999999999996
+          "startMs": 30501,
+          "endMs": 30743,
+          "confidence": 0.9433499999999999
         },
         {
           "word": "system",
-          "startMs": 30265,
-          "endMs": 30732,
-          "confidence": 0.33249999999999996
+          "startMs": 30843,
+          "endMs": 31185,
+          "confidence": 0.87305
         },
         {
           "word": "view",
-          "startMs": 30784,
-          "endMs": 31251,
-          "confidence": 0.33249999999999996
+          "startMs": 31266,
+          "endMs": 31528,
+          "confidence": 0.8227
         },
         {
           "word": "sets",
-          "startMs": 31303,
-          "endMs": 31770,
-          "confidence": 0.33249999999999996
+          "startMs": 31689,
+          "endMs": 31970,
+          "confidence": 0.8302999999999999
         },
         {
           "word": "up",
-          "startMs": 31823,
-          "endMs": 32290,
-          "confidence": 0.33249999999999996
+          "startMs": 32110,
+          "endMs": 32171,
+          "confidence": 0.9405
         },
         {
           "word": "practical",
-          "startMs": 32342,
-          "endMs": 32809,
-          "confidence": 0.33249999999999996
+          "startMs": 32333,
+          "endMs": 32816,
+          "confidence": 0.87115
         },
         {
           "word": "design",
-          "startMs": 32861,
-          "endMs": 33328,
-          "confidence": 0.33249999999999996
+          "startMs": 32896,
+          "endMs": 33238,
+          "confidence": 0.8464499999999999
         },
         {
           "word": "decisions",
-          "startMs": 33380,
-          "endMs": 33847,
-          "confidence": 0.33249999999999996
+          "startMs": 33279,
+          "endMs": 34003,
+          "confidence": 0.8208
         }
       ],
-      "alignmentMode": "fallback",
+      "alignmentMode": "forced",
       "scriptHash": "21413e5129",
       "audioHash": "c79c33d85e",
       "modelUsed": "gemini-2.5-pro-preview-tts",
@@ -3010,391 +3010,391 @@
         {
           "id": "s-1",
           "text": "Putting the chain together, reliable design starts with measured demand, not equipment shopping.",
-          "startMs": 150,
-          "endMs": 6950
+          "startMs": 31,
+          "endMs": 6401
         },
         {
           "id": "s-2",
           "text": "Teams first profile loads, then reduce demand through efficiency, and only then size solar and storage against the remaining profile.",
-          "startMs": 7003,
-          "endMs": 17493
+          "startMs": 7043,
+          "endMs": 16558
         },
         {
           "id": "s-3",
           "text": "This sequence improves cost, performance, and operational predictability.",
-          "startMs": 17546,
-          "endMs": 21710
+          "startMs": 17239,
+          "endMs": 22528
         },
         {
           "id": "s-4",
           "text": "The same lesson scales from local systems to regional grids: reliability comes from timing, stability, and delivery working together.",
-          "startMs": 21763,
-          "endMs": 31726
+          "startMs": 22528,
+          "endMs": 31911
         }
       ],
       "words": [
         {
           "word": "Putting",
-          "startMs": 150,
-          "endMs": 624,
-          "confidence": 0.33249999999999996
+          "startMs": 31,
+          "endMs": 552,
+          "confidence": 0.7979999999999999
         },
         {
           "word": "the",
-          "startMs": 677,
-          "endMs": 1151,
-          "confidence": 0.33249999999999996
+          "startMs": 592,
+          "endMs": 672,
+          "confidence": 0.7922999999999999
         },
         {
           "word": "chain",
-          "startMs": 1204,
-          "endMs": 1678,
-          "confidence": 0.33249999999999996
+          "startMs": 712,
+          "endMs": 973,
+          "confidence": 0.76285
         },
         {
           "word": "together",
-          "startMs": 1731,
-          "endMs": 2205,
-          "confidence": 0.33249999999999996
+          "startMs": 1012,
+          "endMs": 1413,
+          "confidence": 0.73625
         },
         {
           "word": "reliable",
-          "startMs": 2258,
-          "endMs": 2732,
-          "confidence": 0.33249999999999996
+          "startMs": 1834,
+          "endMs": 2375,
+          "confidence": 0.7068
         },
         {
           "word": "design",
-          "startMs": 2785,
-          "endMs": 3259,
-          "confidence": 0.33249999999999996
+          "startMs": 2435,
+          "endMs": 2956,
+          "confidence": 0.76665
         },
         {
           "word": "starts",
-          "startMs": 3313,
-          "endMs": 3787,
-          "confidence": 0.33249999999999996
+          "startMs": 3076,
+          "endMs": 3517,
+          "confidence": 0.8084499999999999
         },
         {
           "word": "with",
-          "startMs": 3840,
-          "endMs": 4314,
-          "confidence": 0.33249999999999996
+          "startMs": 3657,
+          "endMs": 3797,
+          "confidence": 0.82175
         },
         {
           "word": "measured",
-          "startMs": 4367,
-          "endMs": 4841,
-          "confidence": 0.33249999999999996
+          "startMs": 3837,
+          "endMs": 4278,
+          "confidence": 0.75145
         },
         {
           "word": "demand",
-          "startMs": 4894,
-          "endMs": 5368,
-          "confidence": 0.33249999999999996
+          "startMs": 4358,
+          "endMs": 4859,
+          "confidence": 0.87685
         },
         {
           "word": "not",
-          "startMs": 5421,
-          "endMs": 5895,
-          "confidence": 0.33249999999999996
+          "startMs": 5260,
+          "endMs": 5480,
+          "confidence": 0.6602499999999999
         },
         {
           "word": "equipment",
-          "startMs": 5948,
-          "endMs": 6422,
-          "confidence": 0.33249999999999996
+          "startMs": 5600,
+          "endMs": 6001,
+          "confidence": 0.7619
         },
         {
           "word": "shopping",
-          "startMs": 6476,
-          "endMs": 6950,
-          "confidence": 0.33249999999999996
+          "startMs": 6041,
+          "endMs": 6401,
+          "confidence": 0.80085
         },
         {
           "word": "Teams",
-          "startMs": 7003,
-          "endMs": 7477,
-          "confidence": 0.33249999999999996
+          "startMs": 7043,
+          "endMs": 7383,
+          "confidence": 0.7391
         },
         {
           "word": "first",
-          "startMs": 7530,
-          "endMs": 8004,
-          "confidence": 0.33249999999999996
+          "startMs": 7503,
+          "endMs": 7784,
+          "confidence": 0.7581
         },
         {
           "word": "profile",
-          "startMs": 8057,
-          "endMs": 8531,
-          "confidence": 0.33249999999999996
+          "startMs": 7924,
+          "endMs": 8445,
+          "confidence": 0.6935
         },
         {
           "word": "loads",
-          "startMs": 8584,
-          "endMs": 9058,
-          "confidence": 0.33249999999999996
+          "startMs": 8525,
+          "endMs": 8906,
+          "confidence": 0.8075
         },
         {
           "word": "then",
-          "startMs": 9111,
-          "endMs": 9585,
-          "confidence": 0.33249999999999996
+          "startMs": 9386,
+          "endMs": 9647,
+          "confidence": 0.85025
         },
         {
           "word": "reduce",
-          "startMs": 9639,
-          "endMs": 10113,
-          "confidence": 0.33249999999999996
+          "startMs": 9667,
+          "endMs": 10268,
+          "confidence": 0.7657
         },
         {
           "word": "demand",
-          "startMs": 10166,
-          "endMs": 10640,
-          "confidence": 0.33249999999999996
+          "startMs": 10328,
+          "endMs": 10709,
+          "confidence": 0.7106
         },
         {
           "word": "through",
-          "startMs": 10693,
-          "endMs": 11167,
-          "confidence": 0.33249999999999996
+          "startMs": 10729,
+          "endMs": 11029,
+          "confidence": 0.7049
         },
         {
           "word": "efficiency",
-          "startMs": 11220,
-          "endMs": 11694,
-          "confidence": 0.33249999999999996
+          "startMs": 11069,
+          "endMs": 11750,
+          "confidence": 0.7941999999999999
         },
         {
           "word": "and",
-          "startMs": 11747,
-          "endMs": 12221,
-          "confidence": 0.33249999999999996
+          "startMs": 12131,
+          "endMs": 12211,
+          "confidence": 0.74195
         },
         {
           "word": "only",
-          "startMs": 12274,
-          "endMs": 12748,
-          "confidence": 0.33249999999999996
+          "startMs": 12411,
+          "endMs": 12652,
+          "confidence": 0.53295
         },
         {
           "word": "then",
-          "startMs": 12802,
-          "endMs": 13276,
-          "confidence": 0.33249999999999996
+          "startMs": 12692,
+          "endMs": 13072,
+          "confidence": 0.7619
         },
         {
           "word": "size",
-          "startMs": 13329,
-          "endMs": 13803,
-          "confidence": 0.33249999999999996
+          "startMs": 13313,
+          "endMs": 13633,
+          "confidence": 0.9034499999999999
         },
         {
           "word": "solar",
-          "startMs": 13856,
-          "endMs": 14330,
-          "confidence": 0.33249999999999996
+          "startMs": 13734,
+          "endMs": 14094,
+          "confidence": 0.9252999999999999
         },
         {
           "word": "and",
-          "startMs": 14383,
-          "endMs": 14857,
-          "confidence": 0.33249999999999996
+          "startMs": 14154,
+          "endMs": 14234,
+          "confidence": 0.9043999999999999
         },
         {
           "word": "storage",
-          "startMs": 14910,
-          "endMs": 15384,
-          "confidence": 0.33249999999999996
+          "startMs": 14315,
+          "endMs": 14755,
+          "confidence": 0.9043999999999999
         },
         {
           "word": "against",
-          "startMs": 15437,
-          "endMs": 15911,
-          "confidence": 0.33249999999999996
+          "startMs": 14916,
+          "endMs": 15236,
+          "confidence": 0.7619
         },
         {
           "word": "the",
-          "startMs": 15964,
-          "endMs": 16438,
-          "confidence": 0.33249999999999996
+          "startMs": 15256,
+          "endMs": 15396,
+          "confidence": 0.7277
         },
         {
           "word": "remaining",
-          "startMs": 16492,
-          "endMs": 16966,
-          "confidence": 0.33249999999999996
+          "startMs": 15456,
+          "endMs": 15957,
+          "confidence": 0.7970499999999999
         },
         {
           "word": "profile",
-          "startMs": 17019,
-          "endMs": 17493,
-          "confidence": 0.33249999999999996
+          "startMs": 16056,
+          "endMs": 16558,
+          "confidence": 0.89965
         },
         {
           "word": "This",
-          "startMs": 17546,
-          "endMs": 18020,
-          "confidence": 0.33249999999999996
+          "startMs": 17239,
+          "endMs": 17420,
+          "confidence": 0.8531
         },
         {
           "word": "sequence",
-          "startMs": 18073,
-          "endMs": 18547,
-          "confidence": 0.33249999999999996
+          "startMs": 17500,
+          "endMs": 17940,
+          "confidence": 0.7780499999999999
         },
         {
           "word": "improves",
-          "startMs": 18600,
-          "endMs": 19074,
-          "confidence": 0.33249999999999996
+          "startMs": 18121,
+          "endMs": 18622,
+          "confidence": 0.7087
         },
         {
           "word": "cost",
-          "startMs": 19128,
-          "endMs": 19602,
-          "confidence": 0.33249999999999996
+          "startMs": 18742,
+          "endMs": 19142,
+          "confidence": 0.8702
         },
         {
           "word": "performance",
-          "startMs": 19655,
-          "endMs": 20129,
-          "confidence": 0.33249999999999996
+          "startMs": 19443,
+          "endMs": 20024,
+          "confidence": 0.8084499999999999
         },
         {
           "word": "and",
-          "startMs": 20182,
-          "endMs": 20656,
-          "confidence": 0.33249999999999996
+          "startMs": 20224,
+          "endMs": 20304,
+          "confidence": 0.68495
         },
         {
           "word": "operational",
-          "startMs": 20709,
-          "endMs": 21183,
-          "confidence": 0.33249999999999996
+          "startMs": 20485,
+          "endMs": 21086,
+          "confidence": 0.74575
         },
         {
           "word": "predictability",
-          "startMs": 21236,
-          "endMs": 21710,
-          "confidence": 0.33249999999999996
+          "startMs": 21166,
+          "endMs": 22528,
+          "confidence": 0.85405
         },
         {
           "word": "The",
-          "startMs": 21763,
-          "endMs": 22237,
-          "confidence": 0.33249999999999996
+          "startMs": 22528,
+          "endMs": 22770,
+          "confidence": 0.8977499999999999
         },
         {
           "word": "same",
-          "startMs": 22291,
-          "endMs": 22765,
-          "confidence": 0.33249999999999996
+          "startMs": 22810,
+          "endMs": 23052,
+          "confidence": 0.7761499999999999
         },
         {
           "word": "lesson",
-          "startMs": 22818,
-          "endMs": 23292,
-          "confidence": 0.33249999999999996
+          "startMs": 23133,
+          "endMs": 23495,
+          "confidence": 0.9053499999999999
         },
         {
           "word": "scales",
-          "startMs": 23345,
-          "endMs": 23819,
-          "confidence": 0.33249999999999996
+          "startMs": 23596,
+          "endMs": 24059,
+          "confidence": 0.72865
         },
         {
           "word": "from",
-          "startMs": 23872,
-          "endMs": 24346,
-          "confidence": 0.33249999999999996
+          "startMs": 24140,
+          "endMs": 24281,
+          "confidence": 0.9062999999999999
         },
         {
           "word": "local",
-          "startMs": 24399,
-          "endMs": 24873,
-          "confidence": 0.33249999999999996
+          "startMs": 24321,
+          "endMs": 24724,
+          "confidence": 0.72295
         },
         {
           "word": "systems",
-          "startMs": 24926,
-          "endMs": 25400,
-          "confidence": 0.33249999999999996
+          "startMs": 24785,
+          "endMs": 25188,
+          "confidence": 0.8569
         },
         {
           "word": "to",
-          "startMs": 25454,
-          "endMs": 25928,
-          "confidence": 0.33249999999999996
+          "startMs": 25329,
+          "endMs": 25450,
+          "confidence": 0.8312499999999999
         },
         {
           "word": "regional",
-          "startMs": 25981,
-          "endMs": 26455,
-          "confidence": 0.33249999999999996
+          "startMs": 25530,
+          "endMs": 25913,
+          "confidence": 0.7486
         },
         {
           "word": "grids",
-          "startMs": 26508,
-          "endMs": 26982,
-          "confidence": 0.33249999999999996
+          "startMs": 25974,
+          "endMs": 26276,
+          "confidence": 0.9100999999999999
         },
         {
           "word": "reliability",
-          "startMs": 27035,
-          "endMs": 27509,
-          "confidence": 0.33249999999999996
+          "startMs": 26800,
+          "endMs": 27586,
+          "confidence": 0.8873
         },
         {
           "word": "comes",
-          "startMs": 27562,
-          "endMs": 28036,
-          "confidence": 0.33249999999999996
+          "startMs": 27686,
+          "endMs": 27908,
+          "confidence": 0.8141499999999999
         },
         {
           "word": "from",
-          "startMs": 28089,
-          "endMs": 28563,
-          "confidence": 0.33249999999999996
+          "startMs": 27968,
+          "endMs": 28109,
+          "confidence": 0.7885
         },
         {
           "word": "timing",
-          "startMs": 28616,
-          "endMs": 29090,
-          "confidence": 0.33249999999999996
+          "startMs": 28130,
+          "endMs": 28654,
+          "confidence": 0.8454999999999999
         },
         {
           "word": "stability",
-          "startMs": 29144,
-          "endMs": 29618,
-          "confidence": 0.33249999999999996
+          "startMs": 29016,
+          "endMs": 29580,
+          "confidence": 0.85785
         },
         {
           "word": "and",
-          "startMs": 29671,
-          "endMs": 30145,
-          "confidence": 0.33249999999999996
+          "startMs": 29943,
+          "endMs": 30024,
+          "confidence": 0.89015
         },
         {
           "word": "delivery",
-          "startMs": 30198,
-          "endMs": 30672,
-          "confidence": 0.33249999999999996
+          "startMs": 30064,
+          "endMs": 30568,
+          "confidence": 0.7998999999999999
         },
         {
           "word": "working",
-          "startMs": 30725,
-          "endMs": 31199,
-          "confidence": 0.33249999999999996
+          "startMs": 30608,
+          "endMs": 31253,
+          "confidence": 0.8265
         },
         {
           "word": "together",
-          "startMs": 31252,
-          "endMs": 31726,
-          "confidence": 0.33249999999999996
+          "startMs": 31313,
+          "endMs": 31911,
+          "confidence": 0.7932499999999999
         }
       ],
-      "alignmentMode": "fallback",
+      "alignmentMode": "forced",
       "scriptHash": "e50590a180",
       "audioHash": "b4f673aad2",
       "modelUsed": "gemini-2.5-pro-preview-tts",
@@ -3410,379 +3410,379 @@
         {
           "id": "s-1",
           "text": "This walkthrough connected the constraints as one system: real-time balance, variable output, daily ramps, disturbance stability, storage duration, and transmission delivery.",
-          "startMs": 150,
-          "endMs": 10079
+          "startMs": 31,
+          "endMs": 12304
         },
         {
           "id": "s-2",
           "text": "Those principles guide engineering choices from grid planning to site-level design.",
-          "startMs": 10124,
-          "endMs": 15519
+          "startMs": 13045,
+          "endMs": 18571
         },
         {
           "id": "s-3",
           "text": "The references on this slide document the data sources and technical claims used throughout, so the narrative and visuals can be reviewed with full context.",
-          "startMs": 15565,
-          "endMs": 26854
+          "startMs": 18611,
+          "endMs": 27000
         }
       ],
       "words": [
         {
           "word": "This",
-          "startMs": 150,
-          "endMs": 558,
-          "confidence": 0.33249999999999996
+          "startMs": 31,
+          "endMs": 512,
+          "confidence": 0.8436
         },
         {
           "word": "walkthrough",
-          "startMs": 603,
-          "endMs": 1011,
-          "confidence": 0.33249999999999996
+          "startMs": 612,
+          "endMs": 1112,
+          "confidence": 0.72675
         },
         {
           "word": "connected",
-          "startMs": 1056,
-          "endMs": 1464,
-          "confidence": 0.33249999999999996
+          "startMs": 1152,
+          "endMs": 1653,
+          "confidence": 0.76285
         },
         {
           "word": "the",
-          "startMs": 1510,
-          "endMs": 1918,
-          "confidence": 0.33249999999999996
+          "startMs": 1693,
+          "endMs": 1773,
+          "confidence": 0.73625
         },
         {
           "word": "constraints",
-          "startMs": 1963,
-          "endMs": 2371,
-          "confidence": 0.33249999999999996
+          "startMs": 1833,
+          "endMs": 2414,
+          "confidence": 0.7903999999999999
         },
         {
           "word": "as",
-          "startMs": 2416,
-          "endMs": 2824,
-          "confidence": 0.33249999999999996
+          "startMs": 2574,
+          "endMs": 2634,
+          "confidence": 0.9006
         },
         {
           "word": "one",
-          "startMs": 2870,
-          "endMs": 3278,
-          "confidence": 0.33249999999999996
+          "startMs": 2654,
+          "endMs": 3054,
+          "confidence": 0.6384
         },
         {
           "word": "system",
-          "startMs": 3323,
-          "endMs": 3731,
-          "confidence": 0.33249999999999996
+          "startMs": 3094,
+          "endMs": 3555,
+          "confidence": 0.8436
         },
         {
           "word": "real",
-          "startMs": 3777,
-          "endMs": 4185,
-          "confidence": 0.33249999999999996
+          "startMs": 4115,
+          "endMs": 4636,
+          "confidence": 0.7619
         },
         {
           "word": "time",
-          "startMs": 4230,
-          "endMs": 4638,
-          "confidence": 0.33249999999999996
+          "startMs": 4676,
+          "endMs": 5116,
+          "confidence": 0.8103499999999999
         },
         {
           "word": "balance",
-          "startMs": 4683,
-          "endMs": 5091,
-          "confidence": 0.33249999999999996
+          "startMs": 5557,
+          "endMs": 5997,
+          "confidence": 0.8274499999999999
         },
         {
           "word": "variable",
-          "startMs": 5137,
-          "endMs": 5545,
-          "confidence": 0.33249999999999996
+          "startMs": 6078,
+          "endMs": 6438,
+          "confidence": 0.9271999999999999
         },
         {
           "word": "output",
-          "startMs": 5590,
-          "endMs": 5998,
-          "confidence": 0.33249999999999996
+          "startMs": 6978,
+          "endMs": 7299,
+          "confidence": 0.8531
         },
         {
           "word": "daily",
-          "startMs": 6044,
-          "endMs": 6452,
-          "confidence": 0.33249999999999996
+          "startMs": 7379,
+          "endMs": 7759,
+          "confidence": 0.7847
         },
         {
           "word": "ramps",
-          "startMs": 6497,
-          "endMs": 6905,
-          "confidence": 0.33249999999999996
+          "startMs": 8240,
+          "endMs": 8800,
+          "confidence": 0.84265
         },
         {
           "word": "disturbance",
-          "startMs": 6950,
-          "endMs": 7358,
-          "confidence": 0.33249999999999996
+          "startMs": 8800,
+          "endMs": 8840,
+          "confidence": 0.84265
         },
         {
           "word": "stability",
-          "startMs": 7404,
-          "endMs": 7812,
-          "confidence": 0.33249999999999996
+          "startMs": 8840,
+          "endMs": 9341,
+          "confidence": 0.8778
         },
         {
           "word": "storage",
-          "startMs": 7857,
-          "endMs": 8265,
-          "confidence": 0.33249999999999996
+          "startMs": 9802,
+          "endMs": 10262,
+          "confidence": 0.8122499999999999
         },
         {
           "word": "duration",
-          "startMs": 8311,
-          "endMs": 8719,
-          "confidence": 0.33249999999999996
+          "startMs": 10302,
+          "endMs": 10843,
+          "confidence": 0.7894499999999999
         },
         {
           "word": "and",
-          "startMs": 8764,
-          "endMs": 9172,
-          "confidence": 0.33249999999999996
+          "startMs": 11143,
+          "endMs": 11223,
+          "confidence": 0.7723499999999999
         },
         {
           "word": "transmission",
-          "startMs": 9217,
-          "endMs": 9625,
-          "confidence": 0.33249999999999996
+          "startMs": 11303,
+          "endMs": 11864,
+          "confidence": 0.8189
         },
         {
           "word": "delivery",
-          "startMs": 9671,
-          "endMs": 10079,
-          "confidence": 0.33249999999999996
+          "startMs": 11904,
+          "endMs": 12304,
+          "confidence": 0.88445
         },
         {
           "word": "Those",
-          "startMs": 10124,
-          "endMs": 10532,
-          "confidence": 0.33249999999999996
+          "startMs": 13045,
+          "endMs": 13285,
+          "confidence": 0.7922999999999999
         },
         {
           "word": "principles",
-          "startMs": 10577,
-          "endMs": 10985,
-          "confidence": 0.33249999999999996
+          "startMs": 13385,
+          "endMs": 13866,
+          "confidence": 0.73055
         },
         {
           "word": "guide",
-          "startMs": 11031,
-          "endMs": 11439,
-          "confidence": 0.33249999999999996
+          "startMs": 13966,
+          "endMs": 14266,
+          "confidence": 0.80275
         },
         {
           "word": "engineering",
-          "startMs": 11484,
-          "endMs": 11892,
-          "confidence": 0.33249999999999996
+          "startMs": 14306,
+          "endMs": 14867,
+          "confidence": 0.76665
         },
         {
           "word": "choices",
-          "startMs": 11938,
-          "endMs": 12346,
-          "confidence": 0.33249999999999996
+          "startMs": 14927,
+          "endMs": 15347,
+          "confidence": 0.7134499999999999
         },
         {
           "word": "from",
-          "startMs": 12391,
-          "endMs": 12799,
-          "confidence": 0.33249999999999996
+          "startMs": 15468,
+          "endMs": 15608,
+          "confidence": 0.87305
         },
         {
           "word": "grid",
-          "startMs": 12844,
-          "endMs": 13252,
-          "confidence": 0.33249999999999996
+          "startMs": 15648,
+          "endMs": 15948,
+          "confidence": 0.8075
         },
         {
           "word": "planning",
-          "startMs": 13298,
-          "endMs": 13706,
-          "confidence": 0.33249999999999996
+          "startMs": 15988,
+          "endMs": 16369,
+          "confidence": 0.8626
         },
         {
           "word": "to",
-          "startMs": 13751,
-          "endMs": 14159,
-          "confidence": 0.33249999999999996
+          "startMs": 16489,
+          "endMs": 16569,
+          "confidence": 0.9461999999999999
         },
         {
           "word": "site",
-          "startMs": 14205,
-          "endMs": 14613,
-          "confidence": 0.33249999999999996
+          "startMs": 16689,
+          "endMs": 17209,
+          "confidence": 0.70775
         },
         {
           "word": "level",
-          "startMs": 14658,
-          "endMs": 15066,
-          "confidence": 0.33249999999999996
+          "startMs": 17250,
+          "endMs": 17650,
+          "confidence": 0.83315
         },
         {
           "word": "design",
-          "startMs": 15111,
-          "endMs": 15519,
-          "confidence": 0.33249999999999996
+          "startMs": 18471,
+          "endMs": 18571,
+          "confidence": 0.8312499999999999
         },
         {
           "word": "The",
-          "startMs": 15565,
-          "endMs": 15973,
-          "confidence": 0.33249999999999996
+          "startMs": 18611,
+          "endMs": 19112,
+          "confidence": 0.7979999999999999
         },
         {
           "word": "references",
-          "startMs": 16018,
-          "endMs": 16426,
-          "confidence": 0.33249999999999996
+          "startMs": 19212,
+          "endMs": 19272,
+          "confidence": 0.85215
         },
         {
           "word": "on",
-          "startMs": 16472,
-          "endMs": 16880,
-          "confidence": 0.33249999999999996
+          "startMs": 19292,
+          "endMs": 19432,
+          "confidence": 0.8037
         },
         {
           "word": "this",
-          "startMs": 16925,
-          "endMs": 17333,
-          "confidence": 0.33249999999999996
+          "startMs": 19472,
+          "endMs": 19792,
+          "confidence": 0.85405
         },
         {
           "word": "slide",
-          "startMs": 17378,
-          "endMs": 17786,
-          "confidence": 0.33249999999999996
+          "startMs": 19892,
+          "endMs": 20373,
+          "confidence": 0.8464499999999999
         },
         {
           "word": "document",
-          "startMs": 17832,
-          "endMs": 18240,
-          "confidence": 0.33249999999999996
+          "startMs": 20413,
+          "endMs": 20493,
+          "confidence": 0.74005
         },
         {
           "word": "the",
-          "startMs": 18285,
-          "endMs": 18693,
-          "confidence": 0.33249999999999996
+          "startMs": 20553,
+          "endMs": 20833,
+          "confidence": 0.8825500000000001
         },
         {
           "word": "data",
-          "startMs": 18738,
-          "endMs": 19146,
-          "confidence": 0.33249999999999996
+          "startMs": 20873,
+          "endMs": 21254,
+          "confidence": 0.67355
         },
         {
           "word": "sources",
-          "startMs": 19192,
-          "endMs": 19600,
-          "confidence": 0.33249999999999996
+          "startMs": 21374,
+          "endMs": 21434,
+          "confidence": 0.9348
         },
         {
           "word": "and",
-          "startMs": 19645,
-          "endMs": 20053,
-          "confidence": 0.33249999999999996
+          "startMs": 21514,
+          "endMs": 21955,
+          "confidence": 0.8379
         },
         {
           "word": "technical",
-          "startMs": 20099,
-          "endMs": 20507,
-          "confidence": 0.33249999999999996
+          "startMs": 21955,
+          "endMs": 21995,
+          "confidence": 0.8379
         },
         {
           "word": "claims",
-          "startMs": 20552,
-          "endMs": 20960,
-          "confidence": 0.33249999999999996
+          "startMs": 21995,
+          "endMs": 22315,
+          "confidence": 0.6726
         },
         {
           "word": "used",
-          "startMs": 21005,
-          "endMs": 21413,
-          "confidence": 0.33249999999999996
+          "startMs": 22355,
+          "endMs": 22655,
+          "confidence": 0.6726
         },
         {
           "word": "throughout",
-          "startMs": 21459,
-          "endMs": 21867,
-          "confidence": 0.33249999999999996
+          "startMs": 22715,
+          "endMs": 23176,
+          "confidence": 0.7258
         },
         {
           "word": "so",
-          "startMs": 21912,
-          "endMs": 22320,
-          "confidence": 0.33249999999999996
+          "startMs": 23556,
+          "endMs": 23656,
+          "confidence": 0.8654499999999999
         },
         {
           "word": "the",
-          "startMs": 22366,
-          "endMs": 22774,
-          "confidence": 0.33249999999999996
+          "startMs": 23716,
+          "endMs": 23817,
+          "confidence": 0.9414499999999999
         },
         {
           "word": "narrative",
-          "startMs": 22819,
-          "endMs": 23227,
-          "confidence": 0.33249999999999996
+          "startMs": 23877,
+          "endMs": 24277,
+          "confidence": 0.76665
         },
         {
           "word": "and",
-          "startMs": 23272,
-          "endMs": 23680,
-          "confidence": 0.33249999999999996
+          "startMs": 24357,
+          "endMs": 24437,
+          "confidence": 0.8892
         },
         {
           "word": "visuals",
-          "startMs": 23726,
-          "endMs": 24134,
-          "confidence": 0.33249999999999996
+          "startMs": 24477,
+          "endMs": 24938,
+          "confidence": 0.7258
         },
         {
           "word": "can",
-          "startMs": 24179,
-          "endMs": 24587,
-          "confidence": 0.33249999999999996
+          "startMs": 24998,
+          "endMs": 25118,
+          "confidence": 0.94905
         },
         {
           "word": "be",
-          "startMs": 24633,
-          "endMs": 25041,
-          "confidence": 0.33249999999999996
+          "startMs": 25158,
+          "endMs": 25238,
+          "confidence": 0.7296
         },
         {
           "word": "reviewed",
-          "startMs": 25086,
-          "endMs": 25494,
-          "confidence": 0.33249999999999996
+          "startMs": 25298,
+          "endMs": 25719,
+          "confidence": 0.6327
         },
         {
           "word": "with",
-          "startMs": 25539,
-          "endMs": 25947,
-          "confidence": 0.33249999999999996
+          "startMs": 25799,
+          "endMs": 25919,
+          "confidence": 0.8283999999999999
         },
         {
           "word": "full",
-          "startMs": 25993,
-          "endMs": 26401,
-          "confidence": 0.33249999999999996
+          "startMs": 25979,
+          "endMs": 26199,
+          "confidence": 0.9006
         },
         {
           "word": "context",
-          "startMs": 26446,
-          "endMs": 26854,
-          "confidence": 0.33249999999999996
+          "startMs": 26259,
+          "endMs": 27000,
+          "confidence": 0.88825
         }
       ],
-      "alignmentMode": "fallback",
+      "alignmentMode": "forced",
       "scriptHash": "681d6ac0a5",
       "audioHash": "82c7617db3",
       "modelUsed": "gemini-2.5-pro-preview-tts",
